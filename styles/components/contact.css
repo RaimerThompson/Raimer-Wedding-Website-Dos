@@ -1,0 +1,54 @@
+.contact-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.contact-container p{
+  line-height: 2rem;
+  font-family: Para;
+  font-weight: 900;
+}
+
+.contact-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email:hover{
+  opacity: .60;
+}
+
+
+/* xs */
+@media (min-width: 475px) {
+  .contact-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: initial;
+  }
+}

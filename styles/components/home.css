@@ -1,0 +1,153 @@
+.image__home-gallery{
+  margin: auto 2rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.img__home{
+  width: 100%;
+  padding-bottom: 6px;
+}
+
+.image-container{
+  width: calc(100% - 1rem);
+  margin: auto;
+  columns: 1;
+  column-gap: 10px;
+}
+
+
+.col{
+  margin: auto .5rem;
+  /* max-width: 800px; */
+  align-items: center;
+}
+
+
+.image-container .box{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  
+}
+
+.image-container .box img{
+  max-width: 100%;
+  border-radius: 2px;
+}
+
+.popup-image{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  /* overflow-y: hidden; */
+  scrollbar-width: none;
+}
+
+.popup-image img{
+/* width: 100%; */
+height: 100vh;
+max-width: 100%;
+object-fit: contain;
+}
+
+.popup-image span{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 3rem;
+  /* font-weight: bolder; */
+  cursor: pointer;
+  color: black;
+  z-index: 100;
+}
+
+.popup-image span:hover{
+  cursor: pointer;
+  color: red;
+  opacity: .7;
+}
+
+.popup-image img {
+  transition: transform 0.25s ease;
+  /* cursor: zoom-in; */
+
+}
+
+.slide{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.75rem;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.prev{
+  left: 1rem;
+  display: none;
+}
+
+.next{
+  right: 1rem;
+  display: none;
+}
+
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
+@media(min-width: 480px)
+{
+  .image-container{
+    columns: 2;
+  }
+
+  .prev,
+  .next{
+    display: block;
+  }
+}
+
+@media(min-width: 768px)
+{
+  .image-container{
+    columns: 3;
+  }
+}
+
+@media(min-width: 1024px)
+{
+  .image-container{
+    columns: 3;
+  }  
+}
+
+
+@media(min-width: 1200px)
+{
+  .image-container{
+    columns: 3;
+  }  
+}
+
