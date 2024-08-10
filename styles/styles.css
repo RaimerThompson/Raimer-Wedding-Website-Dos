@@ -18,6 +18,11 @@
   src: url(/fonts/Garet-Book.otf)
 }
 
+@font-face{
+  font-family: Link;
+  src: url(/fonts/LOVES.ttf)
+}
+
 
 * {
   margin: 0;

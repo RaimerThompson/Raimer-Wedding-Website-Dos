@@ -1,3 +1,15 @@
+.head{
+  color: black;
+}
+
+.header__logo{
+  color: black;
+}
+
+.hamburger__btn{
+  fill: black;
+}
+
 .about-container{
   position: relative;
   display: flex;
@@ -6,15 +18,28 @@
   align-items: top;
   margin: auto 3rem;
   gap: 3rem;
-  /* font-family: Header; */
   margin-top: 4rem;
   font-size: 10px;
+}
+
+.about1{
+  border: 1px dotted red;
 }
 
 .about1 h2{
   line-height: 1.75rem;
   font-weight: 400;
   font-family: "Spectral", serif;
+  padding-bottom: 1.6rem;
+}
+
+.about-banner-text{
+  position: absolute;
+  font-size: 3.5rem;
+  bottom: 8px;
+  right: 4px;
+  color: wheat;
+  font-family: Custy;
 }
 
 .about-banner-img{
@@ -27,10 +52,10 @@
   position: relative;
   bottom: -2rem;
   background: url(/img/Raimer002.jpg);
-  background-position: center bottom 45%;
+  background-position: center bottom 50%;
   background-size: cover;
   max-width: 2624px;
-  height: 80vh;
+  height: 70vh;
   top: 0;
   opacity: 1;
   filter: grayscale(100%);
@@ -48,6 +73,23 @@
   max-width: 400px;
 }
 
+.about3 h3{
+  font-weight: 400;
+  font-family: "Spectral", serif;
+  border: 1px dotted blue;
+  line-height: 1.75rem;
+  font-size: 15px;
+}
+
+.about-container-bottom{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 3rem;
+  padding-top: 3rem;
+  font-size: 10px;
+}
 
 /* xs */
 @media (min-width: 475px) {
@@ -62,6 +104,11 @@
     margin-top: 4rem;
     font-size: 10px;
   }
+
+  .about-container-bottom{
+    margin: auto 2rem;
+  }
+  
 }
 
 /* sm */
@@ -77,6 +124,11 @@
     margin-top: 4rem;
     font-size: 10px;
   }
+
+  .about-container-bottom{
+    margin: auto 4rem;
+  }
+  
 }
 
 /* md */

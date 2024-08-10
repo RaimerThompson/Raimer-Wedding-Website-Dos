@@ -4,12 +4,12 @@ ul li a{
   font-size: 16px;
   letter-spacing: 1.25px;
   color: inherit;
-  font-family: "Encode", serif;
+  font-family: Link;
   cursor: pointer;
 }
 
 ul li a:hover{
-  font-weight: 600;
+  font-weight: 900;
   transition: .1s;
 }
 
@@ -19,22 +19,26 @@ ul li{
 }
 
 .active{
-  font-weight: 900;
+  font-weight: 600;
   opacity: 1;
-  color: black;
+  /* color: black; */
 }
 
+
 .head{
-  color: rgb(75, 75, 75);
+  color: black;
+  font-weight: 600;
 }
 
 .head:hover{
-  color: black;
+  opacity: .5;
 }
 
 .header__link{
   padding-right: 6px;
   padding-top: .75rem;
+  color: white;
+  font-weight: 400;
 }
 
 .header__socials{
@@ -48,6 +52,11 @@ ul li{
 
 .yt,.ig,.env{
   font-size: 1.15rem;
+  color: rgb(75, 75, 75);
+}
+
+.ig{
+  color: black;
 }
 
 .yt:hover{
@@ -55,17 +64,22 @@ ul li{
 }
 
 .ig:hover{
-  color: rgb(255, 0, 255);
+  color: black;
+  opacity: .5;
 }
 
 .env:hover{
-  color: rgb(0, 130, 255);
+  color: black;
+  opacity: .5;
 }
 
 .header__logo{
   font-size: 3.25rem;
   font-family: Custy;
   font-weight: 400;
+  position: relative;
+  color: white;
+  z-index: 999;
 }
 
 .header__logo:hover{
@@ -74,6 +88,7 @@ ul li{
 
 .header__menu{
   display: flex;
+  
 }
 
 /* .header__menu-right{
@@ -97,14 +112,15 @@ ul li{
   left:0;
   z-index: 100;
   padding: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: .85rem;
   transition: background-color .4s ease-in-out;
+  
 }
 
 
 .hamburger__btn{
   width: 30px;
-  fill: black;
+  fill: white;
   border-radius: 2px;
   border: none;
   position: relative;
@@ -114,19 +130,20 @@ ul li{
   bottom: 0;
   cursor: pointer;
   /* transition: fill .4s ease-in-out; */
-  z-index: 100;
+  z-index: 1000;
 }
 
 .hamburger__btn.close{
   top: 0;
   left: 2px;
-  fill: rgb(0, 0, 0);
+  fill: black;
   transition: fill .15s ease-in-out;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .hamburger__btn.close:hover{
-  fill: red;
+  /* fill: black; */
+  opacity: .5;
 }
 
 .middle{
@@ -170,13 +187,13 @@ ul li{
   background-color: white;
   padding: 80px 0 0 20px;
   transition: .5s ease-in;
-  z-index: 100;
+  z-index: 1000;
 }
 
 #navbar.active{
   right: 0;
   transition: .5s ease-in-out;
-  background-color: white;
+  /* background-color: rgb(125, 125, 125); */
 }
 
 /* xs */
