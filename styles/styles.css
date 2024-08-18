@@ -38,7 +38,11 @@ html {
 body {
   font-family: "Spectral", serif;
   color: black;
-  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 
