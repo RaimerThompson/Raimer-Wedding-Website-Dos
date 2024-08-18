@@ -1,14 +1,15 @@
 ul li a{
   text-decoration: none;
   list-style: none;
-  font-size: 16px;
+  font-size: 12.5px;
   letter-spacing: 1.25px;
+  font-weight: 100;
   color: inherit;
-  font-family: Link;
+  font-family: "Varela Round", sans-serif;
   cursor: pointer;
 }
 
-ul li a:hover{
+.header__link:hover{
   font-weight: 900;
   transition: .1s;
 }

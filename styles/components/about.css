@@ -13,17 +13,17 @@
 .about-container{
   position: relative;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: top;
   margin: auto 3rem;
   gap: 3rem;
-  margin-top: 4rem;
+  margin-top: 5.5rem;
   font-size: 10px;
 }
 
 .about1{
-  border: 1px dotted red;
+  position: relative;
 }
 
 .about1 h2{
@@ -35,10 +35,10 @@
 
 .about-banner-text{
   position: absolute;
-  font-size: 3.5rem;
-  bottom: 8px;
+  font-size: 3rem;
+  bottom: -3.5rem;
   right: 4px;
-  color: wheat;
+  color: black;
   font-family: Custy;
 }
 
@@ -59,26 +59,47 @@
   top: 0;
   opacity: 1;
   filter: grayscale(100%);
-    
-
 }
 
-.about1,
-.about2{
-  flex: 1;
+.about-gif{
   max-width: 300px;
 }
 
+.about1{
+  flex: 1;
+  max-width: 300px;
+  
+}
+
 .about2{
-  max-width: 400px;
+  max-width: 300px;
+  flex: 1;
 }
 
 .about3 h3{
   font-weight: 400;
   font-family: "Spectral", serif;
-  border: 1px dotted blue;
+  /* border: 1px dotted blue; */
   line-height: 1.75rem;
   font-size: 15px;
+  width: 300px;
+
+}
+
+.fa-arrow-turn-up{
+  position: absolute;
+  left: -2rem;
+  top: 12rem;
+  font-size: 2rem;
+  transform: rotate(90deg);
+}
+
+.arrow-text{
+  position: absolute;
+  left: -4rem;
+  font-family: Custy;
+  font-size: 2rem;
+  
 }
 
 .about-container-bottom{
@@ -86,9 +107,64 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto 3rem;
+  /* margin: auto 3rem; */
   padding-top: 3rem;
   font-size: 10px;
+}
+
+.about-fun-facts{
+  position: relative;
+  margin: 15rem auto 0 auto;
+}
+
+.about-fun-top-text{
+  font-family: Custy;
+  font-size: 4.25rem;
+  font-weight: 100;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 16rem;
+  top: -12rem;
+}
+
+.about-fun-top-text span{
+  position: relative;
+  top: 8px;
+  left: -4px;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.about-fun-left {
+  padding-bottom: 4rem;
+}
+
+.about-fun-right {
+  padding-bottom: 4rem;
+  position: relative;
+  left: 160px;
+  width: 300px;
+}
+
+.about-fun-img{
+  width: 300px;
+}
+
+.about-fun-title{
+  font-family: "Varela Round", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 1.5rem 4px 1rem 4px;
+  letter-spacing: 2px;
+}
+
+.about-fun-title span{
+  padding: 0 10px;
+}
+
+.about-fun-text{
+  max-width: 300px;
+  padding: .5rem 4px;
 }
 
 /* xs */
@@ -101,7 +177,7 @@
     align-items: top;
     margin: auto 2rem;
     gap: 3rem;
-    margin-top: 4rem;
+    margin-top: 5.25rem;
     font-size: 10px;
   }
 
@@ -121,7 +197,7 @@
     align-items: top;
     margin: auto 4rem;
     gap: 3rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
     font-size: 10px;
   }
 
@@ -132,7 +208,16 @@
 }
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .about-banner-text{
+    position: absolute;
+    font-size: 3.5rem;
+    bottom: -4rem;
+    right: 1rem;
+    color: black;
+    font-family: Custy;
+  }
+}
 
 /* Lg */
 /* @media (min-width: 1024px) {} */

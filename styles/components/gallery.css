@@ -1,0 +1,84 @@
+.gallery-banner-text{
+  position: absolute;
+  font-size: 3rem;
+  bottom: -3.5rem;
+  right: 4px;
+  color: black;
+  font-family: Custy;
+}
+
+.gallery-banner-img{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: Custom;
+  font-size: 6.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: -2rem;
+  background: url(/img/Raimer002.jpg);
+  background-position: center bottom 50%;
+  background-size: cover;
+  max-width: 2624px;
+  height: 70vh;
+  top: 0;
+  opacity: 1;
+  filter: grayscale(100%);
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.gallery-container{
+  height: 200px;
+  max-width:fit-content ;
+}
+
+.gallery-container2{
+  height: 200px;
+  max-width: fit-content;
+}
+
+.gallery-div1{
+  margin-top: 6rem;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4px;
+  border: 1px solid black;
+}
+
+.d1{
+  width: 100px;
+  height: 300px;
+  flex: 1;
+  object-fit: cover;
+  border: 2px dotted red;
+  color: aqua;
+}
+
+.d2{
+  /* max-width: 66%; */
+  flex: 2;
+  object-fit: cover;
+}
+
+.gallery-div2{
+  margin-top: 1rem;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  gap: 4px;
+  height: 200px;
+  max-width: 400px;
+}
+
+.gallery-div2 img{
+  /* width: 50%; */
+  height: 200px;
+  object-fit: cover;
+}

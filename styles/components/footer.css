@@ -1,5 +1,5 @@
 .footer__logo{
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-family: Custy;
   font-weight: 400;
   list-style: none;
@@ -19,7 +19,8 @@
   font-size: 6px;
   color: black;
   padding-bottom: 8px;
-  font-family: "Encode Sans", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  
 }
 
 .footer__socials{
