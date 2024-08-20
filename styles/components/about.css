@@ -35,7 +35,7 @@
 
 .about-banner-text{
   position: absolute;
-  font-size: 3rem;
+  font-size: 2.7rem;
   bottom: -3.5rem;
   right: 4px;
   color: black;
@@ -59,10 +59,6 @@
   top: 0;
   opacity: 1;
   filter: grayscale(100%);
-}
-
-.about-gif{
-  max-width: 300px;
 }
 
 .about1{
@@ -114,16 +110,16 @@
 
 .about-fun-facts{
   position: relative;
-  margin: 15rem auto 0 auto;
+  margin-top: 15rem;
 }
 
 .about-fun-top-text{
   font-family: Custy;
-  font-size: 4.25rem;
+  font-size: 3.5rem;
   font-weight: 100;
   transform: rotate(-15deg);
   position: absolute;
-  left: 16rem;
+  left: 4rem;
   top: -12rem;
 }
 
@@ -137,13 +133,14 @@
 
 .about-fun-left {
   padding-bottom: 4rem;
+  width: 300px;
 }
 
 .about-fun-right {
   padding-bottom: 4rem;
   position: relative;
-  left: 160px;
-  width: 300px;
+  left: 0;
+  width: 286px;
 }
 
 .about-fun-img{
@@ -167,6 +164,30 @@
   padding: .5rem 4px;
 }
 
+/* s */
+@media (min-width: 360px) {
+
+  .about-banner-text{
+    position: absolute;
+    font-size: 3rem;
+  }
+
+  .about-fun-right {
+    padding-bottom: 4rem;
+    position: relative;
+    left: 3.75rem;
+    width: 300px;
+  }
+
+  .about-fun-top-text{
+    left: 6rem;
+    font-size: 4.25rem;
+  }
+
+
+}
+
+
 /* xs */
 @media (min-width: 475px) {
   .about-container{
@@ -185,6 +206,17 @@
     margin: auto 2rem;
   }
   
+  .about-fun-right {
+    padding-bottom: 4rem;
+    position: relative;
+    left: 11.5rem;
+    width: 300px;
+  }
+
+  
+  .about-fun-top-text{
+    left: 15rem;
+  }
 }
 
 /* sm */
@@ -204,6 +236,18 @@
   .about-container-bottom{
     margin: auto 4rem;
   }
+
+  .about-fun-right {
+    padding-bottom: 4rem;
+    position: relative;
+    left: 22rem;
+    width: 300px;
+  }
+
+  .about-fun-top-text{
+    left: 26rem;
+  }
+
   
 }
 
@@ -217,13 +261,74 @@
     color: black;
     font-family: Custy;
   }
+
+  .about-fun-facts{
+    position: relative;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-fun-left {
+    padding-bottom: 4rem;
+    position: relative;
+    width: 300px;
+    right: 16rem;
+}
+
+  .about-fun-right {
+    padding-bottom: 4rem;
+    position: relative;
+    left: 15rem;
+    width: 300px;
+  }
+
+  .about-fun-top-text{
+    left: 32rem;
+    top: 6rem;
+  }
+
+  .left-1{
+    top: 19rem;
+  }
+
+  .right-1{
+    bottom: 0rem;
+    top: 0rem;
+  }
+
+  .left-2{
+    bottom: 27rem;
+  }
+
+  .right-2{
+    bottom: 51rem;
+  }
+
+  .about-fun-img{
+    width: 380px;
+  }
+
+  .footer__logo{
+    margin-top: 0;
+  }
 }
 
 /* Lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .about-fun-top-text{
+    left: 42rem;
+  }
+}
 
 /* xL */
-/* @media (min-width: 1288px) {} */
+@media (min-width: 1288px) {
+  .about-fun-top-text{
+    left: 66rem;
+  }
+}
 
 /* 2xL */
 /* @media (min-width: 1536px) {}   */
