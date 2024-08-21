@@ -20,6 +20,7 @@
   gap: 3rem;
   margin-top: 5.5rem;
   font-size: 10px;
+  background-color: rgba(247, 247, 247, .45);
 }
 
 .about1{
@@ -30,7 +31,23 @@
   line-height: 1.75rem;
   font-weight: 400;
   font-family: "Spectral", serif;
-  padding-bottom: 1.6rem;
+  padding: 1.6rem 2.5rem;
+  background-color: white;
+
+}
+
+.about-span{
+  width: 2.5rem;
+  height: 0;
+  border: 1px solid #C4C4C4;
+  margin: 3px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 1.5rem;
+  text-align: center;
+  background-color: white;  
 }
 
 .about-banner-text{
@@ -79,6 +96,8 @@
   line-height: 1.75rem;
   font-size: 15px;
   width: 300px;
+  padding: 1.6rem 2.5rem;
+  background-color: white;
 
 }
 
@@ -101,11 +120,12 @@
 .about-container-bottom{
   position: relative;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   /* margin: auto 3rem; */
   padding-top: 3rem;
   font-size: 10px;
+  flex-direction: column;
 }
 
 .about-fun-facts{
@@ -153,6 +173,7 @@
   font-weight: 100;
   padding: 1.5rem 4px 1rem 4px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .about-fun-title span{
@@ -162,6 +183,7 @@
 .about-fun-text{
   max-width: 300px;
   padding: .5rem 4px;
+  text-align: center;
 }
 
 /* s */
@@ -202,9 +224,9 @@
     font-size: 10px;
   }
 
-  .about-container-bottom{
+  /* .about-container-bottom{
     margin: auto 2rem;
-  }
+  } */
   
   .about-fun-right {
     padding-bottom: 4rem;
@@ -228,14 +250,14 @@
     justify-content: center;
     align-items: top;
     margin: auto 4rem;
-    gap: 3rem;
+    gap: 5rem;
     margin-top: 6rem;
     font-size: 10px;
   }
 
-  .about-container-bottom{
+  /* .about-container-bottom{
     margin: auto 4rem;
-  }
+  } */
 
   .about-fun-right {
     padding-bottom: 4rem;
@@ -260,6 +282,34 @@
     right: 1rem;
     color: black;
     font-family: Custy;
+  }
+
+  .about-container-bottom{
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .about2-img{
+    position: relative;
+    top: 10rem;
+  }
+
+  .about3 h3{
+    position: relative;
+    bottom: 15rem;
+  }
+
+  .about-fun-title{
+    width: 400px;
+    max-width: initial;
+    text-align: left;
+  }
+
+  .about-fun-text{
+    width: 400px;
+    max-width: initial;
+    text-align: left;
   }
 
   .about-fun-facts{
