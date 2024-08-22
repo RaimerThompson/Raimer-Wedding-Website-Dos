@@ -13,9 +13,9 @@
 .about-container{
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
-  align-items: top;
+  align-items: center;
   margin: auto 3rem;
   gap: 3rem;
   margin-top: 5.5rem;
@@ -52,7 +52,7 @@
 
 .about-banner-text{
   position: absolute;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   bottom: -3.5rem;
   right: 4px;
   color: black;
@@ -186,8 +186,16 @@
   text-align: center;
 }
 
+.about-space{
+  display: none;
+}
+
 /* s */
 @media (min-width: 360px) {
+
+  .about-banner-text{
+    font-size: 2.7rem;
+  }
 
   .about-banner-text{
     position: absolute;
@@ -206,6 +214,13 @@
     font-size: 4.25rem;
   }
 
+  .about1 h2{
+    padding: 1.5rem;
+  }
+
+  /* .about3 h3{
+    padding: ;
+  } */
 
 }
 
@@ -215,23 +230,25 @@
   .about-container{
     position: relative;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
-    align-items: top;
+    align-items: center;
     margin: auto 2rem;
     gap: 3rem;
     margin-top: 5.25rem;
     font-size: 10px;
   }
 
-  /* .about-container-bottom{
-    margin: auto 2rem;
-  } */
+  .about-fun-left {
+    position: relative;
+    width: 300px;
+    left: .5rem;
+}
   
   .about-fun-right {
     padding-bottom: 4rem;
     position: relative;
-    left: 11.5rem;
+    left: 11rem;
     width: 300px;
   }
 
@@ -246,23 +263,25 @@
   .about-container{
     position: relative;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: top;
     margin: auto 4rem;
-    gap: 5rem;
+    gap: 4rem;
     margin-top: 6rem;
     font-size: 10px;
   }
 
-  /* .about-container-bottom{
-    margin: auto 4rem;
-  } */
+  .about-fun-left {
+    position: relative;
+    width: 300px;
+    left: 4rem;
+}
 
   .about-fun-right {
     padding-bottom: 4rem;
     position: relative;
-    left: 22rem;
+    left: 20rem;
     width: 300px;
   }
 
@@ -275,6 +294,11 @@
 
 /* md */
 @media (min-width: 768px) {
+
+  .about-container{
+    flex-direction: row;
+  }
+
   .about-banner-text{
     position: absolute;
     font-size: 3.5rem;
@@ -292,7 +316,7 @@
 
   .about2-img{
     position: relative;
-    top: 10rem;
+    bottom: 23rem;
   }
 
   .about3 h3{
@@ -301,13 +325,13 @@
   }
 
   .about-fun-title{
-    width: 400px;
+    width: 300px;
     max-width: initial;
     text-align: left;
   }
 
   .about-fun-text{
-    width: 400px;
+    width: 300px;
     max-width: initial;
     text-align: left;
   }
@@ -322,16 +346,17 @@
   }
 
   .about-fun-left {
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
     position: relative;
     width: 300px;
-    right: 16rem;
+    right: 14rem;
+    left: initial;
 }
 
   .about-fun-right {
     padding-bottom: 4rem;
     position: relative;
-    left: 15rem;
+    left: 14rem;
     width: 300px;
   }
 
@@ -358,19 +383,92 @@
   }
 
   .about-fun-img{
-    width: 380px;
+    width: 300px;
   }
 
   .footer__logo{
     margin-top: 0;
   }
+
+  .about-space {
+    display: block;
+    position: relative;
+    bottom: 30rem;
+    /* background-image: url(/img/CTG-News3.jpg); */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    /* height: 50vh; */
+    margin-top: -16rem;
+    margin-bottom: -25rem;
+  }
+
+  .about-space button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  }
 }
 
 /* Lg */
 @media (min-width: 1024px) {
+
+  .about-fun-img{
+    width: 380px;
+  }
+
   .about-fun-top-text{
     left: 42rem;
   }
+
+  .about-fun-title{
+    width: 400px;
+    max-width: initial;
+    text-align: left;
+  }
+
+  .about-fun-text{
+    width: 400px;
+    max-width: initial;
+    text-align: left;
+  }
+
+  .about2-img {
+    position: relative;
+    bottom: 10rem;
+    left: 3rem;
+}
+
+  .about1 h2{
+    position: relative;
+    width: 500px;
+    right: 9rem;
+    padding: 2rem 3rem;
+
+  }
+
+  .about3 h3{
+    position: relative;
+    bottom: -1rem;
+    width: 500px;
+    padding: 2rem 3rem;
+
+  }
+
+  .about-gif{
+    position: relative;
+    right: 3rem;
+  }
+
+  .about-container-bottom{
+    gap: 2rem;
+  }
+
+  
+
 }
 
 /* xL */
