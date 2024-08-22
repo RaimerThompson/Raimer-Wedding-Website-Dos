@@ -204,6 +204,31 @@
   display: none;
 }
 
+.about-contact-banner{
+  background-color: rgba(247, 247, 247, .45);
+  padding: 6rem;
+  position: relative;
+  top: 3rem;
+}
+
+.about-contact-button{
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  position: relative;
+  border: none;
+  letter-spacing: 3px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-contact-button:hover{
+  opacity: .5;
+}
+
+
 /* s */
 @media (min-width: 360px) {
 
@@ -415,7 +440,7 @@
     width: 100%;
     /* height: 50vh; */
     margin-top: -16rem;
-    margin-bottom: -25rem;
+    margin-bottom: -32rem;
   }
 
   .about-space button{
@@ -424,6 +449,15 @@
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
+  }
+
+  .about-contact-banner{
+    top: initial;
+    bottom: 3rem;
+  }
+
+  .about-contact-button{
+    padding: 4rem;
   }
 }
 
