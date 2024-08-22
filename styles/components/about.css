@@ -1,6 +1,19 @@
 .head{
   color: black;
+  font-weight: 600;
 }
+
+.head:hover{
+  opacity: .5;
+}
+
+.header__link{
+  padding-right: 6px;
+  padding-top: .75rem;
+  color: black;
+  font-weight: 400;
+}
+
 
 .header__logo{
   color: black;
@@ -174,6 +187,7 @@
   padding: 1.5rem 4px 1rem 4px;
   letter-spacing: 2px;
   text-align: center;
+  color: black;
 }
 
 .about-fun-title span{
