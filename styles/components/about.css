@@ -100,6 +100,15 @@
 .about2{
   max-width: 300px;
   flex: 1;
+  position: relative;
+}
+
+.about2-span{
+  font-family: Custy;
+  font-size: 3rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
 }
 
 .about3 h3{
@@ -333,6 +342,11 @@
 
 /* md */
 @media (min-width: 768px) {
+  .about2-span{
+    top: -21rem;
+    left: 2rem;
+    z-index: 10;
+  }
 
   .about-container{
     flex-direction: row;
@@ -463,6 +477,15 @@
 
 /* Lg */
 @media (min-width: 1024px) {
+
+  .about2-span{
+    font-family: Custy;
+    font-size: 3rem;
+    position: absolute;
+    top: -8rem;
+    left: 5rem;
+    z-index: 10;
+  }
 
   .about-fun-img{
     width: 380px;

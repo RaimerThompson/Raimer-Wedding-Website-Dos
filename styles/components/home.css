@@ -166,12 +166,12 @@
 
 .home-title-div div{
   flex: 1;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   align-self: inherit;
 }
 
 .home-title-img{
-  max-width: 270px;
+  max-width: 280px;
 }
 
 .name-ray{
@@ -196,11 +196,13 @@
   text-align: center;
   font-weight: 100;
 }
+
 .home-title-subline{
-  font-family: "Encode Sans", sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-weight: 400;
   margin-bottom: 1rem;
   position: relative;
+  font-size: 22px;
 }
 
 .home-title-subtext-div{
@@ -212,7 +214,7 @@
   line-height: 2rem;
   letter-spacing: .5px;
   font-size: 1rem;
-  margin-bottom: 8px;
+  margin-bottom: 1.5rem;
   text-align: left;
 }
 
@@ -225,6 +227,30 @@
   border: none;
   letter-spacing: 3px;
   top: 3rem;
+}
+
+.home-title-img-div{
+  position: relative;
+}
+
+.home-title-span{
+  font-family: Custy;
+  font-size: 3rem;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.welcome{
+  position: relative;
+  bottom: 1rem;
+}
+
+.indent{
+  position: relative;
+  bottom: 5px;
+  left: 4px;
+  padding-right: 4px;
 }
 
 .home-title-button:hover{
@@ -336,7 +362,41 @@
   letter-spacing: 1.5px;
 }
 
+@media(min-width: 330px){
+ 
+
 @media(min-width: 475px){
+
+  .home-title-subline{
+    font-size: 24px;
+  font-family: "Varela Round", sans-serif;
+
+  }
+
+  .home-title-div div{
+    flex: 1;
+    padding: 0 1rem;
+    align-self: inherit;
+  }
+
+  .home-title-img{
+    max-width: 360px;
+    object-fit: cover;
+    height: 500px;
+  }
+
+  .welcome{
+    position: relative;
+    left: 2px;
+  }
+
+  .home-inner-span{
+    position: relative;
+    top: 10px;
+    left: 4rem;
+  }
+}
+
   .home-contact-button{
     letter-spacing: 3px;
     padding: 1rem 2rem;
