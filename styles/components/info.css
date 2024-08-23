@@ -1,0 +1,106 @@
+#nav{
+  display: flex;
+  justify-content: space-between;
+  position: inherit; 
+  align-items: center;
+  top: 0;
+  right: 0;
+  left:0;
+  z-index: 100;
+  padding: 1rem;
+  margin-bottom: .85rem;
+  transition: background-color .4s ease-in-out; 
+}
+
+.hamburger__btn{
+  fill: black;
+}
+
+.info-banner-img{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: Custom;
+  font-size: 6.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: -2rem;
+  background: url(/img/Weddings/wed3.jpg);
+  background-position:center bottom 90%;
+  background-size: cover;
+  max-width: 2624px;
+  height: 70vh;
+  top: 0;
+  opacity: 1;
+  filter: grayscale(90%);
+}
+
+.info-banner-text{
+  position: absolute;
+  font-size: 3rem;
+  bottom: -3.5rem;
+  color: black;
+  font-family: Custy;
+}
+
+
+
+
+/* Mobile */
+/* @media (min-width: 325px) {} */
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+
+  #nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed; 
+    align-items: center;
+    top: 0;
+    right: 0;
+    left:0;
+    z-index: 100;
+    padding: 1rem;
+    margin-bottom: .85rem;
+    transition: background-color .4s ease-in-out; 
+  }
+
+  .header__logo{
+    color: white;
+  }
+
+  .info-banner-img{
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: Custom;
+    font-size: 6.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: -2rem;
+    background: url(/img/Weddings/wed5.jpg);
+    background-position:center bottom 78%;
+    background-size: cover;
+    max-width: 2624px;
+    height: 100vh;
+    top: 0;
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+}
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
