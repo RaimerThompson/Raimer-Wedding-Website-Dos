@@ -1,54 +1,149 @@
-.contact-container{
-  position: relative;
+#nav{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  position: fixed; 
   align-items: center;
+  top: 0;
+  right: 0;
+  left:0;
+  z-index: 10;
+  padding: 1rem;
+  margin-bottom: .85rem;
+  transition: background-color .4s ease-in-out; 
+}
+
+#navbar{
+  z-index: 10;
+}
+
+
+.header__logo{
+  color: white;
+  z-index: 1;
+}
+
+.hamburger__btn{
+  fill: white;
+}
+
+.contact-banner-img{
+  color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  flex-direction: column;
-  max-width: 500px;
-  margin-top: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  padding: 0 1rem;
+  font-family: Custom;
+  font-size: 6.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: -2rem;
+  background: url(/img/Weddings/wed30.jpg);
+  background-position:center bottom 40%;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 2624px;
+  height: 90vh;
+  top: 0;
+  opacity: 1;
+  filter: grayscale(100%);
+  z-index: 1;
+}
+
+.contact-banner-text{
+  position: absolute;
+  font-size: 3.5rem;
+  bottom: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-family: Custy;
+  z-index: 101;
+}
+
+.contact-text{
+  z-index: 101;
+  position: relative;
+  padding: 4rem 1rem;
+  margin-top: 2rem;
+}
+
+.contact-text h1{
+  letter-spacing: 4px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.contact-text h2{
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.contact-container{
+  background-color: rgba(247, 247, 247, .85);
+  position: relative;
+  z-index: 101;
+  padding: 4rem;
 }
 
 .contact-container p{
-  line-height: 2rem;
-  font-family: Para;
-  font-weight: 900;
+  background-color: white;
+  padding: 2rem;
 }
 
-.contact-image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.email:hover{
-  opacity: .60;
-}
-
+/* Mobile */
+/* @media (min-width: 325px) {} */
 
 /* xs */
-@media (min-width: 475px) {
-  .contact-container{
-    position: relative;
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+
+  /* #nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    position: fixed; 
     align-items: center;
-    text-align: center;
-    flex-direction: column;
-    max-width: 500px;
-    margin-top: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    padding: initial;
+    top: 0;
+    right: 0;
+    left:0;
+    z-index: 100;
+    padding: 1rem;
+    margin-bottom: .85rem;
+    transition: background-color .4s ease-in-out; 
   }
+
+
+  .contact-banner-img{
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: Custom;
+    font-size: 6.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: -2rem;
+    background: url(/img/Weddings/wed5.jpg);
+    background-position:center bottom 78%;
+    background-size: cover;
+    max-width: 2624px;
+    height: 100vh;
+    top: 0;
+    opacity: 1;
+    filter: grayscale(0%);
+  } */
+
 }
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
