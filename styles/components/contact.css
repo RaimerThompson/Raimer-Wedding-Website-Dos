@@ -1,7 +1,7 @@
 #nav{
   display: flex;
   justify-content: space-between;
-  position: fixed; 
+  position: inherit; 
   align-items: center;
   top: 0;
   right: 0;
@@ -18,12 +18,12 @@
 
 
 .header__logo{
-  color: white;
+  color: black;
   z-index: 1;
 }
 
 .hamburger__btn{
-  fill: white;
+  fill: black;
 }
 
 .contact-banner-img{
@@ -36,11 +36,11 @@
   position: relative;
   bottom: -2rem;
   background: url(/img/Weddings/wed30.jpg);
-  background-position:center bottom 40%;
+  background-position:center bottom 90%;
   background-size: cover;
   background-attachment: fixed;
   max-width: 2624px;
-  height: 90vh;
+  height: 70vh;
   top: 0;
   opacity: 1;
   filter: grayscale(100%);

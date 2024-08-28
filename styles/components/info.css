@@ -1,7 +1,7 @@
 #nav{
   display: flex;
   justify-content: space-between;
-  position: inherit; 
+  position: absolute; 
   align-items: center;
   top: 0;
   right: 0;
@@ -12,8 +12,12 @@
   transition: background-color .4s ease-in-out; 
 }
 
+.header__logo{
+  color: white;
+}
+
 .hamburger__btn{
-  fill: black;
+  fill: white;
 }
 
 .info-banner-img{
@@ -25,29 +29,157 @@
   letter-spacing: 1px;
   position: relative;
   bottom: -2rem;
-  background: url(/img/Weddings/wed3.jpg);
+  background: url(/img/Weddings/wed31.jpg);
   background-position:center bottom 90%;
   background-size: cover;
   max-width: 2624px;
-  height: 70vh;
+  height: 90vh;
   top: 0;
   opacity: 1;
-  filter: grayscale(90%);
+  /* filter: grayscale(82%); */
 }
 
 .info-banner-text{
   position: absolute;
   font-size: 3rem;
   bottom: -3.5rem;
+  left: 1rem;
   color: black;
   font-family: Custy;
 }
 
+
 .info-approach{
   margin-top: 5rem;
+  padding: 1rem;
 }
 
+.info-approach-title{
+  letter-spacing: 4px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  position: relative;
+}
 
+.info-approach-text{
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.info-tabs{
+  padding: 3rem 10px;
+  background-color: rgba(247, 247, 247, .85);
+  
+}
+
+.info-tabtitles{
+  background-color: white;
+  padding: 2rem 1rem;
+}
+
+.info-tabtitles ul{
+  display: flex;
+  gap: 2rem;
+}
+
+.info-tablinks{
+  letter-spacing: 2px;
+  font-size: 3rem;
+  font-family: Custy;
+  font-weight: 400;
+  color: rgb(200, 200, 200);
+  cursor: pointer;
+}
+
+.active-link{
+  font-weight: 500;
+  color: black;
+}
+
+.faq-accordian{
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.faq-container{
+  position: relative;
+  top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.faq-div{
+  max-width: 700px;
+  /* margin-top: 2rem; */
+  padding: 2rem;
+  margin-bottom: 6px;
+  background-color: rgba(247, 247, 247, .85);
+  /* border-bottom: 2px solid black; */
+  cursor: pointer;
+}
+
+.faq-title{
+  font-family: Custy;
+  font-weight: 400;
+  font-size: 3rem;
+  padding: 2rem 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+.faq-question{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question-text{
+  letter-spacing: 2px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+}
+
+.faq-answer{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 850ms ease;
+}
+
+.faq-div.faq-active .faq-answer{
+  max-height: 300px;
+  animation: fade 1s ease-in-out;
+}
+
+.faq-answer-text{
+  padding-top: 1rem;
+  line-height: 1.6;
+}
+
+.faq-div.faq-active svg{
+  transform: rotate(180deg);
+}
+
+svg{
+  transition: transform .25s ease-in;
+}
+
+@keyframes fade{
+  from{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
 
 /* Mobile */
@@ -61,6 +193,12 @@
 
 /* md */
 @media (min-width: 768px) {
+
+  .header.scrolled{
+    display: none;
+    scroll-behavior: smooth;
+    
+  } 
 
   #nav{
     display: flex;
@@ -89,15 +227,19 @@
     letter-spacing: 1px;
     position: relative;
     bottom: -2rem;
-    background: url(/img/Weddings/wed5.jpg);
+    background: url(/img/Weddings/wed31.jpg);
     background-position:center bottom 78%;
     background-size: cover;
     max-width: 2624px;
-    height: 100vh;
+    height: 90vh;
     top: 0;
     opacity: 1;
     filter: grayscale(0%);
   }
+
+
+
+
 }
 
 /* Lg */
