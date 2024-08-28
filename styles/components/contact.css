@@ -35,15 +35,15 @@
   letter-spacing: 1px;
   position: relative;
   bottom: -2rem;
-  background: url(/img/Weddings/wed30.jpg);
-  background-position:center bottom 90%;
+  background: url(/img/Weddings/wed32.jpg);
+  background-position:center bottom 10%;
   background-size: cover;
   background-attachment: fixed;
   max-width: 2624px;
-  height: 70vh;
+  height: 73vh;
   top: 0;
   opacity: 1;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   z-index: 1;
 }
 

@@ -100,7 +100,7 @@
 
 .faq-accordian{
   position: relative;
-  margin-bottom: 6rem;
+  margin-bottom: 16rem;
 }
 
 .faq-container{
@@ -144,6 +144,7 @@
   letter-spacing: 2px;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
+  text-transform: capitalize;
 }
 
 .faq-answer{
@@ -231,13 +232,20 @@ svg{
     background-position:center bottom 78%;
     background-size: cover;
     max-width: 2624px;
-    height: 90vh;
+    height: 100vh;
     top: 0;
     opacity: 1;
     filter: grayscale(0%);
   }
 
-
+  .info-banner-text{
+    position: absolute;
+    font-size: 4rem;
+    bottom: .5rem;
+    left: 1rem;
+    color: white;
+    font-family: Custy;
+  }
 
 
 }
