@@ -360,7 +360,7 @@
   flex-direction: column;
 }
 
-.home-contact img{
+.contact-img{
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -393,6 +393,7 @@
   background-color: black;
   border: none;
 }
+
 
 @media(min-width: 330px){
  
