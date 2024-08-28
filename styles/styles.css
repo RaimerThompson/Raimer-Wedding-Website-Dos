@@ -23,6 +23,11 @@
   src: url(/fonts/LOVES.ttf)
 }
 
+@font-face{
+  font-family: Modern;
+  src: url(/fonts/fonnts.com-MinervaModern_Regular.otf)
+}
+
 
 * {
   margin: 0;

@@ -52,6 +52,7 @@
 .info-approach{
   margin-top: 5rem;
   padding: 1rem;
+  margin-bottom: 3rem;
 }
 
 .info-approach-title{
@@ -66,11 +67,12 @@
   position: relative;
   font-size: 1rem;
   font-weight: 400;
+  font-family: Modern;
 }
 
 .info-tabs{
   padding: 3rem 10px;
-  background-color: rgba(247, 247, 247, .85);
+  background-color: rgba(247, 247, 247, .5);
   
 }
 
@@ -98,6 +100,66 @@
   color: black;
 }
 
+.info-pricing{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  padding-bottom: 5rem;
+}
+
+.info-switch{
+  flex-direction: row-reverse;
+}
+
+ .price-img-div{
+  max-width: 300px;
+}
+
+.price-div{
+  padding: 0 2rem;
+} 
+
+.price-title{
+  font-family: Custy;
+  font-size: 3rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.price-line{
+  content: "";
+  border-left: 1px solid rgb(0, 0, 0);
+  width: 10px;
+  height: 1.5rem;
+  position: relative;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 2rem;
+}
+
+.price-text{
+  max-width: 300px;
+  padding-bottom: 1rem;
+}
+
+.price-bottom{
+  font-family: Custy;
+  font-size: 2.5rem;
+  font-weight: 100;
+  position: relative;
+  top: 1.5rem;
+  line-height: 2rem;
+}
+
+.price-bottom span{
+  font-family: initial;
+  font-size: initial;
+  font-weight: 400;
+  position: relative;
+  bottom: 8px;
+}
+
 .faq-accordian{
   position: relative;
   margin-bottom: 16rem;
@@ -118,7 +180,7 @@
   /* margin-top: 2rem; */
   padding: 2rem;
   margin-bottom: 6px;
-  background-color: rgba(247, 247, 247, .85);
+  background-color: rgba(247, 247, 247, .5);
   /* border-bottom: 2px solid black; */
   cursor: pointer;
 }
@@ -161,6 +223,8 @@
 .faq-answer-text{
   padding-top: 1rem;
   line-height: 1.6;
+  font-family: Modern;
+  font-weight: 500;
 }
 
 .faq-div.faq-active svg{
