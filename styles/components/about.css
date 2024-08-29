@@ -43,7 +43,7 @@
 .about1 h2{
   line-height: 1.75rem;
   font-weight: 400;
-  font-family: "Spectral", serif;
+  /* font-family: "Spectral", serif; */
   padding: 1.6rem 2.5rem;
   background-color: white;
 
@@ -113,7 +113,7 @@
 
 .about3 h3{
   font-weight: 400;
-  font-family: "Spectral", serif;
+  /* font-family: "Spectral", serif; */
   /* border: 1px dotted blue; */
   line-height: 1.75rem;
   font-size: 15px;

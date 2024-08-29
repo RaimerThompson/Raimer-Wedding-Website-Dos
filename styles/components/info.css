@@ -68,7 +68,7 @@
   position: relative;
   font-weight: 400;
   font-family: "Lora", serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .info-tabs{
@@ -139,7 +139,7 @@
 .price-div ul li{
   font-weight: 400;
   font-family: "Lora", serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .price-title{
@@ -178,7 +178,7 @@
   padding-bottom: 1rem;
   font-weight: 400;
   font-family: "Lora", serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .price-bottom{
@@ -193,7 +193,7 @@
 .price-bottom span{
   font-weight: 400;
   font-family: "Lora", serif;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
   bottom: 8px;
 }
@@ -213,12 +213,16 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 3rem;
+  bottom: 1.5rem;
 }
 
 .price-button:hover{
   background-color: black;
   color: white;
+}
+
+.img3{
+  object-position: 100% 26.5%;
 }
 
 .faq-accordian{
@@ -264,16 +268,17 @@
 }
 
 .faq-question-text{
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .faq-answer{
   max-height: 0;
   overflow: hidden;
-  transition: max-height 850ms ease;
+  transition: max-height 550ms ease;
 }
 
 .faq-div.faq-active .faq-answer{
@@ -283,9 +288,10 @@
 
 .faq-answer-text{
   padding-top: 1rem;
-  line-height: 1.6;
-  font-family: Modern;
-  font-weight: 500;
+  line-height: 1.5rem;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 .faq-div.faq-active svg{
@@ -367,7 +373,8 @@ svg{
     position: absolute;
     font-size: 4rem;
     bottom: .5rem;
-    left: 1rem;
+    left: initial;
+    right: 2rem;
     color: white;
     font-family: Custy;
   }

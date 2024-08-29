@@ -250,6 +250,7 @@
   border: none;
   letter-spacing: 3px;
   top: 3rem;
+
 }
 
 .home-title-button:hover{
@@ -383,6 +384,7 @@
   position: absolute;
   bottom: 1.25rem;
   left: 50%;
+  width: 215px;
   transform: translateX(-50%);
   letter-spacing: 1.5px;
   transition: background-color 350ms ease;
