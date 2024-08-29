@@ -346,8 +346,7 @@
   border: 1px solid black;
   font-weight: 100;
   letter-spacing: 1px;
-  transition: background-color 350ms ease-in-out;
-  transition: color 650ms ease;
+  transition: color 350ms ease, background-color 350ms ease-in-out;
 }
 
 .home-cat-button:hover{
@@ -386,7 +385,7 @@
   left: 50%;
   transform: translateX(-50%);
   letter-spacing: 1.5px;
-  transition: background-color 550ms ease;
+  transition: background-color 350ms ease;
   }
 
 

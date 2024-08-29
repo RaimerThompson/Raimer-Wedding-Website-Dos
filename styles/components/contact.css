@@ -38,7 +38,7 @@
   background: url(/img/Weddings/wed32.jpg);
   background-position:center bottom 10%;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   max-width: 2624px;
   height: 73vh;
   top: 0;
