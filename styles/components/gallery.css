@@ -1,10 +1,34 @@
-.gallery-banner-text{
-  position: absolute;
-  font-size: 3rem;
-  bottom: -3.5rem;
-  right: 4px;
+#nav{
+  display: flex;
+  justify-content: space-between;
+  position: inherit; 
+  align-items: center;
+  top: 0;
+  right: 0;
+  left:0;
+  z-index: 100;
+  padding: 1rem;
+  margin-bottom: .85rem;
+  transition: background-color .4s ease-in-out; 
+}
+
+.header__logo{
   color: black;
-  font-family: Custy;
+}
+
+ul li a{
+  color: black;
+}
+
+.header__link{
+  padding-right: 6px;
+  padding-top: .75rem;
+  color: black;
+  font-weight: 400;
+}
+
+.hamburger__btn{
+  fill: black;
 }
 
 .gallery-banner-img{
@@ -16,69 +40,167 @@
   letter-spacing: 1px;
   position: relative;
   bottom: -2rem;
-  background: url(/img/Raimer002.jpg);
-  background-position: center bottom 50%;
+  background: url(/img/Weddings/wed12.jpg);
+  background-position:center bottom 90%;
   background-size: cover;
   max-width: 2624px;
   height: 70vh;
   top: 0;
   opacity: 1;
-  filter: grayscale(100%);
+  /* filter: grayscale(82%); */
 }
 
-.gallery{
+/* .gallery-container{
+  margin-top: 2rem;
+} */
+
+.gallery-1{
   display: flex;
-  flex-direction: column;
-  position: relative;
+  width: 200px;
+  height: 400px;
 }
 
-.gallery-container{
-  height: 200px;
-  max-width:fit-content ;
+
+.gallery-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.gallery-container2{
-  height: 200px;
-  max-width: fit-content;
+.portraits-gallery{
+  width: calc(100% - 1rem);
+  margin: 1rem auto;
+  padding: 0 1rem;
+  columns: 2;
+  column-gap: 4px;
+  
 }
 
-.gallery-div1{
-  margin-top: 6rem;
-  position: relative;
-  display: flex;
-  justify-content: space-evenly;
-  gap: 4px;
-  border: 1px solid black;
+.row{
+  margin-bottom: 4px;
 }
 
-.d1{
-  width: 100px;
-  height: 300px;
-  flex: 1;
-  object-fit: cover;
-  border: 2px dotted red;
-  color: aqua;
+
+.image-container .box{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  
 }
 
-.d2{
-  /* max-width: 66%; */
-  flex: 2;
-  object-fit: cover;
+.image-container .box img{
+  max-width: 100%;
+  border-radius: 2px;
 }
 
-.gallery-div2{
-  margin-top: 1rem;
-  position: relative;
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-evenly;
-  gap: 4px;
-  height: 200px;
-  max-width: 400px;
+.popup-image{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  /* overflow-y: hidden; */
+  scrollbar-width: none;
 }
 
-.gallery-div2 img{
-  /* width: 50%; */
-  height: 200px;
-  object-fit: cover;
+.popup-image img{
+/* width: 100%; */
+height: 100vh;
+max-width: 100%;
+object-fit: contain;
 }
+
+.popup-image span{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 3rem;
+  /* font-weight: bolder; */
+  cursor: pointer;
+  color: black;
+  z-index: 100;
+}
+
+.popup-image span:hover{
+  cursor: pointer;
+  color: red;
+  opacity: .7;
+}
+
+.popup-image img {
+  transition: transform 0.25s ease;
+  /* cursor: zoom-in; */
+
+}
+
+.slide{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.75rem;
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.prev,
+.next{
+  display: none;
+}
+
+
+.prev{
+  left: 1rem;
+  display: none;
+}
+
+.next{
+  right: 1rem;
+  display: none;
+}
+
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
+
+
+/* xs */
+@media (min-width: 475px) {
+  .prev,
+  .next{
+    display: block;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+
+
