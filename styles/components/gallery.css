@@ -50,9 +50,15 @@ ul li a{
   /* filter: grayscale(82%); */
 }
 
-/* .gallery-container{
-  margin-top: 2rem;
-} */
+.gallery-banner-title{
+  letter-spacing: 6px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  padding: 4rem 0;
+  position: relative;
+  text-align: center;
+}
 
 .gallery-1{
   display: flex;
@@ -70,14 +76,13 @@ ul li a{
 .portraits-gallery{
   width: calc(100% - 1rem);
   margin: 1rem auto;
-  padding: 0 1rem;
+  padding: 0 3rem;
   columns: 2;
-  column-gap: 4px;
-  
+  column-gap: 10px;
 }
 
 .row{
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 
 
@@ -96,13 +101,14 @@ ul li a{
 .popup-image{
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   right: 0;
   bottom: 0;
   background: rgb(255, 255, 255);
   height: 100%;
   width: 100%;
-  z-index: 100;
+  z-index: 100000;
   display: none;
   justify-content: center;
   align-items: center;
@@ -113,7 +119,7 @@ ul li a{
 
 .popup-image img{
 /* width: 100%; */
-height: 100vh;
+height: 97vh;
 max-width: 100%;
 object-fit: contain;
 }
@@ -131,8 +137,8 @@ object-fit: contain;
 
 .popup-image span:hover{
   cursor: pointer;
-  color: red;
-  opacity: .7;
+  /* color: red; */
+  opacity: .5;
 }
 
 .popup-image img {
@@ -153,6 +159,12 @@ object-fit: contain;
 .prev,
 .next{
   display: none;
+}
+
+.prev:hover,
+.next:hover{
+  /* color: rgba(0, 0, 0, 0.75); */
+  opacity: .5;
 }
 
 
@@ -192,7 +204,18 @@ input[type=checkbox]:checked ~ label > img {
 /* @media (min-width: 640px) {} */
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .portraits-gallery{
+    margin: 1rem auto;
+    padding: 0 4rem;
+    columns: 3;
+    column-gap: 10px;
+  }
+
+  .row{
+    margin-bottom: 10px;
+  }
+}
 
 /* Lg */
 /* @media (min-width: 1024px) {} */
