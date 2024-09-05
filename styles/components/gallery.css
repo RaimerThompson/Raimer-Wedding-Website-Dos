@@ -31,6 +31,10 @@ ul li a{
   fill: black;
 }
 
+.gallery-banner{
+  background-color: rgba(247, 247, 247, .75);
+}
+
 .gallery-banner-img{
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -56,6 +60,7 @@ ul li a{
   font-weight: 100;
   font-size: 2rem;
   padding: 4rem 0;
+  color: rgba(0, 0, 0, 0.65);
   position: relative;
   text-align: center;
 }
@@ -74,17 +79,48 @@ ul li a{
 }
 
 .portraits-gallery{
-  width: calc(100% - 1rem);
-  margin: 1rem auto;
-  padding: 0 3rem;
-  columns: 2;
-  column-gap: 10px;
+  width: 100%;
+  border: none;
+  margin-left: auto;
+  padding-left: 0;
+  margin-right: auto;
+  padding: 2rem;
+  /* background-color: rgba(247, 247, 247, .75); */
+}
+
+
+img{
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.odd{
+  padding-right: 12px !important;
+    padding-left: 0px !important;
+}
+.even{
+  padding-right: 0px !important;
+    padding-left: 12px !important;
 }
 
 .row{
-  margin-bottom: 10px;
+  width: 50%;
+  float: left;
+  padding-bottom: 18px !important;
 }
 
+
+.landscape{
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 15px !important;
+
+}
 
 .image-container .box{
   width: 100%;
@@ -190,6 +226,12 @@ input[type=checkbox]:checked ~ label > img {
   cursor: zoom-out;
 }
 
+.footer{
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 
 /* xs */
@@ -206,19 +248,27 @@ input[type=checkbox]:checked ~ label > img {
 /* md */
 @media (min-width: 768px) {
   .portraits-gallery{
-    margin: 1rem auto;
-    padding: 0 4rem;
-    columns: 3;
-    column-gap: 10px;
+    width: 100%;
+    border: none;
+    margin-left: auto;
+    padding-left: 0;
+    margin-right: auto;
+    padding: 4rem;
   }
 
-  .row{
-    margin-bottom: 10px;
-  }
 }
 
 /* Lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .portraits-gallery{
+    width: 100%;
+    border: none;
+    margin-left: auto;
+    padding-left: 0;
+    margin-right: auto;
+    padding: 6rem;
+  }
+}
 
 /* xL */
 /* @media (min-width: 1288px) {} */

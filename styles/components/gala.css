@@ -31,6 +31,10 @@ ul li a{
   fill: black;
 }
 
+.gallery-banner{
+  background-color: rgba(247, 247, 247, .75);
+}
+
 .gallery-banner-img{
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -80,7 +84,8 @@ ul li a{
   margin-left: auto;
   padding-left: 0;
   margin-right: auto;
-  padding: 4rem;
+  padding: 2rem;
+  /* background-color: rgba(247, 247, 247, .75); */
 }
 
 
