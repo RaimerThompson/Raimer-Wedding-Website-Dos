@@ -107,8 +107,9 @@
 }
 
 .header__link{
-  padding-right: 6px;
-  padding-top: .75rem;
+  padding-right: 7px;
+  /* padding-top: .75rem; */
+  padding-top: .05rem;
   color: black;
   font-weight: 400;
 }
@@ -536,7 +537,7 @@
   }
 
   .header__link{
-    padding-top: 2.1rem;
+    padding-top: 2rem;
     color: white;
     font-weight: 400;
   }

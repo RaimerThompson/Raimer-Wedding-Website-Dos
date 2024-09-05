@@ -20,6 +20,7 @@
   fill: white;
 }
 
+
 .info-banner-img{
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -140,7 +141,7 @@
 .info-pricing{
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: top;
   /* border: 2px dotted red; */
   padding-bottom: 6rem;
@@ -148,9 +149,7 @@
   background-color: rgba(247, 247, 247, .5);
 }
 
-.info-switch{
-  flex-direction: row-reverse;
-}
+
 
 .last-switch{
   padding-bottom: 0;
@@ -167,6 +166,10 @@
   width: 100%;
   object-fit: cover;
   object-position: 60% 0%;
+}
+
+.img3{
+  object-position: 20% 20%;
 }
 
 .price-div{
@@ -426,6 +429,20 @@ svg{
     font-family: Custy;
   }
 
+  .info-pricing{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: top;
+    /* border: 2px dotted red; */
+    padding-bottom: 6rem;
+    position: relative;
+    background-color: rgba(247, 247, 247, .5);
+  }
+  
+  .info-switch{
+    flex-direction: row-reverse;
+  }
 
 }
 

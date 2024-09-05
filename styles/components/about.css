@@ -342,6 +342,13 @@
 
 /* md */
 @media (min-width: 768px) {
+
+  .header__link{
+    /* padding-top: .75rem; */
+    padding-top: .05rem;
+  }
+  
+
   .about2-span{
     top: -21rem;
     left: 2rem;
