@@ -63,6 +63,17 @@ ul li a{
   text-align: center;
 }
 
+.gallery-banner-subtitle{
+  letter-spacing: 6px;
+  font-family: Custy;
+  font-weight: 100;
+  font-size: 3.25rem;
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 3rem;
+  text-align: center;
+}
+
 .gallery-1{
   display: flex;
   width: 200px;
