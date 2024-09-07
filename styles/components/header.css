@@ -22,24 +22,27 @@ ul li{
 .dropdown li{
   float: none;
   width: 100%;
+  display: block;
 }
 
 .dropdown{
   width: auto;
-  position: absolute;
+  position: relative;
   z-index: 999;
-  visibility: hidden;
+  visibility: visible;
+  display: none;
   /* top: 4rem; */
-  right: 7rem;
   text-align: center;
   background-color: transparent;
-  opacity: 0;
+  opacity: 1;
   padding-top: 4px;
 }
+
 
 .gal:hover  ul{
   visibility: visible;
   opacity: 1;
+  display: block;
 }
 
 
@@ -230,6 +233,27 @@ ul li{
 
 /* md */
 @media (min-width: 768px) {
+
+  
+.dropdown{
+  width: auto;
+  position: absolute;
+  z-index: 999;
+  visibility: hidden;
+  /* top: 4rem; */
+  display: initial;
+  right: 7rem;
+  text-align: center;
+  background-color: transparent;
+  opacity: 0;
+  padding-top: 4px;
+}
+
+.gal:hover  ul{
+  visibility: visible;
+  opacity: 1;
+}
+
 
   .header__link{
     padding-top: initial;
