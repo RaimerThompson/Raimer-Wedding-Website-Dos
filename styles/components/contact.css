@@ -35,8 +35,8 @@
   letter-spacing: 1px;
   position: relative;
   bottom: -2rem;
-  background: url(/img/Weddings/wed32.jpg);
-  background-position:center bottom 10%;
+  background: url(/img/Weddings/wed101.jpg);
+  background-position:center bottom 25%;
   background-size: cover;
   /* background-attachment: fixed; */
   max-width: 2624px;
@@ -62,14 +62,14 @@
   z-index: 101;
   position: relative;
   padding: 4rem 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .contact-text h1{
   letter-spacing: 4px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 
@@ -84,16 +84,187 @@
   background-color: rgba(247, 247, 247, .85);
   position: relative;
   z-index: 101;
-  padding: 4rem;
+  padding: 1.5rem;
 }
 
-.contact-container p{
+/* .contact-container p{
   background-color: white;
   padding: 2rem;
+} */
+
+
+.contact__mail{
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto ;
+  flex: 1;
+  /* border: 3px dotted orange; */
+  width: 80%;
 }
 
+.contact__form,
+.contact__group{
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.contact__group{
+  display: flex;
+  gap: 2rem;
+}
+
+.contact__form{
+  position: relative;
+}
+
+.contact__box{
+  position: relative;
+  width: 100%;
+  height: 58px;
+}
+
+.contact__input,
+.contact__button{
+  outline: none;
+  border: none;
+}
+
+.contact__input{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  border-bottom: 1.25px solid rgb(210, 150, 150, .4);
+  color: rgb(0, 0, 0);
+  padding: 1rem .5rem;
+  transition: border .2s, background-color .2s;
+}
+
+.contact__input:hover{
+  border-bottom: 1px solid rgb(210, 200, 200);
+}
+
+/* .contact__input::placeholder{
+  transition: opacity 1s; 
+} */
+
+.contact__input:focus{
+  border-bottom: 1px solid rgb(210, 200, 200);
+  transition: 10ms ;
+}
+
+.contact__input:-webkit-autofill{
+  transition: background-color 6000s, color 6000s;
+}
+
+.contact__label{
+  position: absolute;
+  top: -16px;
+  left: 0;
+  /* color: rgb(99, 99, 99); */
+  color: rgb(0, 0, 0);
+  font-size: var(--size-sm);
+  pointer-events: none;
+  transition: top .4s, opacity .4s, background-color .4s;
+  opacity: 1;
+}
+
+.contact__form .contact__area{
+  height: 8rem;
+}
+
+.contact__area textarea{
+  resize: none;
+  padding-top: 1rem;
+}
+
+.contact-button{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-weight: 100;
+  letter-spacing: 1px;
+  transition: color 350ms ease, background-color 350ms ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -2rem;
+}
+
+.contact-button:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.contact__input::placeholder{
+  opacity: 0;
+}
+
+/* Hide placeholder */
+.contact__input:focus::placeholder{
+  opacity: 0;
+}
+
+/* Move Label after typing*/
+.contact__input:focus + .contact__label,
+.contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label{
+  opacity: 1;
+  top: -16px
+}
+
+.contact__message{
+  color: black;
+  font-size: .9rem;
+  position: absolute;
+  bottom: 6rem;
+  left: 50%;
+  width: 250px;
+  text-align: center;
+  transform: translateX(-50%);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contact__message2{
+  color: black;
+  font-size: .9rem;
+  position: absolute;
+  bottom: 6rem;
+  left: 50%;
+  width: 250px;
+  text-align: center;
+  transform: translateX(-50%);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contact__message3{
+  color: black;
+  font-size: .9rem;
+  position: absolute;
+  bottom: 6rem;
+  left: 50%;
+  width: 250px;
+  text-align: center;
+  transform: translateX(-50%);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
 /* Mobile */
-/* @media (min-width: 325px) {} */
+@media (min-width: 330px) {
+  .contact-container{
+    background-color: rgba(247, 247, 247, .85);
+    position: relative;
+    z-index: 101;
+    padding: 4rem;
+  }
+}
 
 /* xs */
 /* @media (min-width: 475px) {} */
@@ -137,6 +308,13 @@
     opacity: 1;
     filter: grayscale(0%);
   } */
+
+  .contact-container{
+    background-color: rgba(247, 247, 247, .85);
+    position: relative;
+    z-index: 101;
+    padding: 4rem;
+  }
 
 }
 
