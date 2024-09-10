@@ -1,4 +1,6 @@
 const faqs = document.querySelectorAll('.faq-div');
+const contactForm = document.getElementById('contact-form'),
+contactMessage = document.getElementById('contact-message')
 
 faqs.forEach(faq =>{
   faq.addEventListener("click", ()=>{
@@ -16,8 +18,7 @@ if (window.scrollY > 592) {
 }
 })
 
-const contactForm = document.getElementById('contact-form'),
-      contactMessage = document.getElementById('contact-message')
+
 
 const sendEmail = (e) =>{
   e.preventDefault()
