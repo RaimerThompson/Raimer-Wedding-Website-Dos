@@ -1,6 +1,6 @@
 const faqs = document.querySelectorAll('.faq-div');
 const contactForm = document.getElementById('contact-form'),
-contactMessage = document.getElementById('contact-message')
+const contactMessage = document.getElementById('contact-message')
 
 faqs.forEach(faq =>{
   faq.addEventListener("click", ()=>{
