@@ -24,6 +24,9 @@ const sendEmail = (e) =>{
   })
 }
 
+contactForm.addEventListener('submit', sendEmail);
+
+
 
 // Vs4d0AsUtYr3Zbvh_
 
