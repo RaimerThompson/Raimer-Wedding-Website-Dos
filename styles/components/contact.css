@@ -85,7 +85,7 @@
   background-color: rgba(247, 247, 247, .85);
   position: relative;
   z-index: 101;
-  padding: 1.5rem;
+  padding: 4rem 0rem;
 }
 
 /* .contact-container p{
@@ -167,6 +167,10 @@
   pointer-events: none;
   transition: top .4s, opacity .4s, background-color .4s;
   opacity: 1;
+  /* width: 200px; */
+  letter-spacing: 1px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
 }
 
 .contact__form .contact__area{
@@ -219,14 +223,15 @@
 
 .contact__message{
   color: black;
-  font-size: .9rem;
+  font-size: 2.5rem;
   position: absolute;
-  bottom: 6rem;
+  bottom: -5rem;
   left: 50%;
   width: 250px;
   text-align: center;
   transform: translateX(-50%);
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: Custy;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -263,7 +268,7 @@
     background-color: rgba(247, 247, 247, .85);
     position: relative;
     z-index: 101;
-    padding: 4rem;
+    padding: 4rem 1rem;
   }
 }
 

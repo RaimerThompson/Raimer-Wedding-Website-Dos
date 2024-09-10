@@ -9,7 +9,7 @@ const sendEmail = (e) =>{
   emailjs.sendForm('service_kmv559q', 'template_xnu3zqy', '#contact-form', 'IM4aNjqZUrkU_qI4S')
     .then(() =>{
   //show sent message 
-    contactMessage.textContent = 'Thanks for submitting!✅'
+    contactMessage.textContent = 'Thanks for Submitting!'
 
   //remove message after 2 seconds
   setTimeout(() => {
