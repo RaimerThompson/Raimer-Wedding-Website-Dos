@@ -98,6 +98,15 @@ ul li a{
   /* background-color: rgba(247, 247, 247, .75); */
 }
 
+.gallery-title-text{
+  font-weight: 100;
+}
+
+.gallery-title-subtext{
+  font-weight: 100;
+  font-size: 12px;
+}
+
 
 img{
   border: none;
