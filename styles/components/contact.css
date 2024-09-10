@@ -55,6 +55,7 @@
   transform: translateX(-50%);
   color: black;
   font-family: Custy;
+  width: 235px;
   z-index: 101;
 }
 

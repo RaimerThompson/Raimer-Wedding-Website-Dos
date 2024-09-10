@@ -23,7 +23,7 @@ const sendEmail = (e) =>{
   e.preventDefault()
 
    // serviceID - templateID - #form - publicKey 
-  emailjs.sendForm('service_kmv559q', 'template_xnu3zqy', '#contact-form', 'Vs4d0AsUtYr3Zbvh_')
+  emailjs.sendForm('service_kmv559q', 'template_xnu3zqy', '#contact-form', 'IM4aNjqZUrkU_qI4S')
     .then(() =>{
   //show sent message 
     contactMessage.textContent = 'Thanks for submitting!✅'
@@ -41,5 +41,7 @@ const sendEmail = (e) =>{
   })
 }
 
+
+// Vs4d0AsUtYr3Zbvh_
 
 
