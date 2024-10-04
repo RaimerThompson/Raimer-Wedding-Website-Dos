@@ -54,3 +54,28 @@
   let timer = setInterval(autoPlay, 4000);
   ;
   
+const sliders = document.querySelector(".home-cat-slideshow").children;
+const slideTime = 2000;
+let firstIndex = 0;
+
+function slideShow(){
+  for (let i = 0; i <sliders.length; i++){
+  sliders[i].classList.remove("item-active")
+
+  }
+
+  sliders[firstIndex].classList.add("item-active")
+  if(firstIndex == sliders.length -1){
+    firstIndex = 0
+  }else{
+    firstIndex++
+  }
+
+  setTimeout(() =>{
+    slideShow();
+  }, slideTime)
+}
+
+window.onload = () => {
+  slideShow()
+}
