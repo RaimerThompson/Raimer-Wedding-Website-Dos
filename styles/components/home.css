@@ -153,6 +153,13 @@
   object-fit: cover;
 }
 
+.flip{
+  transform: rotatey(180deg);
+  position: relative;
+  display: inline-block;
+  
+}
+
 .img1{
   object-position: 40% 15%;
 }
@@ -440,10 +447,16 @@ right: 5%;
   font-size: 2.5rem;
   position: absolute;
   width: 200px;
-  top: 1rem;
-  left: 2rem;
+  top: -16rem;
+  left: -6rem;
   font-weight: 100;
   flex-wrap: wrap;
+}
+
+.cat-text span{
+  position: relative;
+  bottom: .75rem;
+  right: 2px;
 }
 
 .item{
