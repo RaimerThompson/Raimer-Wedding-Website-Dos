@@ -120,6 +120,11 @@
   left: 0;
   right: 0;
   top: 0;
+  display: none;
+}
+
+.home-banner.slide-active{
+  display: flex;
 }
 
 .home-banner-img-div{
@@ -130,7 +135,7 @@
   font-weight: 100;
   letter-spacing: 1px;
   position: relative;
-  background: url(/img/CTG-News3.jpg);
+  /* background: url(/img/CTG-News3.jpg); */
   background-position: center right 40%;
   background-size: cover;
   max-width: 2624px;
@@ -138,8 +143,24 @@
   height: 100vh;
   top: 0;
   opacity: 1;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   object-fit: cover;
+}
+
+.home-banner-img-div img{
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img1{
+  object-position: 10% 15%;
+}
+.img2{
+  object-position: 50% 15%;
+}
+.img3{
+  object-position: 30% 95%;
 }
 
 .home-banner-text{
@@ -295,7 +316,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
-  height: 85vh;
+  /* height: 85vh; */
   scroll-behavior: smooth;
 }
 
@@ -316,7 +337,7 @@
 .carousel img{
   height: 340px;
   object-fit: cover;
-  width: calc(100% / 3);
+  width: calc(100% / 1);
   margin-left: 14px;
 }
 
@@ -479,8 +500,18 @@ right: 5%;
   flex-direction: column;
 }
 
+.contact-text{
+  font-family: Custy;
+  color: black;
+  font-size: 2.25rem;
+  position: relative;
+  top: 3rem;
+  left: 50%;
+  z-index: 20;
+}
+
 .contact-img{
-  object-fit: cover;
+  object-fit: cover ;
   width: 100%;
   height: 100%;
   filter: grayscale(100%);
@@ -574,7 +605,7 @@ right: 5%;
     font-weight: 100;
     letter-spacing: 1px;
     position: relative;
-    background: url(/img/CTG-News3.jpg);
+    /* background: url(/img/CTG-News3.jpg); */
     background-position: bottom 18% center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -583,7 +614,7 @@ right: 5%;
     height: 100vh;
     top: 0;
     opacity: 1;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
 
   
