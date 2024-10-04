@@ -288,18 +288,133 @@
   font-size: 1.25rem;
 }
 
+.wrapper{
+  /* max-width: 600px; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  height: 85vh;
+  scroll-behavior: smooth;
+}
+
+.wrapper .carousel{
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel.dragging img{
+  pointer-events: none;
+}
+
+.carousel img{
+  height: 340px;
+  object-fit: cover;
+  width: calc(100% / 3);
+  margin-left: 14px;
+}
+
+.carousel img:first-child{
+  margin-left: 0px;
+}
+
 .home-categories{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column;
-  gap: 3rem;
+  /* flex-direction: row; */
   padding: 6rem 1rem 10rem 1rem;
   background-color: rgba(247, 247, 247, .5);
   position: relative;
+  overflow: hidden;
+  margin-bottom: 4rem;
+  /* height: 75vh; */
 }
 
-.home-categories div{
+.home-hero{
+  /* margin-top: 4rem; */
+  /* overflow: hidden; */
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 75vh;
+  margin-bottom: 2rem;
+}
+
+.home-slider{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.home-slide img{
+  object-fit: cover;
+  width: 240px;
+  height: 370px;
+}
+
+.home-slide{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 360px;
+  height: 100%;
+  background-size: cover;
+  background-position: center 40%;
+  display: none;
+  margin-top: .6rem;
+}
+
+.home-slide.slide-active{
+  display: flex;
+}
+
+.home-prev,
+.home-next{
+  position: absolute;
+  bottom: 3rem;
+  z-index: 2;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: rgb(100, 100, 100);
+  line-height: 1.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-prev:hover,
+.home-next:hover{
+  opacity: .8;
+}
+
+.home-prev:active,
+.home-next:active{
+  opacity: .8;
+  color: black;
+}
+.home-prev{
+left: 5%
+}
+
+.home-next{
+right: 5%;
+}
+
+.home-categories{
+  position: relative;
+}
+
+/* .home-categories div{
   position: relative;
 }
 
@@ -330,7 +445,7 @@
 
 .home-categories div img:hover+.home-cat-innertext{
   display: block;
-}
+} */
 
 .home-cat-img{
   width: 320px;
@@ -339,6 +454,8 @@
 }
 
 .home-cat-button{
+  position: absolute;
+  bottom: 0;
   padding: 1rem 2rem;
   font-size: 1rem;
   background-color: white;
@@ -519,13 +636,12 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    gap: 1rem;
   }
 
-  .home-cat-button{
+  /* .home-cat-button{
     position: absolute;
     bottom: 2.5rem;
-  }
+  } */
 
   .home-contact div{
     height: 420px;
