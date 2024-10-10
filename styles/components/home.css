@@ -153,13 +153,6 @@
   object-fit: cover;
 }
 
-.flip{
-  transform: rotatey(180deg);
-  position: relative;
-  display: inline-block;
-  
-}
-
 .img1{
   object-position: 40% 15%;
 }
