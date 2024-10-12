@@ -452,6 +452,30 @@ right: 5%;
   right: 2px;
 }
 
+.cat-text-container2{
+  background-color: white;
+  position: relative;
+}
+
+.cat-text2{
+  font-family: Custy;
+  font-size: 2.5rem;
+  position: absolute;
+  width: 200px;
+  bottom: -20rem;
+  left: -49rem;
+  font-weight: 100;
+  flex-wrap: wrap;
+}
+
+.cat-text2 span{
+  position: relative;
+  bottom: .75rem;
+  right: 2px;
+}
+
+
+
 .item{
   display: none;
 }
