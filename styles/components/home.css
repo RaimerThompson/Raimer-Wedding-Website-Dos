@@ -140,7 +140,8 @@
   background-size: cover;
   max-width: 2624px;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100svh;
   top: 0;
   opacity: 1;
   /* filter: grayscale(100%); */
