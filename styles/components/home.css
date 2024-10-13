@@ -222,7 +222,7 @@
 
 .name-ray{
   font-family: Custy;
-  font-size: 4rem;
+  font-size: 2.75rem;
   position: relative;
   top: 6px;
 }
@@ -244,11 +244,11 @@
 }
 
 .home-title-subline{
-  font-family: "Varela Round", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 400;
   margin-bottom: 1rem;
   position: relative;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .home-title-subtext-div{
@@ -257,6 +257,7 @@
 }
 
 .home-title-subtext{
+  font-family: "Lora", serif;
   line-height: 2rem;
   letter-spacing: .5px;
   font-size: 1rem;
@@ -589,8 +590,7 @@ right: 5%;
 @media(min-width: 475px){
 
   .home-title-subline{
-    font-size: 24px;
-  font-family: "Varela Round", sans-serif;
+    font-size: 16px;
 
   }
 
@@ -746,12 +746,8 @@ right: 5%;
 
   .cat-text{
     display: block;
+    left: -6.8rem;
   }
-
-  /* .home-cat-button{
-    position: absolute;
-    bottom: 2.5rem;
-  } */
 
   .home-contact div{
     height: 420px;
@@ -810,6 +806,13 @@ right: 5%;
 }
 }
 @media(min-width: 1024px){
+
+  .cat-text{
+    display: block;
+    left: -5rem;
+  }
+
+
   .cat-text2{
     display: block;
   }

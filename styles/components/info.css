@@ -1,7 +1,8 @@
 #nav{
   display: flex;
   justify-content: space-between;
-  position: absolute; 
+  /* position: absolute;  */
+  position: inherit; 
   align-items: center;
   top: 0;
   right: 0;
@@ -13,11 +14,11 @@
 }
 
 .header__logo{
-  color: white;
+  color: black;
 }
 
 .hamburger__btn{
-  fill: white;
+  fill: black;
 }
 
 
@@ -34,8 +35,8 @@
   background-position:center bottom 90%;
   background-size: cover;
   max-width: 2624px;
-  height: 95vh;
-  height: 95svh;
+  height: 70vh;
+  height: 70svh;
   top: 0;
   opacity: 1;
   /* filter: grayscale(82%); */
@@ -45,7 +46,7 @@
   position: absolute;
   font-size: 3rem;
   bottom: -3.5rem;
-  left: 1rem;
+  right: 8px;
   color: black;
   font-family: Custy;
 }
@@ -398,7 +399,7 @@ svg{
     scroll-behavior: smooth;
   } 
 
-  #nav{
+  /* #nav{
     display: flex;
     justify-content: space-between;
     position: fixed; 
@@ -410,13 +411,13 @@ svg{
     padding: 1rem;
     margin-bottom: .85rem;
     transition: background-color .4s ease-in-out; 
-  }
+  } */
 
   .header__logo{
-    color: white;
+    color: black;
   }
 
-  .info-banner-img{
+  /* .info-banner-img{
     color: rgba(0, 0, 0, 0.8);
     text-align: center;
     font-family: Custom;
@@ -429,7 +430,7 @@ svg{
     background-position:center bottom 78%;
     background-size: cover;
     max-width: 2624px;
-    height: 100vh;
+    height: 70vh;
     top: 0;
     opacity: 1;
     filter: grayscale(0%);
@@ -441,9 +442,9 @@ svg{
     bottom: .5rem;
     left: initial;
     right: 2rem;
-    color: white;
+    color: black;
     font-family: Custy;
-  }
+  } */
 
   .info-approach-text{
     padding: 0;
