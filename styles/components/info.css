@@ -34,7 +34,7 @@
   background-position:center bottom 90%;
   background-size: cover;
   max-width: 2624px;
-  height: 90vh;
+  height: calc(90dvh - calc(90dvh - 100%));
   top: 0;
   opacity: 1;
   /* filter: grayscale(82%); */
