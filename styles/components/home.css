@@ -220,6 +220,14 @@
   max-width: 280px;
 }
 
+.and{
+  position: relative;
+  right: 2px;
+  top: 8px;
+  font-family: Custy;
+  font-size: 3rem;
+}
+
 .name-ray{
   font-family: Custy;
   font-size: 2.75rem;
@@ -746,7 +754,7 @@ right: 5%;
 
   .cat-text{
     display: block;
-    left: -6.8rem;
+    left: -7.25rem;
   }
 
   .home-contact div{
