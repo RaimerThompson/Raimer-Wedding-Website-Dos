@@ -589,7 +589,7 @@ right: 5%;
 }
 
 .mission-div{
-  padding: 4rem;
+  padding: 3rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -604,7 +604,7 @@ right: 5%;
   z-index: 20;
   text-align: center;
   background-color: white;
-  padding: 2.85rem;
+  padding: 1.5rem;
   line-height: 2.5rem;
   border: .25px solid black;
   border-radius: 2px;
@@ -782,6 +782,15 @@ right: 5%;
     display: block;
     left: -7.25rem;
   }
+
+  .mission-div{
+    padding: 4rem;
+  }
+
+  .mission-text{
+    padding: 2.85rem;
+  }
+  
 
   .home-contact div{
     height: 420px;
