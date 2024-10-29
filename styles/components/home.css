@@ -546,6 +546,20 @@ right: 5%;
   z-index: 20;
 }
 
+.contact-text-corner{
+  font-family: Custy;
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  position: absolute;
+  bottom: -3rem;
+  left: 1rem;
+  /* letter-spacing: 5px; */
+  max-width: 760px;
+  z-index: 20;
+  text-align: center;
+}
+
 .contact-img{
   object-fit: cover ;
   width: 100%;

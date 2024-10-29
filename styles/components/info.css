@@ -31,8 +31,8 @@
   letter-spacing: 1px;
   position: relative;
   bottom: -2rem;
-  background: url(/img/Weddings/wed300.jpg);
-  background-position:center bottom 90%;
+  background: url(/img/Weddings/wed306.jpg);
+  background-position:center bottom 35%;
   background-size: cover;
   max-width: 2624px;
   height: 70vh;
@@ -426,7 +426,6 @@ svg{
     position: relative;
     bottom: -2rem;
     background: url(/img/Weddings/wed300.jpg);
-    background-position:center bottom 78%;
     background-size: cover;
     max-width: 2624px;
     height: 70vh;
@@ -434,6 +433,7 @@ svg{
     opacity: 1;
     filter: grayscale(0%);
   }
+  
 
   .info-banner-text{
     position: absolute;
