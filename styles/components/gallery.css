@@ -416,8 +416,8 @@ input[type=checkbox]:checked ~ label > img {
   grid-row-start: span 2;
 }
 .work__photo:nth-child(25){
-  grid-column-start: span 1;
-  grid-row-start: span 1;
+  grid-column-start: span 4;
+  grid-row-start: span 2;
 }
 
 
