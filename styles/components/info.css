@@ -38,7 +38,7 @@
   height: 70vh;
   top: 0;
   opacity: 1;
-  /* filter: grayscale(82%); */
+  filter: saturate(85%);
 }
 
 .info-banner-text{
