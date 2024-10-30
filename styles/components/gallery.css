@@ -419,6 +419,22 @@ input[type=checkbox]:checked ~ label > img {
   grid-column-start: span 4;
   grid-row-start: span 2;
 }
+.work__photo:nth-child(26){
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+.work__photo:nth-child(27){
+  grid-column-start: span 2;
+  grid-row-start: span 1;
+}
+.work__photo:nth-child(28){
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+.work__photo:nth-child(29){
+  grid-column-start: span 2;
+  grid-row-start: span 1;
+}
 
 
 

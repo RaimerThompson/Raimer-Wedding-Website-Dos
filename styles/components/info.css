@@ -197,6 +197,7 @@
   font-weight: 400;
   font-family: "Lora", serif;
   font-size: 16px;
+
 }
 
 .price-title{
@@ -572,7 +573,7 @@ svg{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 1.5rem;
+  bottom: 0rem;
 }
 
 .price-button:hover{
