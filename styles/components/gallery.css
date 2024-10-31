@@ -412,6 +412,7 @@ input[type=checkbox]:checked ~ label > img {
 .work__photo:nth-child(21){
   grid-column-start: span 3;
   grid-row-start: span 2;
+  display: none;
 }
 .work__photo:nth-child(22){
   grid-column-start: span 2;
@@ -427,7 +428,7 @@ input[type=checkbox]:checked ~ label > img {
   grid-row-start: span 2;
 }
 .work__photo:nth-child(25){
-  grid-column-start: span 4;
+  grid-column-start: span 2;
   grid-row-start: span 2;
 }
 .work__photo:nth-child(26){
@@ -437,6 +438,7 @@ input[type=checkbox]:checked ~ label > img {
 .work__photo:nth-child(27){
   grid-column-start: span 2;
   grid-row-start: span 1;
+  display: none;
 }
 .work__photo:nth-child(28){
   grid-column-start: span 2;
