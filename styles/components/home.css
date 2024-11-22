@@ -10,6 +10,7 @@
   padding: 1rem;
   margin-bottom: .85rem;
   transition: background-color .4s ease-in-out;
+  background-color: transparent;
 }
 
 .hamburger__btn{

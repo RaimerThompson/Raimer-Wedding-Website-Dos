@@ -43,6 +43,7 @@ html {
 body {
   font-family: "Lora", serif;
   color: black;
+  background-color: rgb(245, 245, 245);
 }
 
 a{

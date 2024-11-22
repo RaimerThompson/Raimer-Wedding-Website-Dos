@@ -9,7 +9,7 @@
   left:0;
   z-index: 100;
   padding: 1rem;
-  margin-bottom: .85rem;
+  /* margin-bottom: .85rem; */
   transition: background-color .4s ease-in-out; 
 }
 
@@ -35,7 +35,7 @@
   background-position:center bottom 72%;
   background-size: cover;
   max-width: 2624px;
-  height: 70vh;
+  height: 75vh;
   top: 0;
   opacity: 1;
   filter: saturate(90%);

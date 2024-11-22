@@ -8,7 +8,7 @@
   left:0;
   z-index: 10;
   padding: 1rem;
-  margin-bottom: .85rem;
+  /* margin-bottom: .85rem; */
   transition: background-color .4s ease-in-out; 
 }
 
@@ -35,12 +35,12 @@
   letter-spacing: 1px;
   position: relative;
   bottom: -2rem;
-  background: url(/img/Weddings/wed305.jpg);
-  background-position:center bottom 40%;
+  background: url(/img/Weddings/wed12.jpg);
+  background-position:center bottom 55%;
   background-size: cover;
   /* background-attachment: fixed; */
   max-width: 2624px;
-  height: 70vh;
+  height: 75vh;
   top: 0;
   opacity: 1;
   /* filter: grayscale(100%); */
@@ -50,9 +50,8 @@
 .contact-banner-text{
   position: absolute;
   font-size: 3.25rem;
-  bottom: -4rem;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: -3.5rem;
+  right: 2px;
   color: black;
   font-family: Custy;
   width: 235px;
