@@ -51,7 +51,7 @@
   position: absolute;
   font-size: 3.25rem;
   bottom: -3.5rem;
-  right: 2px;
+  right: 0;
   color: black;
   font-family: Custy;
   width: 235px;
@@ -105,7 +105,7 @@
 .contact__form,
 .contact__group{
   display: grid;
-  row-gap: 1.5rem;
+  row-gap: 2.5rem;
 }
 
 .contact__group{
@@ -132,23 +132,24 @@
 .contact__input{
   position: absolute;
   width: 100%;
-  height: 50%;
-  border-bottom: 1.25px solid rgb(210, 150, 150, .4);
+  height: 70%;
+  /* border-bottom: 1.25px solid rgb(210, 150, 150, .4); */
   color: rgb(0, 0, 0);
   padding: 1rem .5rem;
+  border: 1px solid rgba(85, 85, 85, 0.5);
   transition: border .2s, background-color .2s;
 }
 
-.contact__input:hover{
+/* .contact__input:hover{
   border-bottom: 1px solid rgb(210, 200, 200);
-}
+} */
 
 /* .contact__input::placeholder{
   transition: opacity 1s; 
 } */
 
 .contact__input:focus{
-  border-bottom: 1px solid rgb(210, 200, 200);
+  /* border-bottom: 1px solid rgb(210, 200, 200); */
   transition: 10ms ;
 }
 
@@ -158,7 +159,7 @@
 
 .contact__label{
   position: absolute;
-  top: -16px;
+  top: -26px;
   left: 0;
   /* color: rgb(99, 99, 99); */
   color: rgb(0, 0, 0);
@@ -170,6 +171,7 @@
   letter-spacing: 1px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .contact__form .contact__area{
@@ -217,7 +219,7 @@
 .contact__input:focus + .contact__label,
 .contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label{
   opacity: 1;
-  top: -16px
+  top: -22.5px
 }
 
 .contact__message{
