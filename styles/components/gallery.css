@@ -263,12 +263,6 @@ input[type=checkbox]:checked ~ label > img {
   cursor: zoom-out;
 }
 
-.footer{
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 
 .work{
@@ -290,6 +284,7 @@ input[type=checkbox]:checked ~ label > img {
 
 .work__gallery{
   margin-top: 2.5rem;
+  margin-bottom: 4rem;
 }
 
 /* .work__gallery{
