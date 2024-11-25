@@ -91,11 +91,10 @@
   transition: .5s ease-in-out;
 }
 
-.active{
+/* .active{
   font-weight: 600;
   opacity: 1;
-  /* color: black; */
-}
+} */
 
 
 .head{
@@ -186,9 +185,9 @@
   letter-spacing: 3px;
   min-width: 260px ;
   text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 1rem;
+  transform: rotate(-90deg);
+  bottom: 10rem;
+  right: -8rem;
 }
 
 .banner-span{
