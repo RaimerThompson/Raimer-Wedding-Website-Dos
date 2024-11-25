@@ -167,23 +167,37 @@
 
 .home-banner-text{
   position: absolute;
-  bottom: 1rem;
-  left: 1rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
   font-family: "Varela Round", sans-serif;
   font-size: 1.5rem;
   color: white;
   letter-spacing: 5px;
-  max-width: 360px ;
+  max-width: 300px ;
   text-transform: capitalize;
+}
+
+.home-banner-subtext{
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 3px;
+  min-width: 260px ;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
 }
 
 .banner-span{
   font-family: Custy;
-  font-weight: 400;
-  font-size: 3.5rem;
+  font-weight: 100;
+  font-size: 4rem;
   position: relative;
   top: 10px;
-  left: -4px;
+  left: 17%;
   letter-spacing: initial;
   text-transform: initial;
 }
@@ -206,7 +220,7 @@
 
 .home-title-div{
   display: flex;
-  justify-content: space-;
+  /* justify-content: space-; */
   flex-direction: column;
   align-items: center;
 }
@@ -267,7 +281,7 @@
 
 .home-title-subtext-div{
   background-color: white;
-
+  padding: 2rem;
 }
 
 .home-title-subtext{
@@ -641,7 +655,7 @@ right: 5%;
 
   .home-title-div div{
     flex: 1;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     align-self: inherit;
   }
 
@@ -735,19 +749,19 @@ right: 5%;
   
   .home-banner-text{
     position: absolute;
-    bottom: 4.5rem;
-    left: 4.75rem;
     font-family: "Varela Round", sans-serif;
     font-size: 1.5rem;
     color: white;
     letter-spacing: 5px;
-    max-width: 320px ;
+    max-width: 360px ;
     text-align: center;
   }
+
 
   .banner-span{
     font-size: 4.5rem;
     top: 14px;
+    left: 0;
   }
 
   .home-title-text{
@@ -763,7 +777,7 @@ right: 5%;
 
   .home-title-div div{
     flex: 1;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     align-self: flex-start;
   }
 
