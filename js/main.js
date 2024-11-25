@@ -33,7 +33,7 @@
       index++
     }
     changeSlide();
-  clearInterval(timer)
+  // clearInterval(timer)
 
   }
   
@@ -46,7 +46,7 @@
   
   function resetTimer(){
     clearInterval(timer);
-    // timer = setInterval(autoPlay, 4000);
+    timer = setInterval(autoPlay, 4000);
   }
   
   function autoPlay(){
