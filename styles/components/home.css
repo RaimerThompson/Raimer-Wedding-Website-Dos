@@ -219,6 +219,11 @@
 
 .home-title-img{
   max-width: 280px;
+  border: 10px solid white;
+}
+.home-title-img{
+  max-width: 280px;
+  border: 10px solid white;
 }
 
 .and{
@@ -520,7 +525,7 @@ right: 5%;
   color: black;
   font-family: "Varela Round", sans-serif;
   border-radius: 4px;
-  border: 1px solid black;
+  border: 1px solid darkgray;
   font-weight: 100;
   letter-spacing: 1px;
   transition: color 350ms ease, background-color 350ms ease-in-out;
@@ -607,7 +612,7 @@ right: 5%;
   background-color: white;
   padding: 1.5rem;
   line-height: 2.5rem;
-  border: .25px solid black;
+  border: .25px solid darkgray;
   border-radius: 2px;
   text-transform: uppercase;
   font-size: 13px;
