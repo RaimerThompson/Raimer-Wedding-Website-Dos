@@ -175,9 +175,9 @@ ul li{
   opacity: .5;
 }
 
-.middle{
+/* .middle{
   opacity: 0;
-}
+} */
 
 .hamburger__btn.close .top{
   transform: rotate(45deg) translate(18px, -14px);

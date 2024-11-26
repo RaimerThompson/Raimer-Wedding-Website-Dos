@@ -42,12 +42,12 @@
   opacity: .5;
 }
 
-.middle{
+/* .middle{
   opacity: 0;
-}
+} */
 
 .hamburger__btn.close .top{
-  transform: rotate(45deg) translate(18px, -14px);
+  transform: rotate(45deg) translate(28px, -34px);
 }
 
 .hamburger__btn.close .middle{
@@ -55,7 +55,7 @@
 }
 
 .hamburger__btn.close .bottom{
-  transform: rotate(-45deg) translate(-66px, 5px);
+  transform: rotate(-45deg) translate(-70px, 25px);
 }
 
 #mobile{
@@ -537,7 +537,7 @@ right: 5%;
   background-color: white;
   color: black;
   font-family: "Varela Round", sans-serif;
-  border-radius: 4px;
+  border-radius: 2px;
   border: 1px solid darkgray;
   font-weight: 100;
   letter-spacing: 1px;
@@ -582,11 +582,12 @@ right: 5%;
 .home-contact-button{
   padding: 1rem 1.5rem;
   font-size: 1rem;
-  background-color: rgba(247, 247, 247, .05);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   font-family: "Varela Round", sans-serif;
-  border-radius: 4px;
-  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  /* border: 1px solid whitesmoke; */
+  border: none;
   font-weight: 100;
   position: absolute;
   bottom: 1.25rem;
@@ -598,8 +599,12 @@ right: 5%;
 
 
 .home-contact-button:hover{
-  background-color: black;
-  border: none;
+  /* background-color: white; */
+  background-color: rgba(247, 247, 247, .05);
+  color: white;
+  /* border: none; */
+  border: 1px solid whitesmoke;
+  
 }
 
 .mission{
