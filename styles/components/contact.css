@@ -47,14 +47,26 @@
   z-index: 1;
 }
 
+.contact-banner-subtext{
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  letter-spacing: 3px;
+  min-width: 260px ;
+  text-align: center;
+  /* transform: rotate(-90deg); */
+  bottom: .5rem;
+  left: .5rem;
+}
+
 .contact-banner-text{
   position: absolute;
   font-size: 3.25rem;
   bottom: -3.5rem;
-  right: 0;
+  right: 6px;
   color: black;
   font-family: Custy;
-  width: 235px;
+  /* width: 235px; */
   z-index: 101;
 }
 

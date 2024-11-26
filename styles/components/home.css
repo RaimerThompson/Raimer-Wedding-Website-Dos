@@ -180,23 +180,23 @@
 
 .home-banner-subtext{
   position: absolute;
-  font-size: 10px;
+  font-size: 11px;
   color: white;
   letter-spacing: 3px;
   min-width: 260px ;
   text-align: center;
   transform: rotate(-90deg);
   bottom: 10rem;
-  right: -8rem;
+  right: -8.5rem;
 }
 
 .banner-span{
   font-family: Custy;
   font-weight: 100;
-  font-size: 4rem;
+  font-size: 6rem;
   position: relative;
   top: 10px;
-  left: 17%;
+  left: 4%;
   letter-spacing: initial;
   text-transform: initial;
 }
@@ -768,7 +768,7 @@ right: 5%;
 
 
   .banner-span{
-    font-size: 4.5rem;
+    font-size: 8.5rem;
     top: 14px;
     left: 0;
   }
