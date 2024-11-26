@@ -206,13 +206,68 @@
   <button class="home-cat-button"><a href="gallery.html">SEE MORE WORK</a></button>
 </section> 
 
-<section class="home-contact">
-  <div>
+<!-- <section class="home-contact">
+  <div> -->
+
+    <section class="contact-container">
+      <h4 class="contact-title">Contact</h4>
+      <div class="contact__mail"> 
+          <form action="" class="contact__form" id="contact-form">
+    
+            <div class="contact__group">
+              <div class="contact__box">
+                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                <label for="name" class="contact__label">Your Name*</label>
+              </div>
+            
+    
+              <div class="contact__box">
+                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email*">
+                <label for="email" class="contact__label">Email*</label>
+              </div>
+            </div>
+
+          <div class="contact__group"> 
+    
+            <div class="contact__box">
+              <input type="text" name="user_weddingdate" class="contact__input" id="weddingdate"placeholder="Wedding Date">
+              <label for="weddingdate" class="contact__label">Wedding Date</label>
+            </div>
+    
+            <!-- <div class="contact__box">
+              <input type="text" name="user_count" class="contact__input" id="count"placeholder="Guest Count">
+              <label for="count" class="contact__label">Guest Count</label>
+            </div> -->
+        
+    
+            <div class="contact__box">
+              <input type="text" name="user_weddinglocation" class="contact__input" id="weddinglocation" placeholder="Wedding Location">
+              <label for="weddinglocation" class="contact__label">Wedding Location</label>
+            </div>
+          </div>
+    
+        
+    
+              <div class="contact__box contact__area">
+                <textarea name="user_message" id="message"  class="contact__input" placeholder="Message"></textarea>
+                <label for="message" class="contact__label label-message">Leave a little message... </label>
+              </div>   
+              
+              <p class="contact__message" id="contact-message"></p>
+    
+                <button class="contact-button button btn">
+                  INQUIRE HERE
+                </button>   
+        </form>
+      </div>
+    </section>
+    
+<!-- 
     <span class="contact-text">Mi Casa tu Casa</span>
    <img class="contact-img" src="/img/Families/fam3.jpg" alt="">
     <button class="home-contact-button"><a href="contact.html">INQUIRE HERE</a></button>
   </div>
-</section>
+</section> -->
 
 <section class="mission">
   <div class="mission-div">
@@ -236,7 +291,8 @@
 
     
     <div class="footer__mid">
-      <li class="footer__link"><a href="information.html">INFO</a></li>
+      <li class="footer__link"><a href="information.html">INFORMATION</a></li>
+      <li class="footer__link"><a href="">JOURNAL</a></li>
     </div>
 
     <div class="footer__bottom">
@@ -264,6 +320,16 @@
 <script src="js/header.js"></script>
 <script src="js/popup.js"></script>
 <script src="js/main.js"></script>
+  <!-- Include EmailJS SDK -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <!-- Initialize EmailJS -->
+  <script>
+    emailjs.init("IM4aNjqZUrkU_qI4S");
+  </script>
+  <!-- Your custom JavaScript -->
+  <script src="path/to/your/contact.js"></script>
+<script src="js/contact.js"></script>
+
 
 </body>
 </html>

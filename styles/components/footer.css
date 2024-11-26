@@ -53,13 +53,15 @@
   cursor: pointer;
 }
 
-.footer__bottom,  
+.footer__bottom,
+.footer__mid,  
 .footer__top{
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column;
   gap: 1rem;
+  text-align: center;
 }
+
  
 
 /* xs */
@@ -87,6 +89,7 @@
   }
 
   .footer__bottom,  
+  .footer__mid,
   .footer__top{
   display: flex;
   /* justify-content: space-between; */

@@ -417,11 +417,11 @@ right: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem 1rem 10rem 1rem;
+  padding: 6rem 1rem 11rem 1rem;
   background-color: rgb(245, 245, 245);
   position: relative;
   /* overflow: hidden; */
-  /* margin-bottom: 4rem; */
+  margin-bottom: 4rem;
 }
 
 .home-cat-slider, .home-cat-slider2{
@@ -546,6 +546,7 @@ right: 5%;
   font-weight: 100;
   letter-spacing: 1px;
   transition: color 350ms ease, background-color 350ms ease-in-out;
+
 }
 
 .home-cat-button:hover{
@@ -640,6 +641,154 @@ right: 5%;
   font-size: 13px;
 }
 
+
+.contact-container{
+  position: relative;
+  z-index: 101;
+  padding: 6rem 0rem;
+  background: url(/img/Families/fam3.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.contact-title{
+  font-family: Custy;
+  color: white;
+  font-size: 4.75rem;
+  position: absolute;
+  font-weight: 100;
+  letter-spacing: 2px;
+  top: 1rem;
+  width: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact__mail{
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto ;
+  top: 5rem;
+  flex: 1;
+  width: 92%;
+}
+
+.contact__form,
+.contact__group{
+  display: grid;
+  row-gap: 2.5rem;
+}
+
+.contact__group{
+  display: flex;
+  gap: 2rem;
+}
+
+.contact__form{
+  position: relative;
+}
+
+.contact__box{
+  position: relative;
+  width: 100%;
+  height: 58px;
+}
+
+.contact__input,
+.contact__button{
+  outline: none;
+  border: none;
+}
+
+.contact__input{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  padding: 1rem .5rem;
+  background-color: transparent;
+  /* border: 1px solid rgba(85, 85, 85, 0.5); */
+  transition: border .2s, background-color .2s;
+}
+
+/* .contact__input:hover{
+  border-bottom: 1px solid rgb(210, 200, 200);
+} */
+
+/* .contact__input::placeholder{
+  transition: opacity 1s; 
+} */
+
+.contact__input:focus{
+  /* border-bottom: 1px solid rgb(210, 200, 200); */
+  transition: 10ms ;
+}
+
+.contact__input:-webkit-autofill{
+  transition: background-color 6000s, color 6000s;
+}
+
+.contact__label{
+  position: absolute;
+  top: -26px;
+  left: 0;
+  color: rgba(240, 240, 240, 0.85);
+  /* color: rgb(0, 0, 0); */
+  /* color: white; */
+  pointer-events: none;
+  transition: top .4s, opacity .4s, background-color .4s;
+  opacity: 1;
+  /* width: 200px; */
+  /* letter-spacing: 1px; */
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.contact__form .contact__area{
+  height: 8rem;
+}
+
+.contact__area textarea{
+  resize: none;
+  padding-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.contact-button{
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  background-color: rgba(50, 50, 50, .75);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  font-family: "Varela Round", sans-serif;
+  border-radius: 2px;
+  font-weight: 100;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 1.5px;
+  transition: background-color 350ms ease;
+}
+
+.contact-button:hover{
+  background-color: rgba(0, 0, 0, 0.9);
+  border: none;
+}
+
+
+.contact__input::placeholder{
+  opacity: 0;
+}
+
+/* Hide placeholder */
+.contact__input:focus::placeholder{
+  opacity: 0;
+}
 
 @media(min-width: 330px){
 
@@ -829,6 +978,11 @@ right: 5%;
     padding: 2.85rem;
   }
   
+  .contact-title{
+    font-size: 5rem;
+    left: 1rem;
+    transform: inherit;
+  }
 
   .home-contact div{
     height: 420px;
