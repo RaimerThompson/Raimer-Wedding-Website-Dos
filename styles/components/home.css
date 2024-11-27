@@ -468,6 +468,17 @@ right: 5%;
   border-bottom: 3rem solid white;
 }
 
+.cat-slide-img{
+  position: absolute;
+  left: 0;
+  bottom: -10rem;
+  width: 16rem;
+  object-fit: contain;
+  /* border: 6px solid white;
+  border-bottom: 3rem solid white; */
+  /* display: none; */
+}
+
 .cat-text-container{
   background-color: white;
   position: relative;
@@ -546,7 +557,7 @@ right: 5%;
   font-weight: 100;
   letter-spacing: 1px;
   transition: color 350ms ease, background-color 350ms ease-in-out;
-
+  z-index: 100000;
 }
 
 .home-cat-button:hover{
@@ -613,8 +624,8 @@ right: 5%;
 }
 
 .mission{
-  background-color: rgba(247, 247, 247, .85);
   position: relative;
+  z-index: 10000000;
 }
 
 .mission-div{
@@ -968,6 +979,13 @@ right: 5%;
   .cat-text{
     display: block;
     left: -7.25rem;
+  }
+
+  .cat-slide-img{
+    position: absolute;
+    left: 0;
+    bottom: -10rem;
+    width: 21rem;
   }
 
   .mission-div{
