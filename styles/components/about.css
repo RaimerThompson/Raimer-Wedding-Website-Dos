@@ -103,6 +103,11 @@
   position: relative;
 }
 
+.about2-img{
+  border: 10px solid white;
+  border-bottom: 3rem solid white;
+}
+
 .about2-span{
   font-family: Custy;
   font-size: 3rem;
@@ -120,8 +125,36 @@
   width: 300px;
   padding: 1.6rem 2.5rem;
   background-color: white;
-
 }
+
+
+.filmstrip {
+  /* background: rgba(0, 0, 0, .35); */
+  size: 10px;
+  
+  background:
+   conic-gradient(at 50% 1rem, rgb(25, 25, 25) 75%,rgba(125, 125, 125, 0.1) 0)
+   0 0/calc(1.65*14px) calc(100% - 18px) padding-box;
+
+  border: 6px solid rgb(26, 26, 26);
+  padding: calc(10px * 2.25);
+}
+
+.filmstrip2 {
+  /* background: rgba(0, 0, 0, .35); */
+  size: 10px;
+  
+  background:
+   conic-gradient(at 12px,rgb(25, 25, 25) 75%,rgba(25, 25, 25, 0) 0)
+   0 0/calc(100% - 12px) calc(2*16px) padding-box;
+   
+  border: 4px solid black;
+  padding: calc(8px * 2.1);
+}
+
+/* .fun-gif{
+  border: none;
+} */
 
 .fa-arrow-turn-up{
   position: absolute;
@@ -148,6 +181,11 @@
   padding-top: 3rem;
   font-size: 10px;
   flex-direction: column;
+}
+
+.about-text{
+  position: relative;
+  bottom: 3.25rem;
 }
 
 .about-fun-facts{
@@ -188,6 +226,12 @@
 .about-fun-img{
   width: 300px;
 }
+
+.fun-img{
+  border: 10px solid white;
+  border-bottom: 3rem solid white;
+}
+
 
 .about-fun-title{
   font-family: "Varela Round", sans-serif;
@@ -387,7 +431,6 @@
   .about-fun-title{
     width: 300px;
     max-width: initial;
-    text-align: left;
   }
 
   .about-fun-text{
@@ -505,7 +548,6 @@
   .about-fun-title{
     width: 400px;
     max-width: initial;
-    text-align: left;
   }
 
   .about-fun-text{
@@ -552,9 +594,13 @@
 /* xL */
 @media (min-width: 1288px) {
   .about-fun-top-text{
-    left: 66rem;
+    left: 46rem;
   }
 }
 
 /* 2xL */
-/* @media (min-width: 1536px) {}   */
+@media (min-width: 1536px) {
+  .about-fun-top-text{
+    left: 60rem;
+  }
+}  
