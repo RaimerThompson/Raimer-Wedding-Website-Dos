@@ -259,7 +259,7 @@
 
 .about-contact-banner{
   background-color: rgba(247, 247, 247, .45);
-  padding: 6rem;
+  padding: 3rem;
   position: relative;
   top: 3rem;
 }
@@ -516,6 +516,7 @@
   }
 
   .about-contact-banner{
+    padding: 6rem;
     top: initial;
     bottom: 3rem;
   }
