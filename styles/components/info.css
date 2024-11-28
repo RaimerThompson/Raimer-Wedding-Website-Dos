@@ -155,7 +155,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: top;
-  /* border: 2px dotted red; */
   padding-bottom: 8rem;
   position: relative;
   background-color: rgba(247, 247, 247, .5);
@@ -186,18 +185,16 @@
 
 .price-div{
   padding: 0 2rem;
-  text-align: center;
+  text-align: left;
   flex: 1;
   padding-top: 2rem;
   position: relative;
-  /* background-color: rgba(247, 247, 247, .5); */
 } 
 
 .price-div ul li{
   font-weight: 400;
   font-family: "Lora", serif;
   font-size: 16px;
-
 }
 
 .price-title{
@@ -239,6 +236,11 @@
   font-size: 16px;
 }
 
+.price-list{
+  position: relative;
+  left: 25%;
+}
+
 .price-bottom{
   font-family: Custy;
   font-size: 2.5rem;
@@ -246,6 +248,8 @@
   position: relative;
   top: 1.5rem;
   line-height: 2rem;
+  text-align: center;
+
 }
 
 .price-bottom span{
@@ -487,7 +491,7 @@ svg{
 
 .price-div{
   padding: 0 2rem;
-  text-align: center;
+  text-align: left;
   flex: 1;
   padding-top: 2rem;
   position: relative;
