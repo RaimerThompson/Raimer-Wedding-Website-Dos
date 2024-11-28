@@ -237,8 +237,9 @@
 }
 
 .price-list{
+  margin: 0 auto;
   position: relative;
-  left: 25%;
+  width: fit-content;
 }
 
 .price-bottom{
