@@ -447,6 +447,10 @@ right: 5%;
   cursor:default ;
 }
 
+.gal-link{
+  cursor:default ;
+}
+
 .cat-wrapper{
   position: relative;
   width: 130px;
@@ -485,7 +489,22 @@ right: 5%;
   width: 9rem;
   object-fit: contain;
   border: 6px solid white;
-  border-bottom: 3rem solid white;
+  border-bottom: 2rem solid white;
+  
+}
+
+.cat-slide-img-top div{
+  position: relative;
+  background-color: white;
+  text-align: center;
+}
+
+.gallery-span{
+  font-family: Marker;
+  position: relative;
+  top: 1.5rem;
+  left: -1rem;
+  font-size: 13px;
 }
 
 .cat-slide-img-right{
@@ -582,6 +601,7 @@ right: 5%;
 .home-cat-button:hover{
   background-color: black;
   color: white;
+  border: none;
 }
 
 .home-contact{
@@ -839,14 +859,19 @@ right: 5%;
   .cat-slide-img-top{
     width: 10.5rem;
   }
-  
-
 
   .cat-slide-img-right{
     right: 4rem;
     bottom: 5rem;
     width: 12rem;
   }
+
+  .gallery-span{
+    top: 1.5rem;
+    left: 0rem;
+    font-size: 13px;
+  }
+  
     
 }
  
@@ -898,16 +923,16 @@ right: 5%;
 
   .cat-slide-img-top{
     left: 0rem;
-    top: -1rem;
+    top: -4rem;
     width: 12.5rem;
   }
 
   .cat-slide-img-right{
     display: block;
     position: absolute;
-    right: 4rem;
-    bottom: 5rem;
-    width: 12rem;
+    right: 0rem;
+    bottom: 3rem;
+    width: 13rem;
     object-fit: contain;
     z-index: 3000;
   }
@@ -933,6 +958,8 @@ right: 5%;
   
   .cat-slide{
     width: 300px;
+    left: 1.5rem;
+    bottom: 5rem;
   }
 
   .cat-slide-img{
@@ -945,14 +972,14 @@ right: 5%;
 
   .cat-slide-img-top{
     left: 0rem;
-    top: -4rem;
+    top: -5rem;
     width: 15.5rem;
   }
 
   .cat-slide-img-right{
     right: 0rem;
-    bottom: -8rem;
-    width: 13.25rem;
+    bottom: 3rem;
+    width: 15rem;
 
   }
   
@@ -1064,6 +1091,7 @@ right: 5%;
   .cat-slide{
     width: 330px;
     left: 4rem;
+    bottom: 0rem;
   }
 
 
@@ -1076,7 +1104,7 @@ right: 5%;
 
   .cat-slide-img-top{
     left: 1rem;
-    top: -9rem;
+    top: -8.25rem;
     width: 18rem;
   }
 
@@ -1085,6 +1113,10 @@ right: 5%;
     bottom: -10rem;
     width: 16.5rem;
     z-index: 3000;
+  }
+
+  .gallery-span{
+    font-size: 16px;
   }
 
   .mission-div{
@@ -1175,7 +1207,7 @@ right: 5%;
 
   .cat-slide-img-top{
     left: 1rem;
-    top: -9rem;
+    top: -6rem;
     width: 18rem;
   }
 
@@ -1190,8 +1222,8 @@ right: 5%;
 
   .cat-slide-img-top{
     left: 0rem;
-    top: -7rem;
-    width: 21rem;
+    top: -4rem;
+    width: 19rem;
   }
 
   .cat-slide-img-right{
