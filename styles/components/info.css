@@ -41,6 +41,19 @@
   filter: saturate(90%);
 }
 
+.info-banner-subtext{
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: "Lora", serif;
+  min-width: 260px ;
+  text-align: center;
+  transform: rotate(-90deg);
+  bottom: 9rem;
+  left: -8.5rem;
+}
+
 .info-banner-text{
   position: absolute;
   font-size: 3rem;
