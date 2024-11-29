@@ -92,14 +92,19 @@
   .footer__mid,
   .footer__top{
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: row;
-  gap: 8rem;
+  gap: 4rem;
 }
 }
 
 /* Lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .footer__bottom,  
+  .footer__mid,
+  .footer__top{
+  gap: 8rem;
+}
+}
 
 /* xL */
 /* @media (min-width: 1288px) {} */
