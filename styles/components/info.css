@@ -173,17 +173,28 @@
   background-color: rgba(247, 247, 247, .5);
 }
 
-
-
 .last-switch{
   padding-bottom: 0;
   margin-bottom: 4rem;
 }
 
 .price-img-div{
+  position: relative;
   height: 500px;
   flex: 1;
+  border: 10px solid white;
+  border-bottom: 3rem solid white;
+  margin: 0 3rem;
 } 
+
+.price-subtext{
+  font-family: Marker;
+  font-size: 12px;
+  font-weight: 100;
+  position: absolute;
+  left: .75rem;
+  bottom: -2.5rem;
+}
 
 .price-img{
   height: 100%;
@@ -307,11 +318,11 @@
 }
 
 .info-small-text{
-  font-family: "Lora", serif;
-  font-size: 12px;
-  letter-spacing: 2px;
-  margin: 2rem 0;
-  padding: 1rem;
+  font-family: Marker;
+  font-size: 9px;
+  letter-spacing: 1px;
+  /* margin: 2rem 0; */
+  padding: 4rem 1rem 0;
 }
 
 .faq-accordian{
