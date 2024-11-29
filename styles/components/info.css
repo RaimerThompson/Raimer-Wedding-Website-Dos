@@ -319,10 +319,11 @@
 
 .info-small-text{
   font-family: Marker;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 1px;
-  /* margin: 2rem 0; */
-  padding: 4rem 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-accordian{
