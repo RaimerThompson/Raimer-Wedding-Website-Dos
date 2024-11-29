@@ -49,9 +49,9 @@
   font-family: "Lora", serif;
   min-width: 260px ;
   text-align: center;
-  transform: rotate(-90deg);
-  bottom: 9rem;
-  left: -8.5rem;
+  /* transform: rotate(-90deg); */
+  /* top: 1rem; */
+  right: 0;
 }
 
 .info-banner-text{
@@ -304,6 +304,14 @@
 
 .img2{
   object-position: 50% 26.5%;
+}
+
+.info-small-text{
+  font-family: "Lora", serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 2rem 0;
+  padding: 1rem;
 }
 
 .faq-accordian{
