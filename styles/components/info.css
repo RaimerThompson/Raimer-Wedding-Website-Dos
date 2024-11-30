@@ -324,6 +324,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4rem 1rem 0;
 }
 
 .faq-accordian{
@@ -455,57 +456,61 @@ svg{
     color: black;
   }
 
-  /* .info-banner-img{
-    color: rgba(0, 0, 0, 0.8);
-    text-align: center;
-    font-family: Custom;
-    font-size: 6.5rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    position: relative;
-    bottom: -2rem;
-    background: url(/img/Weddings/wed300.jpg);
-    background-size: cover;
-    max-width: 2624px;
-    height: 70vh;
-    top: 0;
-    opacity: 1;
-    filter: grayscale(0%);
-  }
-  
+/* .info-banner-img{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: Custom;
+  font-size: 6.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: -2rem;
+  background: url(/img/Weddings/wed300.jpg);
+  background-size: cover;
+  max-width: 2624px;
+  height: 70vh;
+  top: 0;
+  opacity: 1;
+  filter: grayscale(0%);
+}
 
-  .info-banner-text{
-    position: absolute;
-    font-size: 4rem;
-    bottom: .5rem;
-    left: initial;
-    right: 2rem;
-    color: black;
-    font-family: Custy;
-  } */
 
-  .info-approach-text{
-    padding: 0;
-  }
+.info-banner-text{
+  position: absolute;
+  font-size: 4rem;
+  bottom: .5rem;
+  left: initial;
+  right: 2rem;
+  color: black;
+  font-family: Custy;
+} */
 
-  .info-tabs{
-    padding: 3rem 4rem;
-  }
+.info-approach-text{
+  padding: 0;
+}
 
-  .info-pricing{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: top;
-    /* border: 2px dotted red; */
-    padding-bottom: 6rem;
-    position: relative;
-    background-color: rgba(247, 247, 247, .5);
-  }
-  
-  .info-switch{
-    flex-direction: row-reverse;
-  }
+.info-tabs{
+  padding: 3rem 4rem;
+}
+
+.info-pricing{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: top;
+  /* border: 2px dotted red; */
+  padding-bottom: 6rem;
+  position: relative;
+  background-color: rgba(247, 247, 247, .5);
+}
+
+.info-switch{
+  flex-direction: row-reverse;
+}
+
+.info-small-text{
+  padding: 0;
+}
 
 .price-img-div{
   height: 500px;
@@ -529,7 +534,7 @@ svg{
   flex: 1;
   padding-top: 2rem;
   position: relative;
-  /* background-color: rgba(247, 247, 247, .5); */
+  height: 550px;
 } 
 
 .price-div ul li{
@@ -575,6 +580,8 @@ svg{
   font-weight: 400;
   font-family: "Lora", serif;
   font-size: 16px;
+  width: 428px;
+  margin: 0 auto;
 }
 
 .price-bottom{
@@ -611,7 +618,7 @@ svg{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 0rem;
+  bottom: 2rem;
 }
 
 .price-button:hover{
@@ -626,7 +633,11 @@ svg{
 }
 
 /* Lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  /* .price-button{
+    bottom: 0;
+  } */
+}
 
 /* xL */
 /* @media (min-width: 1288px) {} */
