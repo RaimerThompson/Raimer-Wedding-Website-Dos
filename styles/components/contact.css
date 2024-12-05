@@ -6,14 +6,14 @@
   top: 0;
   right: 0;
   left:0;
-  z-index: 10;
+  z-index: 100;
   padding: 1rem;
   /* margin-bottom: .85rem; */
   transition: background-color .4s ease-in-out; 
 }
 
 #navbar{
-  z-index: 10;
+  z-index: 100;
 }
 
 
@@ -68,11 +68,11 @@
   color: black;
   font-family: Custy;
   /* width: 235px; */
-  z-index: 101;
+  z-index: 15;
 }
 
 .contact-text{
-  z-index: 101;
+  z-index: 15;
   position: relative;
   padding: 4rem 1rem;
   margin-top: 3rem;
@@ -95,7 +95,7 @@
 
 .contact-container{
   position: relative;
-  z-index: 101;
+  z-index: 15;
   padding: 4rem 0rem;
 }
 
@@ -280,7 +280,7 @@
 @media (min-width: 330px) {
   .contact-container{
     position: relative;
-    z-index: 101;
+    z-index: 15;
     padding: 4rem 1rem;
   }
 }
@@ -331,7 +331,7 @@
   .contact-container{
     background-color: rgba(247, 247, 247, .85);
     position: relative;
-    z-index: 101;
+    z-index: 15;
     padding: 4rem;
   }
 
