@@ -10,7 +10,7 @@
 //   document.querySelector('.popup-image').style.display = 'none';
 // }
    
-const gallery = document.querySelectorAll('.image-container .box'),
+const gallery = document.querySelectorAll('.portraits-gallery .work__photo'),
 popupBox = document.querySelector(".popup-image"),
 previewImg = popupBox.querySelector('img'),
 closeImg = popupBox.querySelector('span')
