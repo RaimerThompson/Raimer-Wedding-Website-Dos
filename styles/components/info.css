@@ -117,6 +117,14 @@
   position: relative;
 }
 
+.info-img{
+  position: relative;
+  width: 12rem;
+  right: 0rem;
+  top: -2rem;
+  border: 10px solid white;
+}
+
 .info-nums{
   position: absolute;
   right: 1rem;
@@ -424,6 +432,14 @@ svg{
 @media (min-width: 475px) {
   .info-tabs{
     padding: 3rem 3rem;
+  }
+
+  .info-img{
+    position: absolute;
+    width: 17rem;
+    right: -2rem;
+    top: 15rem;
+    border: 10px solid white;
   }
 }
 
