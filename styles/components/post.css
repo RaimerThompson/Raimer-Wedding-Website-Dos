@@ -78,10 +78,20 @@
 }
 
 .blog-post-gallery{
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   width: 100%;
   margin-bottom: 10px;
   break-inside: avoid;
+}
+
+.blog-text{
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.bottom-text{
+  padding-top: 2rem;
+  padding-bottom: 0;
 }
 
 img{
@@ -117,6 +127,32 @@ img{
   padding-bottom: 8px !important;
 }
 
+
+.post-contact-banner{
+  background-color: rgba(247, 247, 247, .95);
+  padding: 3rem;
+  position: relative;
+}
+
+.post-contact-button{
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  position: relative;
+  border: none;
+  letter-spacing: 3px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.post-contact-button:hover{
+  opacity: .5;
+}
+
+
+
 .footer{
   clear: both;
 }
@@ -132,7 +168,7 @@ img{
   }
 
   .blog-post-gallery{
-    padding: 2rem 3rem;
+    padding: 0 3rem;
   }
  } 
 
@@ -160,6 +196,44 @@ img{
   .post-gallery{
     display: flex;
     gap: 4rem;
+    padding: 0 7rem;
+  }
+
+  .row{
+    width: 50%;
+    /* float: left; */
+    padding-bottom: 8px !important;
+  } 
+  
+  .odd{
+    float: left;
+    padding-right: 4px !important;
+    padding-left: 4rem !important;
+  }
+  .even{
+    float: left;
+    padding-right: 4rem !important;
+    padding-left: 4px !important;
+  }
+  
+  .landscape{
+    width: 100%;
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+    padding-bottom: 8px !important;
+  }
+
+  .blog-post-gallery{
+    padding: 3rem 3rem 0;
+  }
+
+  .post-contact-banner{
+    padding: 3rem 6rem;
+    top: initial;
+  }
+
+  .post-contact-button{
+    padding: 4rem;
   }
 }
 
