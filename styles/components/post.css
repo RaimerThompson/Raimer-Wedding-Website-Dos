@@ -208,18 +208,18 @@ img{
   .odd{
     float: left;
     padding-right: 4px !important;
-    padding-left: 4rem !important;
+    padding-left: 10rem !important;
   }
   .even{
     float: left;
-    padding-right: 4rem !important;
+    padding-right: 10rem !important;
     padding-left: 4px !important;
   }
   
   .landscape{
     width: 100%;
-    padding-right: 4rem !important;
-    padding-left: 4rem !important;
+    padding-right: 10rem !important;
+    padding-left: 10rem !important;
     padding-bottom: 8px !important;
   }
 
@@ -228,7 +228,7 @@ img{
   }
 
   .post-contact-banner{
-    padding: 3rem 6rem;
+    padding: 3rem 10rem;
     top: initial;
   }
 
