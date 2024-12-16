@@ -47,7 +47,7 @@
 } */
  
 .hamburger__btn.close .top{
-  transform: rotate(45deg) translate(26px, -24px);
+  transform: rotate(45deg) translate(-21px, -20px);
 }
 
 .hamburger__btn.close .middle{
@@ -55,7 +55,7 @@
 }
 
 .hamburger__btn.close .bottom{
-  transform: rotate(-45deg) translate(-92px, 22px);
+  transform: rotate(-45deg) translate(-68px, 5px);
 }
 
 #mobile{
