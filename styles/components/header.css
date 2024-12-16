@@ -172,7 +172,8 @@ ul li{
 
 .hamburger__btn.close:hover{
   /* fill: black; */
-  opacity: .5;
+  opacity: .75;
+  font-weight: 900;
 }
 
 /* .middle{

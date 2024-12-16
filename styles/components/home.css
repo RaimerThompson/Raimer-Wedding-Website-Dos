@@ -33,13 +33,14 @@
   left: 2px;
   fill: black;
   transition: fill .15s ease-in-out;
-  opacity: .5;
+  /* opacity: .5; */
   z-index: 1000;
 }
 
 .hamburger__btn.close:hover{
   /* fill: black; */
-  opacity: .5;
+  opacity: .75;
+  font-weight: 900;
 }
 
 /* .middle{
