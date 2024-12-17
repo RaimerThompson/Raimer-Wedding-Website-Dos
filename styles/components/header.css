@@ -103,8 +103,9 @@ ul li{
 }
 
 .header__logo{
-  font-size: 3.25rem;
-  font-family: Custy;
+  font-size: 1.75rem;
+  font-family: Title;
+  top: 3px;
   font-weight: 100;
   position: relative;
   color: white;

@@ -84,6 +84,13 @@
   break-inside: avoid;
 }
 
+.blog-title-text{
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+
 .blog-text{
   line-height: 2.5rem;
   padding-bottom: 2rem;

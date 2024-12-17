@@ -33,6 +33,12 @@
   src: url(/fonts/fonnts.com-MinervaModern_Regular.otf)
 }
 
+@font-face{
+  font-family: Title;
+  src: url(/fonts/Rossesie.ttf)
+}
+
+
 
 * {
   margin: 0;

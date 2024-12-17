@@ -20,10 +20,10 @@ ul li a{
   color: black;
 }
 
-.header__link{
-  /* padding-top: .75rem; */
+/* .header__link{
+  padding-top: .75rem;
   padding-top: .05rem;
-}
+} */
 
 .hamburger__btn{
   fill: black;
