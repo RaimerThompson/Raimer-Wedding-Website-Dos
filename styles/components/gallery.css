@@ -472,6 +472,31 @@ input[type=checkbox]:checked ~ label > img {
 }
 
 
+.gal-contact-banner{
+  background-color: rgba(247, 247, 247, .45);
+  padding: 2rem 3rem 3rem 3rem;
+  position: relative;
+}
+
+.gal-contact-button{
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  position: relative;
+  border: none;
+  letter-spacing: 3px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gal-contact-button:hover{
+  opacity: .5;
+}
+
+
+
 /* xs */
 @media (min-width: 475px) {
   .prev,
