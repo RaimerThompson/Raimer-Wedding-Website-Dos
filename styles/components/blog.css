@@ -49,12 +49,14 @@
   font-size: 10px;
   color: black;
   letter-spacing: 3px;
-  font-family: "Lora", serif;
+  font-family: "Varela Round", sans-serif;
   min-width: 260px ;
   text-align: center;
-  /* transform: rotate(-90deg); */
-  top: .25rem;
-  right: .25rem;
+  transform: rotate(-90deg);
+  /* top: .25rem;
+  right: .25rem; */
+  top: 9rem;
+  right: -7.75rem;
 }
 
 .blog{

@@ -46,12 +46,13 @@
   font-size: 10px;
   color: white;
   letter-spacing: 3px;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   min-width: 260px ;
   text-align: center;
   /* transform: rotate(-90deg); */
-  /* top: 1rem; */
-  right: 0;
+  top: 8px;
+  right: 8px;
 }
 
 .info-banner-text{
@@ -82,7 +83,8 @@
 .info-approach-text{
   position: relative;
   font-weight: 400;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
   max-width: 1200px;
   padding: 1rem;
@@ -225,7 +227,8 @@
 
 .price-div ul li{
   font-weight: 400;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
 }
 
@@ -264,7 +267,8 @@
 .price-text{
   padding-bottom: 1rem;
   font-weight: 400;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
 }
 
@@ -287,7 +291,8 @@
 
 .price-bottom span{
   font-weight: 400;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
   position: relative;
   bottom: 8px;
@@ -379,7 +384,7 @@
 }
 
 .faq-question-text{
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
   text-transform: uppercase;
@@ -400,7 +405,8 @@
 .faq-answer-text{
   padding-top: 1rem;
   line-height: 1.5rem;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 14px;
   font-weight: 100;
 }
@@ -555,7 +561,8 @@ svg{
 
 .price-div ul li{
   font-weight: 400;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
 }
 
@@ -594,7 +601,8 @@ svg{
 .price-text{
   padding-bottom: 1rem;
   font-weight: 400;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
   width: 428px;
   margin: 0 auto;
@@ -611,7 +619,8 @@ svg{
 
 .price-bottom span{
   font-weight: 400;
-  font-family: "Lora", serif;
+  /* font-family: "Lora", serif; */
+  font-family: "Varela Round", sans-serif;
   font-size: 16px;
   position: relative;
   bottom: 8px;
