@@ -166,11 +166,11 @@
 .home-banner-text{
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 68%;
   transform: translate(-50%, -50%);
   width: max-content;
   font-family: "Varela Round", sans-serif;
-  font-size: 1.5rem;
+  font-size: .5rem;
   color: white;
   letter-spacing: 5px;
   max-width: 300px ;
@@ -194,9 +194,10 @@
   font-family: Custy;
   font-weight: 100;
   font-size: 6rem;
-  position: relative;
-  top: 10px;
-  left: 4%;
+  position: absolute;
+  top: -27px;
+  left: 46%;
+  transform: translateX(-50%);
   letter-spacing: initial;
   text-transform: initial;
 }
@@ -1063,7 +1064,7 @@ right: 5%;
   .home-banner-text{
     position: absolute;
     font-family: "Varela Round", sans-serif;
-    font-size: 1.5rem;
+    font-size: .6rem;
     color: white;
     letter-spacing: 5px;
     max-width: 360px ;
@@ -1072,9 +1073,8 @@ right: 5%;
 
 
   .banner-span{
-    font-size: 8.5rem;
-    top: 14px;
-    left: 0;
+    font-size: 7.5rem;
+    top: -2.75rem;
   }
 
   .home-inner-span {
