@@ -352,6 +352,10 @@
     flex: 1.5;
   }
 
+  .contact__image{
+    bottom: 3rem;
+   }
+
 }
 
 /* xL */
