@@ -763,7 +763,7 @@ right: 5%;
   margin: 0 auto ;
   top: 5rem;
   flex: 1;
-  width: 75%;
+  width: 67%;
 }
 
 .contact__form,
@@ -774,6 +774,7 @@ right: 5%;
 
 .contact__group{
   display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 
@@ -987,7 +988,7 @@ right: 5%;
   }
 
   .contact__mail{
-    width: 60%;
+    width: 78%;
     padding: 0 1rem;
   }
     
@@ -1202,10 +1203,9 @@ right: 5%;
     transform: inherit;
   }
 
-  /* .contact__group{
-    display: flex;
-    flex-direction: column;
-  } */
+  .contact__group{
+    flex-direction: row;
+  }
 
   .contact__mail{
     width: 45%;
