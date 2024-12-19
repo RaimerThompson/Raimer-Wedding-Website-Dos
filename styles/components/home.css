@@ -185,9 +185,10 @@
   font-family: "Varela Round", sans-serif;
   min-width: 260px ;
   text-align: center;
+  text-transform: uppercase;
   transform: rotate(-90deg);
-  bottom: 10rem;
-  right: -8rem;
+  bottom: 12rem;
+  right: -9.5rem;
 }
 
 .banner-span{

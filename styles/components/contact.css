@@ -55,6 +55,7 @@
   font-family: "Varela Round", sans-serif;
   min-width: 260px ;
   text-align: center;
+  text-transform: uppercase;
   /* transform: rotate(-90deg); */
   bottom: .5rem;
   left: .5rem;

@@ -52,11 +52,10 @@
   font-family: "Varela Round", sans-serif;
   min-width: 260px ;
   text-align: center;
+  text-transform: uppercase;
   transform: rotate(-90deg);
-  /* top: .25rem;
-  right: .25rem; */
-  top: 9rem;
-  right: -7.75rem;
+  top: 11rem;
+  right: -8.75rem;
 }
 
 .blog{
