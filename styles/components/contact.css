@@ -63,11 +63,13 @@
 
 .contact-banner-text{
   position: absolute;
-  font-size: 3.25rem;
-  bottom: -3.5rem;
-  right: 6px;
+  font-size: 2rem;
+  bottom: -2.5rem;
+  right: 8px;
   color: black;
   font-family: Custy;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
   /* width: 235px; */
   z-index: 15;
 }
@@ -299,6 +301,18 @@
 
 /* md */
 @media (min-width: 768px) {
+
+  
+  .contact-banner-text{
+    font-size: 4.5rem;
+    bottom: -2.25rem;
+  }
+
+  /* .contact-banner-subtext{
+    transform: rotate(-90deg);
+    bottom: 10.5rem;
+    left: -8.5rem;
+  } */
 
   .contact-container{
     background-color: rgba(247, 247, 247, .85);

@@ -66,11 +66,12 @@
 
 .blog-banner-text{
   position: absolute;
-  font-size: 3.25rem;
-  bottom: -3.85rem;
+  font-size: 2rem;
+  bottom: -2.5rem;
   right: 8px;
   color: black;
-  font-family: Custy;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
   /* width: 235px; */
   z-index: 15;
 }
@@ -148,6 +149,11 @@
   .blog-gallery{
     display: flex;
     gap: 4rem;
+  }
+
+  .blog-banner-text{
+    font-size: 4.5rem;
+    bottom: -2.25rem;
   }
 }
 
