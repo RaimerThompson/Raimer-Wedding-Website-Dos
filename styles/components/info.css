@@ -235,8 +235,11 @@
 }
 
 .price-title{
-  font-family: Custy;
-  font-size: 3.5rem;
+  /* font-family: Custy; */
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
   font-weight: 100;
   text-align: center;
 }
@@ -281,9 +284,12 @@
 }
 
 .price-bottom{
-  font-family: Custy;
-  font-size: 2.5rem;
-  font-weight: 100;
+  /* font-family: Custy; */
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
   position: relative;
   top: 1.5rem;
   line-height: 2rem;
@@ -581,8 +587,8 @@ svg{
 }
 
 .price-title{
-  font-family: Custy;
-  font-size: 3.5rem;
+  /* font-family: Custy; */
+  font-size: 2.5rem;
   font-weight: 100;
   text-align: center;
 }
@@ -623,9 +629,9 @@ svg{
 }
 
 .price-bottom{
-  font-family: Custy;
-  font-size: 2.5rem;
-  font-weight: 100;
+  /* font-family: Custy; */
+  font-size: 1.15rem;
+  font-weight: 400;
   position: relative;
   top: 1.5rem;
   line-height: 2rem;
