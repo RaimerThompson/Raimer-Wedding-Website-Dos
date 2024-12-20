@@ -172,7 +172,7 @@
   font-family: "Varela Round", sans-serif;
   font-size: .65rem;
   color: white;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
   max-width: 300px ;
   text-transform: capitalize;
 }
@@ -192,11 +192,13 @@
 }
 
 .banner-span{
-  font-family: Custy;
+  /* font-family: Custy; */
+  font-family: "Playfair Display", serif;
+  font-style: italic;
   font-weight: 100;
-  font-size: 6rem;
+  font-size: 4rem;
   position: absolute;
-  top: -27px;
+  top: -20px;
   left: 46%;
   transform: translateX(-50%);
   letter-spacing: initial;
@@ -331,6 +333,7 @@
 
 .home-title-span{
   font-family: Custy;
+  
   font-size: 3rem;
   position: absolute;
   top: 1rem;
@@ -606,9 +609,11 @@ right: 5%;
 .home-cat-button{
   position: absolute;
   bottom: 4.5rem;
-  font-size: 2.5rem;
+  font-size: 1.85rem;
   color: black;
-  font-family: Custy;
+  /* font-family: Custy; */
+  font-family: "Playfair Display", serif;
+  font-style: italic;
   border: none;
   border-bottom: 1px solid black;
   font-weight: 100;
@@ -703,7 +708,7 @@ right: 5%;
 }
 
 .mission-div{
-  padding: 3rem 1rem;
+  padding: 3rem 1rem 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -746,16 +751,18 @@ right: 5%;
 }
 
 .contact-title{
-  font-family: Custy;
-  color: white;
-  font-size: 4.75rem;
+  /* font-family: Custy; */
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 4rem;
   position: absolute;
   font-weight: 100;
-  letter-spacing: 2px;
-  top: 1rem;
+  letter-spacing: 5px;
+  top: -2.5rem;
   width: 160px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 1rem;
+  /* transform: translateX(-50%); */
 }
 
 .contact__mail{
@@ -995,7 +1002,7 @@ right: 5%;
     
   .home-cat-button {
     bottom: 4.5rem;
-    left: 5rem;
+    left: 2rem;
     font-size: 2.15rem;
   }
 
@@ -1045,8 +1052,8 @@ right: 5%;
   
   .home-cat-button {
     bottom: -2rem;
-    left: 23.75rem;
-    font-size: 2.5rem;
+    left: 22.75rem;
+    font-size: 1.55rem;
  
 }
 }
@@ -1088,14 +1095,14 @@ right: 5%;
     font-family: "Varela Round", sans-serif;
     font-size: .75rem;
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     max-width: 360px ;
     text-align: center;
   }
 
 
   .banner-span{
-    font-size: 7.5rem;
+    font-size: 5.5rem;
     top: -2.75rem;
   }
 
@@ -1164,7 +1171,7 @@ right: 5%;
     position: absolute;
     left: 0;
     bottom: -10rem;
-    width: 26rem;
+    width: 25rem;
   }
 
   .cat-slide-img-topleft{
@@ -1183,7 +1190,7 @@ right: 5%;
   .home-cat-button {
     bottom: 3rem;
     left: 32rem;
-    font-size: 2.75rem;
+    font-size: 2.2rem;
 }
 
   .gallery-span{
@@ -1191,7 +1198,7 @@ right: 5%;
   }
 
   .mission-div{
-    padding: 4rem;
+    padding: 4rem 4rem 6rem;
   }
 
   .mission-text{
@@ -1200,7 +1207,10 @@ right: 5%;
   
   .contact-title{
     font-size: 5rem;
+    color: rgba(0, 0, 0, 0.8);
     left: 1rem;
+    top: -4rem;
+    letter-spacing: 14px;
     transform: inherit;
   }
 
@@ -1309,7 +1319,7 @@ right: 5%;
   .home-cat-button {
     bottom: -2rem;
     left: initial;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 }
@@ -1327,4 +1337,8 @@ right: 5%;
     bottom: -10rem;
     width: 22rem;
   }
+
+  .home-cat-button {
+    font-size: 3rem;
+}
 }
