@@ -73,7 +73,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 3rem;
   list-style: none;
   text-decoration: none;
   position: fixed;
@@ -243,6 +243,8 @@
 .home-title-img{
   max-width: 280px;
   border: 10px solid white;
+  border-bottom: 3rem solid white;
+  margin-bottom: 2rem;
 }
 
 .and{
@@ -288,6 +290,9 @@
 .home-title-subtext-div{
   background-color: white;
   padding: 2rem;
+  border: .25px solid darkgray;
+  border-radius: 2px;
+  margin-bottom: 4rem;
 }
 
 .home-title-toptext{
@@ -301,18 +306,19 @@
 }
 
 .home-title-subtext{
-  /* font-family: "Lora", serif; */
   font-family: "Varela Round", sans-serif;
-  line-height: 2rem;
-  letter-spacing: .5px;
-  font-size: 1rem;
+  /* font-family: 'Montserrat', serif; */
+  line-height: 1.85rem;
+  padding: 0 1rem;
+  letter-spacing: 1px;
+  font-size: 14px;
   margin-bottom: 1.5rem;
   text-align: center;
   font-weight: 100;
 }
 
 .home-title-button{
-  padding: 2rem 0 3rem 0;
+  padding: 0rem 0 3rem 0;
   font-size: 1rem;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
@@ -331,20 +337,32 @@
   position: relative;
 }
 
+.home-title-img-div div{
+  position: relative;
+}
+
 .home-title-span{
-  font-family: Custy;
-  
+  /* font-family: Custy;
   font-size: 3rem;
   position: absolute;
   top: 1rem;
-  left: 2rem;
+  left: 2rem; */
+  position: absolute;
+  bottom: 10px;
+  /* right: 1rem; */
+  font-family: Marker ;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
 }
-
+/* 
 .welcome{
   position: relative;
   bottom: 10px;
   left: -10px;
-}
+} */
 
 .indent{
   position: relative;
@@ -490,7 +508,7 @@ right: 5%;
 
 .cat-slide-img-botleft{
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: -10rem;
   width: 16.5rem;
   object-fit: contain;
@@ -717,18 +735,19 @@ right: 5%;
 .mission-text{
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
-  letter-spacing: 2.25px;
+  letter-spacing: 2px;
   position: relative;
   max-width: 760px;
   z-index: 20;
   text-align: center;
   background-color: white;
-  padding: 1.5rem;
-  line-height: 2.5rem;
+  padding: 1.5rem 2.5rem;
   border: .25px solid darkgray;
   border-radius: 2px;
-  text-transform: uppercase;
-  font-size: 13px;
+  line-height: 1.85rem;
+  letter-spacing: 1px;
+  font-size: 14px;
+  /* text-transform: uppercase; */
 }
 
 
@@ -909,7 +928,7 @@ right: 5%;
   }
 
   .cat-slide-img-botleft{
-    left: 0;
+    right: 0;
     bottom: -10rem;
     width: 20rem;
   }
@@ -928,8 +947,7 @@ right: 5%;
     top: 1.5rem;
     left: 0rem;
     font-size: 13px;
-  }
-  
+  } 
     
 }
  
@@ -951,13 +969,14 @@ right: 5%;
     max-width: 360px;
     object-fit: cover;
     height: 500px;
+  
   }
 
-  .welcome {
+  /* .welcome {
     position: relative;
     left: -6px;
     bottom: 9px;
-  }
+  } */
 
   .home-inner-span{
     position: relative;
@@ -984,6 +1003,14 @@ right: 5%;
     top: -4rem;
     width: 12.5rem;
   }
+
+  .cat-slide-img-botleft{
+    right: inherit;
+    left: 0;
+    bottom: -10rem;
+    width: 20rem;
+  }
+
 
   .cat-slide-img-botright{
     display: block;
@@ -1113,10 +1140,12 @@ right: 5%;
 
   .home-title-text{
     margin-top: initial;
+    margin-bottom: 6rem;
   }
   
   .home-title-img{
     border-bottom: 3rem solid white;
+    margin-bottom: 0;
   }
 
   .home-title-div{
@@ -1124,7 +1153,18 @@ right: 5%;
     /* justify-content: space-evenly; */
     flex-direction: row;
   }
+
   
+  .home-title-subtext-div{
+    border: .25px solid darkgray;
+    border-radius: 2px;
+    margin-bottom: 2rem;
+
+  }
+
+  .home-title-img-div div{
+    position: absolute;
+  }
 
   .home-title-div div{
     flex: 1;

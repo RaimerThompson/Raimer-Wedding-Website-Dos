@@ -58,11 +58,14 @@
 
 .info-banner-text{
   position: absolute;
-  font-size: 3rem;
-  bottom: -3.5rem;
+  font-size: 2rem;
+  bottom: -2.5rem;
   right: 8px;
   color: black;
-  font-family: Custy;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  /* width: 235px; */
+  z-index: 15;
 }
 
 
@@ -113,9 +116,65 @@
   margin-top: 2rem;
 }
 
-.info-tabtext{
+.info-guide-div{
+  padding: 3rem 2rem;
+  background-color: rgba(247, 247, 247, .5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.info-guide{
+  background-color: white;
+  padding: 3.5rem 1rem 2rem 1rem;
+  position: relative;
+  max-width: 800px;
+  align-self: flex-start;
+  margin-bottom: 4rem;
+}
+
+.guide-right{
+  background-color: rgba(25, 25, 25, .85);
+  color: white;
+  padding: 3.5rem 1rem 2rem 1rem;
+  position: relative;
+  max-width: 800px;
+  align-self: flex-end;
+  margin-bottom: 4rem;
+}
+
+.info-guide-faq{
+  background-color: white;
+  padding: 2rem 1rem 1rem;
+  position: relative;
+  max-width: 800px;
+  align-self: flex-start;
+  margin-bottom: 4rem;
+  border: .5px solid darkgray;
+}
+
+
+.guide-right-faq{
+  background-color: white;
+  padding: 2rem 1rem 1rem;
+  position: relative;
+  max-width: 800px;
+  align-self: flex-end;
+  margin-bottom: 4rem;
+  border: .5px solid darkgray;
+}
+
+.info-tabtext-faq{
   padding: 2rem 1rem;
   margin-bottom: 1rem;
+  max-width: 800px;
+  position: relative;
+}
+
+
+.info-tabtext{
+  padding: 2rem 1rem;
   max-width: 800px;
   position: relative;
 }
@@ -133,7 +192,15 @@
   right: 1rem;
   top: 1rem;
   font-family: "Varela Round", sans-serif;
-  color: rgb(135, 135, 135);
+  color: rgb(50, 50, 50);
+}
+
+.info-nums2{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-family: "Varela Round", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .info-prev, .info-next{
@@ -152,8 +219,6 @@
 .info-next{
   padding-left: 1rem;
 }
-
-.info-next
 
 .info-tabtitles ul{
   display: flex;
@@ -232,6 +297,7 @@
   /* font-family: "Lora", serif; */
   font-family: "Varela Round", sans-serif;
   font-size: 16px;
+  padding: 4px 0;
 }
 
 .price-title{
@@ -339,17 +405,18 @@
 }
 
 .info-small-text{
-  font-family: "Montserrat", serif;
   font-family: "Playfair Display", serif;
   font-style: italic;
   /* text-transform: uppercase; */
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 100;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 1rem 0;
+  text-align: center;
+  padding: 0rem 1rem 2rem;
+  margin-bottom: 2rem;
 }
 
 .info-span-text{
@@ -382,7 +449,7 @@
   margin-bottom: 6px;
   background-color: rgba(247, 247, 247, .5);
   /* border-bottom: 2px solid black; */
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .faq-title{
@@ -408,7 +475,7 @@
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .faq-answer{
@@ -448,6 +515,31 @@ svg{
     opacity: 1;
     transform: translateY(0px);
   }
+}
+
+
+.info-contact-banner{
+  background-color: rgba(247, 247, 247, .45);
+  padding: 2rem 3rem 3rem 3rem;
+  position: relative;
+}
+
+.info-contact-button{
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  position: relative;
+  border: none;
+  letter-spacing: 3px;
+  background-color: white;
+  border: .5px solid darkgray;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info-contact-button:hover{
+  opacity: .5;
 }
 
 
@@ -515,17 +607,12 @@ svg{
   opacity: 1;
   filter: grayscale(0%);
 }
-
+ */
 
 .info-banner-text{
-  position: absolute;
-  font-size: 4rem;
-  bottom: .5rem;
-  left: initial;
-  right: 2rem;
-  color: black;
-  font-family: Custy;
-} */
+  font-size: 4.5rem;
+  bottom: -2.25rem;
+}
 
 .info-approach-text{
   padding: 0;
@@ -541,7 +628,7 @@ svg{
   flex-direction: row;
   align-items: top;
   /* border: 2px dotted red; */
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   position: relative;
   background-color: rgba(247, 247, 247, .5);
 }
@@ -624,7 +711,7 @@ svg{
   /* font-family: "Lora", serif; */
   font-family: "Varela Round", sans-serif;
   font-size: 16px;
-  width: 428px;
+  width: 400px;
   margin: 0 auto;
 }
 
