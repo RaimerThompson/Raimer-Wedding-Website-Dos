@@ -78,7 +78,7 @@
 .info-approach-title{
   letter-spacing: 4px;
   font-family: "Varela Round", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 1rem;
   position: relative;
   text-transform: uppercase;
@@ -146,7 +146,7 @@
 
 .info-guide-faq{
   background-color: white;
-  padding: 2rem 1rem 1rem;
+  padding: 1rem 1rem 1rem;
   position: relative;
   max-width: 800px;
   align-self: flex-start;
@@ -157,7 +157,7 @@
 
 .guide-right-faq{
   background-color: white;
-  padding: 2rem 1rem 1rem;
+  padding: 1rem 1rem 1rem;
   position: relative;
   max-width: 800px;
   align-self: flex-end;
@@ -166,7 +166,7 @@
 }
 
 .info-tabtext-faq{
-  padding: 2rem 1rem;
+  padding: 1rem 0rem;
   margin-bottom: 1rem;
   max-width: 800px;
   position: relative;
@@ -190,7 +190,7 @@
 .info-nums{
   position: absolute;
   right: 1rem;
-  top: 1rem;
+  top: .5rem;
   font-family: "Varela Round", sans-serif;
   color: rgb(50, 50, 50);
 }
@@ -198,7 +198,7 @@
 .info-nums2{
   position: absolute;
   right: 1rem;
-  top: 1rem;
+  top: .5rem;
   font-family: "Varela Round", sans-serif;
   color: rgb(255, 255, 255);
 }
@@ -473,7 +473,7 @@
 .faq-question-text{
   letter-spacing: 2px;
   font-family: "Varela Round", sans-serif;
-  font-weight: 100;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 16px;
 }
