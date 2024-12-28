@@ -102,6 +102,13 @@ ul li{
   opacity: .5;
 }
 
+.ct{
+  background-color: black;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 3px;
+}
+
 .header__logo{
   font-size: 1.75rem;
   font-family: Title;
@@ -117,7 +124,6 @@ ul li{
 
 .header__menu{
   display: flex;
-  
 }
 
 /* .header__menu-right{
