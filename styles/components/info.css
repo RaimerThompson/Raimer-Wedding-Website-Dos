@@ -135,7 +135,7 @@
 }
 
 .guide-right{
-  background-color: rgba(25, 25, 25, .85);
+  background-color: rgba(25, 25, 25, 0.85);
   color: white;
   padding: 3.5rem 1rem 2rem 1rem;
   position: relative;
