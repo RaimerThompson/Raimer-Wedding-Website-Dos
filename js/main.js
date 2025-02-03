@@ -78,6 +78,34 @@ function slideShow(){
   }, slideTime)
 }
 
+// window.onload = () => {
+//   slideShow()
+  
+// }
+  
+const Newsliders = document.querySelector(".cat-slideshow-left").children;
+const NewslideTime = 4300;
+let NewfirstIndex = 0;
+
+function NewslideShow(){
+  for (let i = 0; i <Newsliders.length; i++){
+    Newsliders[i].classList.remove("cat-item-active")
+
+  }
+
+  Newsliders[NewfirstIndex].classList.add("cat-item-active")
+  if(NewfirstIndex == Newsliders.length -1){
+    NewfirstIndex = 0
+  }else{
+    NewfirstIndex++
+  }
+
+  setTimeout(() =>{
+    NewslideShow();
+  }, NewslideTime)
+}
+
 window.onload = () => {
   slideShow()
+  NewslideShow()
 }

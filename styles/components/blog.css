@@ -87,8 +87,6 @@
 }
 
 .blog-gallery-img{
-  border: 10px solid white;
-  border-bottom: 3rem solid white;
   transition: opacity 500ms ease;
 }
 
@@ -97,13 +95,15 @@
 }
 
 .blog-title-text{
-  font-family: "Varela Round", sans-serif;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding-top: 1rem;
+  font-family: Title;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
   text-align: center;
-  font-weight: 100;
+  text-transform: uppercase;
+  padding: 1rem;
 }
 
 .blog-subtext{

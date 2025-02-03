@@ -479,14 +479,15 @@ input[type=checkbox]:checked ~ label > img {
 }
 
 .gal-contact-button{
-  padding: 1.5rem 2rem;
+  padding: 3.5rem;
   font-size: 1rem;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
   position: relative;
   border: none;
   letter-spacing: 3px;
-  background-color: white;
+  background-color: #4b5933;
+  color: #fff2d9e6;
   left: 50%;
   transform: translateX(-50%);
 }

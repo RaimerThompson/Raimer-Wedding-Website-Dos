@@ -6,12 +6,12 @@ faqs.forEach(faq =>{
   })
 })
 
-document.addEventListener('scroll', () =>{
-  const header = document.querySelector('header');
+// document.addEventListener('scroll', () =>{
+//   const header = document.querySelector('header');
 
-if (window.scrollY > 592) {
-  header.classList.add('scrolled');
-} else{
-  header.classList.remove('scrolled')
-}
-})
+// if (window.scrollY > 592) {
+//   header.classList.add('scrolled');
+// } else{
+//   header.classList.remove('scrolled')
+// }
+// })
