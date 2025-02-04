@@ -38,6 +38,7 @@
   position: relative;
   bottom: -2rem;
   background: url(/img/Raimer002.jpg);
+  /* background: url(/img/Raimer-gif-lowerRes.gif); */
   background-position: center bottom 50%;
   background-size: cover;
   max-width: 2624px;
@@ -231,7 +232,7 @@
   gap: 6rem;
   /* max-width: 1400px; */
   margin: 4rem auto 0;
-  padding: 4rem 1rem 6rem;
+  padding: 4rem 1rem 0rem;
   /* background-color: rgba(245, 222, 179, 0.9); */
   background-color: #f5deb3e6;
   color: #4b5933;
@@ -247,7 +248,7 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  gap: 3rem;
+  gap: 9rem;
 }
 
 .about-title-img{
@@ -312,6 +313,15 @@
 .about-title-img-div div{
   position: relative;
   max-width: 260px;
+}
+
+.about-gif{
+  position: absolute;
+  max-width: 17rem;
+  object-fit: cover;
+  z-index: 3;
+  bottom: 20rem;
+  left: -2rem;
 }
 
 .about-contact-button{
@@ -438,7 +448,7 @@
   .about-values-top,
   .about-values-bottom{
     flex-direction: row;
-    padding: 2rem 0rem 4rem;
+    padding: 2rem 0rem 2rem;
     gap: 3rem;
   }
 
@@ -541,6 +551,20 @@
     max-width: 25rem;
   }
 
+ 
+
+  .about-gif{
+    position: absolute;
+    max-width: 20rem;
+    /* height: 24rem; */
+    object-fit: cover;
+    z-index: 3;
+    top: -7rem;
+    left: -5rem;
+    bottom: inherit;
+  }
+
+  
 }
 
 /* Lg */
@@ -588,6 +612,15 @@
     width: 30rem;
     font-size: 4rem;
    }
+
+   .about-gif{
+    position: absolute;
+    max-width: 28rem;
+    object-fit: cover;
+    z-index: 3;
+    top: -7rem;
+    left: -5rem;
+  }
 
 }
 
