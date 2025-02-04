@@ -194,7 +194,7 @@
   text-align: center;
   text-transform: uppercase;
   transform: rotate(-90deg);
-  bottom: 12rem;
+  bottom: 10rem;
   right: -7.5rem;
 }
 
@@ -1354,7 +1354,7 @@ right: 5%;
   .home-category-title{
     font-size: 2.25rem;
     padding: 0 2rem 2rem;
-    max-width: 75rem;
+    max-width: 67rem;
   }
 
   .italics{
