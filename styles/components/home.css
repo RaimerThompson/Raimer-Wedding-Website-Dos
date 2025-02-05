@@ -173,7 +173,7 @@
 .home-banner-text{
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 65%;
   transform: translate(-50%, -50%);
   width: max-content;
   font-family: "Varela Round", sans-serif;
@@ -194,7 +194,7 @@
   text-align: center;
   text-transform: uppercase;
   transform: rotate(-90deg);
-  top: 13rem;
+  top: 11.85rem;
   right: -7.5rem;
 }
 
