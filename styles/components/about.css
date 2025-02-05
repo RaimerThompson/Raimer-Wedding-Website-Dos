@@ -68,13 +68,13 @@
 }
 
 .about-text-subtitle{
-  font-family: "Varela Round", sans-serif;
+  font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 500;
-  letter-spacing: 4px;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: .25px;
+  line-height: 2rem;
   text-align: center;
 }
 
@@ -140,7 +140,7 @@
   font-weight: 100;
   letter-spacing: 5px;
   text-align: center;
-  top: -1rem;
+  top: .25rem;
   max-width: 40rem;
 }
 
@@ -169,7 +169,7 @@
   font-weight: 100;
   letter-spacing: 5px;
   text-align: center;
-  top: -1rem;
+  top: .25rem;
   max-width: 48rem;
   /* text-transform: capitalize; */
 }
@@ -317,7 +317,7 @@
 
 .about-gif{
   position: absolute;
-  max-width: 17rem;
+  max-width: 18rem;
   object-fit: cover;
   z-index: 3;
   bottom: 20rem;
@@ -355,7 +355,7 @@
 }
 
 .about-contact-banner-button{
-  padding: 3.5rem;
+  padding: 1.25rem 2rem;
   font-size: 1rem;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
@@ -387,6 +387,10 @@
 
   .about-title-toptext{
     font-size: 3rem;
+  }
+
+  .about-gif{
+    max-width: 20rem;
   }
 
 }
@@ -437,7 +441,6 @@
   
   .about-text-subtitle{
     text-align: left;
-    font-size: 1rem;
   }
     
   .about-values{
@@ -555,8 +558,7 @@
 
   .about-gif{
     position: absolute;
-    max-width: 20rem;
-    /* height: 24rem; */
+    max-width: 22rem;
     object-fit: cover;
     z-index: 3;
     top: -7rem;

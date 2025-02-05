@@ -149,7 +149,7 @@ img{
 }
 
 .post-contact-button{
-  padding: 3.5rem;
+  padding: 1.25rem 2rem;
   font-size: 1rem;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
@@ -248,7 +248,7 @@ img{
   }
 
   .post-contact-banner{
-    padding: 3rem 10rem;
+    padding: 3rem 6rem;
     top: initial;
   }
 

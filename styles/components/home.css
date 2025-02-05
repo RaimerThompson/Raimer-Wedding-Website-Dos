@@ -194,7 +194,7 @@
   text-align: center;
   text-transform: uppercase;
   transform: rotate(-90deg);
-  top: 11.85rem;
+  top: 12rem;
   right: -7.5rem;
 }
 
@@ -842,7 +842,7 @@ right: 5%;
   font-weight: 100;
   letter-spacing: 5px;
   text-align: center;
-  top: -1rem;
+  top: .25rem;
   max-width: 32rem;
   /* left: 1rem; */
 }
@@ -856,7 +856,7 @@ right: 5%;
   font-weight: 100;
   letter-spacing: 5px;
   text-align: center;
-  top: -1rem;
+  top: .25rem;
   max-width: 32rem;
   /* left: 1rem; */
   display: none;
@@ -1165,7 +1165,7 @@ right: 5%;
   opacity: 1;
   /* width: 200px; */
   letter-spacing: 3px;
-  font-size: 14px;
+  font-size: 12.5px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -1229,7 +1229,31 @@ right: 5%;
 }
 
 
+@media(min-width: 360px){
+
+  .cat-slide-img-botleft {
+    left: 2rem;
+    max-width: 8rem;
+}
+
+  .cat-slide-img-botright {
+    top: -6rem;
+    right: 2rem;
+}
+
+}
+ 
 @media(min-width: 400px){
+
+  .cat-slide-img-botleft {
+    left: 4rem;
+    max-width: 8rem;
+}
+
+  .cat-slide-img-botright {
+    top: -6rem;
+    right: 2.5rem;
+}
 
   .home-title-toptext{
     font-size: 3rem;
@@ -1248,13 +1272,13 @@ right: 5%;
 @media(min-width: 475px){
 
   .cat-slide-img-botleft {
-    left: 4rem;
+    left: 5.5rem;
     max-width: 8rem;
 }
 
   .cat-slide-img-botright {
     top: -6rem;
-    right: 4rem;
+    right: 4.5rem;
 }
 
   .home-category-text{
@@ -1839,7 +1863,7 @@ right: 5%;
   }
 
   .contact__label{
-    font-size: 1rem;
+    font-size: 14px;
   }
 
 }

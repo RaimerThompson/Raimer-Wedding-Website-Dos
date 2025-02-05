@@ -88,13 +88,13 @@
 }
 
 .info-approach-text{
-  font-family: "Varela Round", sans-serif;
+  font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 500;
-  letter-spacing: 4px;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: .25px;
+  line-height: 2rem;
   text-align: center;
 }
 
@@ -152,7 +152,7 @@
   font-weight: 100;
   letter-spacing: 5px;
   text-align: center;
-  top: -1rem;
+  top: .25rem;
   max-width: 32rem;
 }
 
@@ -164,7 +164,7 @@
   font-weight: 100;
   letter-spacing: 5px;
   text-align: center;
-  top: -1rem;
+  top: .25rem;
   max-width: 40rem;
 }
 
@@ -785,7 +785,7 @@ svg{
 }
 
 .info-contact-button{
-  padding: 3.5rem;
+  padding: 1.25rem 2rem;
   font-size: 1rem;
   font-family: "Varela Round", sans-serif;
   font-weight: 100;
@@ -831,9 +831,9 @@ svg{
     font-size: 1rem;
   }
 
-  .info-small-text{
+  /* .info-small-text{
     top: 3.25rem;
-  }
+  } */
 
   .info-img{
     position: absolute;
@@ -877,7 +877,7 @@ svg{
 
 .info-approach-text{
   padding: 0;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   text-align: left;
 }
 
