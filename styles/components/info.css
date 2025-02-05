@@ -1146,6 +1146,10 @@ svg{
     padding: 4rem 2rem 6rem;
   }
 
+  .steps-b{
+    padding: 4rem 2rem 1.5rem;
+  }
+
   .info-steps-img {
     max-width: 320px;
     top: 4rem;
