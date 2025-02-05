@@ -331,10 +331,10 @@
 .home-title-button{
   padding: 1rem 2rem;
   font-size: 1rem;
-  background-color: rgba(25, 25, 25, 0.9);
-  color: white;
-  /* background-color: #4b5933;
-  color: #fff2d9e6; */
+  /* background-color: rgba(25, 25, 25, 0.9);
+  color: white; */
+  background-color: #4b5933;
+  color: #fff2d9e6;
   font-family: "Varela Round", sans-serif;
   border-radius: 2px;
   border: none;
@@ -544,12 +544,12 @@ right: 5%;
   justify-content: center;
   max-width: 1400px;
   gap: 2rem;
-  height: 35rem;
+  height: 25rem;
   margin: 2rem auto;
 }
 
 .category-bottom{
-  display: flex;
+  display: none;
   position: relative;
   justify-content: center;
   /* max-width: 1400px; */
@@ -675,6 +675,7 @@ right: 5%;
 }
 
 .cat-slide-img-botmidright {
+  display: none;
   position: absolute;
   right: 1rem;
   top: 42rem;
@@ -1092,10 +1093,10 @@ right: 5%;
 .contact__mail{
   position: relative;
   max-width: 100%;
-  margin: 0 auto ;
+  margin: 0 auto;
   top: 5rem;
   flex: 1;
-  width: 67%;
+  width: 85%;
 }
 
 .contact__form,
@@ -1165,7 +1166,7 @@ right: 5%;
   opacity: 1;
   /* width: 200px; */
   letter-spacing: 3px;
-  font-size: 10px;
+  font-size: 14px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -1187,9 +1188,10 @@ right: 5%;
 .contact-button{
   padding: 1rem 2rem;
   font-size: 1rem;
-  background-color: rgba(25, 25, 25, 0.9);
-  color: white;
- 
+  /* background-color: rgba(25, 25, 25, 0.9);
+  color: white; */
+  background-color: #4b5933;
+  color: #fff2d9e6;
   font-family: "Varela Round", sans-serif;
   border-radius: 2px;
   border: none;
@@ -1436,10 +1438,18 @@ right: 5%;
     padding: 2rem 4rem 4rem;
   }
 
-  .category-bottom{
+  .category-midbottom{
     height: 35rem;
+  }
+
+  .category-bottom{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 32.5rem;
     gap: 7rem;
     top: 12rem;
+    margin: 12rem auto 2rem;
   }
 
   .cat-slide-img-topleft{
@@ -1492,10 +1502,11 @@ right: 5%;
 }
 
   .cat-slide-img-botmidright {
+    display: block;
+    position: absolute;
     max-width: 20rem;
     top: 47rem;
     right: 0;
-    left: inherit;
   }
 
   .cat-slide-img-botright {
@@ -1789,6 +1800,10 @@ right: 5%;
     width: 20rem;
     top: -10rem;
     z-index: 0;
+  }
+
+  .contact__label{
+    font-size: 1rem;
   }
 
 }
