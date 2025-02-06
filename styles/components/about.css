@@ -71,7 +71,7 @@
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: .25px;
   line-height: 2rem;
@@ -213,6 +213,7 @@
 
 .img-b{
   top: 2rem;
+  border: 2px solid black;
 }
 
 .about-values-img-bot{
@@ -441,6 +442,7 @@
   
   .about-text-subtitle{
     text-align: left;
+    font-size: 1.15rem;
   }
     
   .about-values{
