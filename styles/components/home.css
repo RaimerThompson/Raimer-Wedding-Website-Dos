@@ -813,6 +813,34 @@ right: 5%;
   text-transform: uppercase;
 }
 
+
+.home-quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.home-quote-div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1rem;
+  background-color: #f5deb3e6;
+  color: #4b5933;
+  padding: 5rem 1rem 8rem;
+}
+
+.home-quote-img{
+  padding: 2rem;
+  max-width: 30rem;
+  position: relative;
+  bottom: 7rem;
+}
+
+
 .banner-top{
   position: absolute;
   top: -3rem;
@@ -828,9 +856,10 @@ right: 5%;
   justify-content: space-between;
   align-items: center;
   gap: .5rem;
-  margin: 4rem auto 8rem;
+  margin: 0rem auto 4rem;
   position: relative;
   max-width: 1400px;
+  bottom: 5rem;
 }
 
 .home-info-title{
@@ -1436,7 +1465,7 @@ right: 5%;
 
   .home-title-text{
     margin-top: initial;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 0 2rem;
   }
   
@@ -1448,6 +1477,7 @@ right: 5%;
     display: flex;
     flex-direction: row;
     gap: 3rem;  
+    padding: 0 0 4rem;
   }
 
   .home-title-subtext{
@@ -1623,10 +1653,25 @@ right: 5%;
 
   .home-mini-text{
     text-align: left;
+    /* padding: 0 6rem; */
   }
 
   .home-mini-title{
     font-size: 2.35rem;
+  }
+
+  .home-quote{
+    background-color: #f5deb3e6;
+    flex-direction: row;
+  }
+
+  .home-quote-div{
+    background-color: transparent;
+  }
+
+  .home-quote-img{
+    max-width: 30rem;
+    bottom: inherit;
   }
 
   .home-info-img{
@@ -1652,6 +1697,8 @@ right: 5%;
   
   .home-info{
     gap: 2rem;
+    margin: 2rem auto 8rem;
+    bottom: inherit;
   }
   
   .home-info-title{
@@ -1797,7 +1844,7 @@ right: 5%;
 
   .home-title-div{
     gap: 6rem;
-    padding: 2rem 0 0;
+    padding: 2rem 0 4rem;
   }
 
   .home-title-toptext{
@@ -1850,6 +1897,16 @@ right: 5%;
     right: 2rem;
     top: -2rem;
 }
+
+.home-mini-text {
+  padding: 0 2rem;
+  max-width: 35rem;
+}
+
+.home-quote-img{
+  max-width: 35rem;
+}
+
 
 .home-info-img{
   max-width: 20rem;
@@ -1936,6 +1993,15 @@ right: 5%;
     position: relative;
     right: 0;
     top: 7rem;
+    max-width: 45rem;
+  }
+
+  .home-quote{
+    padding: 3rem;
+    gap: 2rem;
+  }
+
+  .home-quote-img{
     max-width: 45rem;
   }
 
