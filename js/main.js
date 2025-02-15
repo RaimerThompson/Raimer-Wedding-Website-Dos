@@ -57,7 +57,7 @@
   ;
   
 const sliders = document.querySelector(".home-cat-slideshow").children;
-const slideTime = 2000;
+const slideTime = 2500;
 let firstIndex = 0;
 
 function slideShow(){
