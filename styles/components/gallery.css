@@ -251,8 +251,15 @@ object-fit: contain;
   display: none;
 }
 
+.poptop{
+  transform: rotate(45deg) translate(0px, -20px);
+}
 
+.popbot{
+  transform: rotate(-45deg) translate(-58px, 38px);
+}
 
+/* 
 input[type=checkbox] {
   display: none;
 }
@@ -261,7 +268,7 @@ input[type=checkbox] {
 input[type=checkbox]:checked ~ label > img {
   transform: scale(2);
   cursor: zoom-out;
-}
+} */
 
 
 
