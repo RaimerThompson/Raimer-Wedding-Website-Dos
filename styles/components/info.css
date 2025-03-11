@@ -31,8 +31,10 @@
   letter-spacing: 1px;
   position: relative;
   bottom: -2rem;
-  background: url(/img/Weddings/wed346.jpg);
-  background-position:center bottom 75%;
+  /* background: url(/img/Weddings/wed346.jpg);
+  background-position:center bottom 75%; */
+  background: url(/img/Weddings/wed363.jpg);
+  background-position:center bottom 88%;
   background-size: cover;
   max-width: 2624px;
   height: 75vh;
