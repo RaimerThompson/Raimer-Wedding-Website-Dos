@@ -486,6 +486,7 @@ right: 5%;
 .home-category-title{
   font-family: "Playfair Display", serif;
   font-style: normal;
+  text-transform: capitalize;
   font-size: 1.75rem;
   /* position: absolute; */
   position: relative;
