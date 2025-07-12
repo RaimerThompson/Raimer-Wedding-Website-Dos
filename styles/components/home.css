@@ -490,7 +490,7 @@ right: 5%;
   font-family: "Playfair Display", serif;
   font-style: normal;
   text-transform: capitalize;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   /* position: absolute; */
   position: relative;
   font-weight: 100;
@@ -503,7 +503,7 @@ right: 5%;
 
 .italics{
   font-style: italic;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 
 .home-category-text{
@@ -790,7 +790,7 @@ right: 5%;
 .home-mini-title{
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 2.5rem;
   position: relative;
   font-weight: 100;
   letter-spacing: 5px;
@@ -1354,11 +1354,11 @@ right: 5%;
   }
 
   .home-cat-title{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .home-info-title{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .home-title-text{
@@ -1466,14 +1466,14 @@ right: 5%;
 }
 
   .home-category-title{
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     padding: 0 2rem 2rem;
     max-width: 54rem;
   }
 
   .italics{
     font-style: italic;
-    font-size: 2.35rem;
+    font-size: 3.25rem;
   }
 
   .home-title-text{
@@ -1582,7 +1582,7 @@ right: 5%;
   }
 
   .home-cat-div{
-    max-width: 26rem;
+    max-width: 32rem;
     align-items: normal;
     text-align: left;
   }
@@ -1670,7 +1670,7 @@ right: 5%;
   }
 
   .home-mini-title{
-    font-size: 2.35rem;
+    font-size: 3.5rem;
   }
 
   .home-quote{
