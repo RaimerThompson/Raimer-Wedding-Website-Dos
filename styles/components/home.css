@@ -1680,6 +1680,7 @@ right: 5%;
 
   .home-quote-div{
     background-color: transparent;
+    align-items: center;
   }
 
   .home-quote-img{
