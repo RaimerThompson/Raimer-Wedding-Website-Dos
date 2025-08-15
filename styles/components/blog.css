@@ -87,6 +87,7 @@
   padding: 2rem;
 }
 
+
 .blog-gallery-img{
   transition: opacity 500ms ease;
 }
@@ -114,6 +115,8 @@
   right: 2rem;
   bottom: .5rem;
 }
+
+
 
 /* 
 .row{
