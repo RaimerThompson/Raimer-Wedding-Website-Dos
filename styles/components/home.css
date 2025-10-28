@@ -161,7 +161,8 @@
 }
 
 .img1{
-  object-position: 40% 15%;
+  object-position: 60% 48%;
+  filter: grayscale(100%);
 }
 
 .img2{
@@ -170,8 +171,7 @@
 
 }
 .img3{
-  object-position: 60% 30%;
-  filter: grayscale(100%);
+  object-position: 40% 15%;
 }
 
 .home-banner-text{
