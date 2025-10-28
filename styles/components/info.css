@@ -87,6 +87,7 @@
   letter-spacing: 2px;
   position: relative;
   text-transform: uppercase;
+  color: #4b5933;
 }
 
 .info-approach-text{
@@ -444,6 +445,7 @@
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
+  color: #4b5933;
 }
 
 
@@ -881,7 +883,7 @@ svg{
 }
 
 .info-approach {
-  padding: 4rem 0rem 0;
+  /* padding: 4rem 0rem 0; */
   margin: 3rem auto;
   max-width: 1300px;
 }
@@ -900,7 +902,7 @@ svg{
 
 .info-faq{
   gap: 0;
-  margin: 2rem auto 6rem;
+  margin: 2rem auto 8rem;
 }
 
 .info-faq-top,
@@ -938,8 +940,8 @@ svg{
 }
 
 .info-faq-img-top{
-  max-width: 260px;
-  left: -3rem;
+  max-width: 324px;
+  left: -8rem;
   bottom: inherit;
 }
 
@@ -961,7 +963,7 @@ svg{
   justify-content: center;
   flex-direction: row;
   align-items: top;
-  padding-bottom: 4rem;
+  padding-bottom: 0rem;
   position: relative;
   margin: 0 auto;
   max-width: 1500px;
@@ -1121,7 +1123,7 @@ svg{
   .info-faq-top,
   .info-faq-bottom{
     gap: 6rem;
-    padding: 2rem 4rem 0rem;
+    padding: 2rem 7rem 0rem;
   }
 
   .faq-b{
@@ -1141,8 +1143,8 @@ svg{
   }
 
   .info-faq-img-top{
-    max-width: 320px;
-    /* left: inherit; */
+    max-width: 400px;
+    left: -3rem;
   }
 
   .info-faq-img-bot{
