@@ -413,6 +413,13 @@
   object-position: 60% 0%;
 }
 
+.p-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 60% 50%;
+}
+
 .img2{
   object-position: 20% 20%;
 }
@@ -995,7 +1002,7 @@ svg{
 }
 
 .price-div{
-  padding: 0 2rem;
+  padding: 2rem 0 2rem;
   text-align: left;
   flex: 1;
   position: relative;
