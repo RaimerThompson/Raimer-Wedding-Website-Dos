@@ -109,3 +109,31 @@ window.onload = () => {
   slideShow()
   NewslideShow()
 }
+
+  
+const Newsssliders = document.querySelector(".home-quote").children;
+const NewssslideTime = 4500;
+let NewfffirstIndex = 0;
+
+function NewssslideShow(){
+  for (let i = 0; i <Newsssliders.length; i++){
+    Newsssliders[i].classList.remove("home-item-active")
+
+  }
+
+  Newsssliders[NewfffirstIndex].classList.add("home-item-active")
+  if(NewfffirstIndex == Newsssliders.length -1){
+    NewfffirstIndex = 0
+  }else{
+    NewfffirstIndex++
+  }
+
+  setTimeout(() =>{
+    NewssslideShow();
+  }, NewssslideTime)
+}
+
+window.onload = () => {
+  slideShow()
+  NewssslideShow()
+}

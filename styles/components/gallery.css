@@ -313,7 +313,7 @@ input[type=checkbox]:checked ~ label > img {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-auto-flow: dense;
-  gap: 8px;
+  gap: 12px;
 }
 
 .work__photo{
@@ -547,6 +547,10 @@ input[type=checkbox]:checked ~ label > img {
     margin-right: auto;
     padding: 0 4rem;
   }
+
+  .work__column{
+  gap: 80px;
+}
 
 }
 
