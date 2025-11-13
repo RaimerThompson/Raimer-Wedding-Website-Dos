@@ -413,6 +413,13 @@
   object-position: 60% 0%;
 }
 
+.price1-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 60% 0%;
+}
+
 .p-img{
   height: 100%;
   width: 100%;
@@ -995,6 +1002,13 @@ svg{
   width: 100%;
   object-fit: cover;
   object-position: 60% 0%;
+}  
+
+.price1-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 75%;
 }
 
 .img2{
