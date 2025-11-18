@@ -5,13 +5,20 @@
   list-style: none;
   text-decoration: none;
   color: inherit;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 5rem auto .5rem;
   text-transform: uppercase;
   border: none;
+}
+
+.foot-span{
+  font-size: 1.3rem;
+  position: relative;
+  bottom: 7px;
+  letter-spacing: 1px;
 }
 
 .footer__logo-a{
@@ -26,15 +33,19 @@
 
 .footer__logo-text{
   font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: .25px;
-  text-align: center;
-  font-size: 12px;
-  width: 200px;
-  margin: 0 auto;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .75px;
+    text-align: center;
+    font-size: 13px;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.75rem;
 }
+
+
 
 .footer__copyright{
   display: flex;
