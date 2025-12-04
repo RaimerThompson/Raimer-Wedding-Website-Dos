@@ -13,8 +13,8 @@ const sendEmail = (e) =>{
 
   //remove message after 2 seconds
   setTimeout(() => {
-    contactMessage.textContent = ''
-  }, 2000);
+  window.location.href = "/thank-you.html"  
+      }, 1500)
 
   //clear input fields
   contactForm.reset()
