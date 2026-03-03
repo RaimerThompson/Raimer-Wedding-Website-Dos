@@ -249,6 +249,15 @@
   margin-bottom: 2rem;
 }
 
+.home-title-img-ray{
+  margin-bottom: 0;
+  position: absolute;
+  top: 20rem;
+  left: -15rem;
+  width: 16rem;
+  z-index: 65;
+}
+
 .and{
   position: relative;
   right: 2px;
@@ -1456,7 +1465,7 @@ right: 5%;
     letter-spacing: 8px;
     max-width: 360px ;
     text-align: center;
-    top: 62.5%;
+    top: 72.5%;
   }
 
   .home-banner-subtext{
@@ -1505,7 +1514,11 @@ right: 5%;
   .home-title-img{
     margin-bottom: 0;
   }
-
+  
+  .home-title-img-ray{
+    margin-bottom: 0;
+  }
+  
   .home-title-div{
     display: flex;
     flex-direction: row;
