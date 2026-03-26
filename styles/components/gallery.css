@@ -259,7 +259,7 @@ object-fit: contain;
   transform: rotate(-45deg) translate(-58px, 38px);
 }
 
-/* 
+
 input[type=checkbox] {
   display: none;
 }
@@ -268,7 +268,7 @@ input[type=checkbox] {
 input[type=checkbox]:checked ~ label > img {
   transform: scale(2);
   cursor: zoom-out;
-} */
+}
 
 
 
@@ -565,7 +565,7 @@ input[type=checkbox]:checked ~ label > img {
   }
 
   .work__column{
-  gap: 30px;
+  gap: 50px;
 }
 
 }

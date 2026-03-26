@@ -166,7 +166,7 @@
 @media (min-width: 1024px) {
   .blog-gallery{
     display: flex;
-    gap: 8rem;
+    gap: 4rem;
   }
 }
 
