@@ -36,86 +36,70 @@
       </ul>
       <ul id="navbar" class="header__menu header__menu-center">
 
-        <li class="header__link head"><a href="index.html">HOME</a></li>
+        <li class="header__link head"><a href="index.html">HOME</a>
+        </li>
         <li class="header__link head"><a href="about.html">ABOUT</a></li>
-        <li class="header__link head"><a href="services.html">SERVICES</a></li>
-        <li class="header__link head"><a href="gallery.html">GALLERY</a></li>
-        <li class="header__link head"><a href="blog.html">BLOG</a></li>
+          <li class="header__link head"><a href="gallery.html">STORIES</a></li>
+        <li class="header__link head"><a href="services.html">INVESTMENT</a></li>
+        <!-- <li class="header__link head"><a href="blog.html">BLOG</a></li> -->
         <li class="header__link head"><a class="ct" href="contact.html">CONTACT</a></li>        
+      
+  
 
       </ul>
       <ul class="header__menu-right">
         <div id="mobile">  
          <div class="hamburger__menu-btn">
            <button class="hamburger__btn scroll__btn" aria-controls="primary-navigation" aria-expanded="false">
-             <svg class="hamburger" viewBox="0 0 100 100" width="250">
-               <rect class="top line" 
-               width="100" height="3" 
-               x="50" y="10" rx="3.5">
-             </rect>
-               <rect class="middle line"
-                width="100" height="3" 
-                x="1" y="40" rx="3.5">
-               </rect>
-               <rect class="bottom line" 
-               width="100" height="3" 
-               x="25" y="70" rx="3.5">
-             </rect>
-             </svg>
+              <span class="btn-text">MENU</span>
            </button>
          </div>
        </div> 
-     </ul> 
-  </nav>
+     </ul>  
+    </nav>
   </header>
 
 
-<section class="contact-banner-img" fetchpriority=”high” >
-    <h1 class="contact-banner-subtext"> Documentary Wedding Photographer</h1>
-    <p class="contact-banner-text">Contact</p>
-</section>  
+ 
 
 <section class="contact-text">
   <h1 class="contact-text-title">
-    LETS KICK THIS OFF RIGHT
+    GET IN TOUCH
   </h1>
   <h2 class="contact-text-subtext">
-    Are you a nice, kind person... down-to-earth.. and value a great experience, then you've checked all the boxes. Fill out the form and I'll be in touch within 24hrs. If all else fails email me at info@raimerthompson.com for all other inquiries. </h2> 
+   Every celebration has a story, and I want to hear yours. Tell me about your world, your people, the feelings and the moments you'll want to remember long after the day is over. Complete the form below, and I'll be in touch within 24 hours. For all other inquiries, please feel free to reach out directly at info@raimerthompson.com. </h2> 
 </section>
 
 <section class="contact-container">
 
   <div class="contact__mail"> 
-      <form action="" class="contact__form" id="contact-form">
+      <form action="" class="contact__form" id="contact-form" autocomplete="off">
 
         <div class="contact__group">
           <div class="contact__box">
             <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
             <label for="name" class="contact__label">Your Name<span class="asterisk">*</span> </label>
           </div>
-        </div>
 
-        <div class="contact__box">
+          <div class="contact__box">
           <input type="text" name="user_partnername" class="contact__input" id="name" placeholder="First Name">
           <label for="name" class="contact__label">Your partner's name</label>
         </div>
+        </div>
 
+        
+        <div class="contact__group"> 
           <div class="contact__box">
             <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email*">
             <label for="email" class="contact__label">Your Email<span class="asterisk">*</span></label>
           </div>
           
-      <div class="contact__group"> 
+   
 
         <div class="contact__box">
           <input type="text" name="user_weddingdate" class="contact__input" id="weddingdate"placeholder="Wedding Date">
           <label for="weddingdate" class="contact__label">Event Date</label>
         </div>
-
-        <!-- <div class="contact__box">
-          <input type="text" name="user_count" class="contact__input" id="count"placeholder="Guest Count">
-          <label for="count" class="contact__label">Guest Count</label>
-        </div> -->
       </div>
 
       <div class="contact__group"> 
@@ -125,11 +109,25 @@
         </div>
       </div>
 
+      <div class="contact__group"> 
+        <div class="contact__box">
+          <input type="text" name="user_weddinglocation" class="contact__input" id="weddinglocation" placeholder="Wedding Location">
+          <label for="weddinglocation" class="contact__label">Your Favorite Movie of All Time?</label>
+        </div>
+      </div>
+
+      <div class="contact__group"> 
+        <div class="contact__box">
+          <input type="text" name="user_weddinglocation" class="contact__input" id="weddinglocation" placeholder="Wedding Location">
+          <label for="weddinglocation" class="contact__label">Go-To Song For A Karaoke Night Out?</label>
+        </div>
+      </div>
+
     
 
           <div class="contact__box contact__area">
             <textarea name="user_message" id="message"  class="contact__input" placeholder="Message"></textarea>
-            <label for="message" class="contact__label">Tell Me A Little More... </label>
+            <label for="message" class="contact__label">Tell me a little more about what makes your story yours  </label>
           </div>   
           
           <p class="contact__message" id="contact-message"></p>
@@ -143,7 +141,7 @@
 
 
   <div class="contact__image">
-    <img src="/img/Weddings/cartagena-wedding-photographer-bw.jpg" alt="cartagena wedding couple happy and pointing at something in the crowd in the streets celebrating">
+    <img src="/img/Weddings/chester-phone-girl.jpg" alt="cartagena wedding couple happy and pointing at something in the crowd in the streets celebrating">
   </div>
 
 </section>
@@ -158,19 +156,18 @@
 
 
 <section class="footer">
-
   <div class="footer__line">
   </div>
-
   <div class="footer__link-div">
-
       <a href="index.html"><li class="footer__link">HOME</li></a>
       <a href="about.html"><li class="footer__link">ABOUT</li></a> 
 
-      <a href="services.html"><li class="footer__link">SERVICES</li></a>
-      <a href="gallery.html"><li class="footer__link">GALLERY</li></a>
- 
-      <a href="blog.html"><li class="footer__link">BLOG</li></a>
+      <a href="services.html"><li class="footer__link">INVESTMENT</li></a>
+
+       <a href="gallery.html"><li class="footer__link">STORIES</li></a>
+    
+     
+      <!-- <a href="blog.html"><li class="footer__link">BLOG</li></a> -->
       <a href="contact.html"><li class="footer__link ">CONTACT</li></a> 
   </div>
 

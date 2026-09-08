@@ -4,15 +4,11 @@
 }
 
 .head:hover{
-  opacity: .5;
+  opacity: .99;
 }
 
 .header__logo{
   color: black;
-}
-
-.hamburger__btn{
-  fill: black;
 }
 
 
@@ -65,7 +61,6 @@
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
-  color: #4b5933;
 }
 
 .about-text-subtitle{
@@ -157,8 +152,6 @@
   padding: 0 1rem;
   bottom: 2.5rem;
   z-index: 1;
-  color: #4b5933;
-  /* color: #2f3720; */
 
 }
 
@@ -234,11 +227,9 @@
   gap: 6rem;
   /* max-width: 1400px; */
   margin: 4rem auto 0;
-  padding: 4rem 1rem 0rem;
+ padding: 2rem 1rem 0rem;
   /* background-color: rgba(245, 222, 179, 0.9); */
-  background-color: #f5deb3e6;
-  color: #4b5933;
-  color: #2f3720;
+  color: brown;
 
 }
 
@@ -246,11 +237,11 @@
   position: relative;
   flex: 1;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: left;
-  gap: 9rem;
+  gap: 2rem;
 }
 
 .about-title-img{
@@ -265,9 +256,8 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  gap: 2rem;  
-  /* color: #2f3720; */
-  color: #475926;
+  gap: 1rem;  
+  color: black;
   
 }
 
@@ -280,7 +270,6 @@
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
-  color: #4b5933;
 
 }
 
@@ -293,7 +282,7 @@
   letter-spacing: 2.5px;
   font-size: 1rem;
   text-transform: uppercase;
-  color: #4b5933;
+  color: brown;
 }
 
 .about-title-subtext{
@@ -314,7 +303,8 @@
 
 .about-title-img-div div{
   position: relative;
-  max-width: 260px;
+  max-width: 30rem;
+  padding: 0 1rem;
 }
 
 .about-gif{
@@ -326,53 +316,132 @@
   left: -2rem;
 }
 
+
 .about-contact-button{
-  padding: 1rem 2rem;
+  padding: 2rem 0 0 .5rem;
   font-size: 1rem;
-  /* background-color: rgba(25, 25, 25, 0.9);
-  color: white; */
-  background-color: #4b5933;
-  color: #fff2d9e6;
+  color: black;
   font-family: "Varela Round", sans-serif;
-  border-radius: 2px;
   border: none;
+  border-bottom: solid black .5px;
   font-weight: 100;
-  width: max-content;
   letter-spacing: 1.5px;
-  transition: color 350ms ease, background-color 350ms ease-in-out;
-  position: relative;
+  transition: color 550ms ease, background-color 350ms ease-in-out;
+  margin-bottom: 3rem;
 }
 
 .about-contact-button:hover{
-  background-color: rgb(110, 110, 110);
-  color: white;
-  border: none;
+  color: brown;
+}
+
+.highlight{
+   transition: color 650ms ease, background-color 350ms ease-in-out;
+   color: brown;
+}
+
+.about-contact-button:hover .highlight{
+  color:brown;
 }
 
 
-.about-contact-banner{
-  background-color: rgba(247, 247, 247, .45);
-  padding: 2rem 3rem 3rem 3rem;
-  position: relative;
+
+.home-mini-title{
+   font-family: Title;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.about-contact-banner-button{
-  padding: 1.25rem 2rem;
-  font-size: 1rem;
+.home-mini-text{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .25px;
+  text-align: center;
+  max-width: 45rem;
+  line-height: 2rem;
+  padding: 0 1rem 0;
+}
+
+.home-mini-quote{
   font-family: "Varela Round", sans-serif;
-  font-weight: 100;
-  position: relative;
-  border: none;
-  letter-spacing: 3px;
-  background-color: #4b5933;
-  color: #fff2d9e6;
-  left: 50%;
-  transform: translateX(-50%);
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 7px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: brown;
 }
 
-.about-contact-banner-button:hover{
-  opacity: .85;
+
+.home-quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
 }
+
+.home-item{
+  display: none;
+}
+
+.home-item.home-item-active{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.home-item.home-item-active img{
+  animation: fade 1.5s ease;
+  
+}
+
+
+.home-quote-div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1rem;
+  padding: 5rem 1rem 8rem;
+}
+
+.home-quote-img{
+  padding: 2rem 4rem;
+  max-width: 30rem;
+  position: relative;
+  bottom: 7rem;
+}
+
+
+.home-quote-button{
+  padding: .5rem;
+  font-size: 1rem;
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  border: none;
+  border-bottom: solid black .5px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  transition: color 550ms ease, background-color 350ms ease-in-out;
+}
+
+.home-quote-button:hover{
+  color: brown;
+}
+
+
 
 
 /* Mobile */
@@ -518,8 +587,8 @@
 
   .about-title-text{
     margin-top: 6rem;
-    margin-bottom: 1rem;
-    padding: 4rem;
+    margin-bottom: 4rem;
+    padding: 0 4rem;
   }
   
   .about-title-img{
@@ -535,12 +604,13 @@
 
   .about-title-subtext{
     text-align: left;
-    padding: 0;
+    padding: 1rem 0;
   }  
   
   .about-title-subtext-div{
     max-width: 35rem;
     align-items: normal;
+    gap: .5rem;
   }
 
   .about-title-subtext-name{
@@ -554,7 +624,8 @@
   }
 
   .about-title-img-div div{
-    max-width: 25rem;
+    max-width: 35rem;
+    padding: 0;
   }
 
  
@@ -566,6 +637,37 @@
     z-index: 3;
     top: -7rem;
     left: -5rem;
+    bottom: inherit;
+  }
+
+  
+  .home-mini-title{
+    font-size: 3.5rem;
+  }
+
+  .home-quote{
+    flex-direction: row;
+  }
+
+  .home-item.home-item-active{
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  /* animation: fade 1.5s ease; */
+}
+
+
+  .home-quote-div{
+    background-color: transparent;
+    align-items: center;
+  }
+
+  .home-quote-img{
+    padding: 3rem;
+    max-width: 30rem;
     bottom: inherit;
   }
 
@@ -591,6 +693,12 @@
   .values-title{
     font-size: 4rem;
   }
+
+  /* .about-title-text {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    padding: 4rem;
+  } */
 
   .about-values-div{
     padding: 0 1rem;
@@ -627,6 +735,16 @@
     left: -5rem;
   }
 
+  .home-mini-text {
+  padding: 0 1rem;
+  max-width: 35rem;
+}
+
+.home-quote-img{
+  max-width: 35rem;
+}
+
+
 }
 
 /* xL */
@@ -645,6 +763,15 @@
     top: -9.5rem;
     left: -12rem;
   }
+
+    .home-quote{
+    padding: 3rem;
+    gap: 2rem;
+  }
+
+  .home-quote-img{
+    max-width: 45rem;
+  } 
 
 }
 

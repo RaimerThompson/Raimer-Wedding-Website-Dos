@@ -42,7 +42,7 @@
   margin-bottom: 1rem;
   letter-spacing: 2px;
   text-align: center;
-  color: #4b5933;
+  color: brown;
   padding-bottom: 2rem;
 }
 
@@ -51,7 +51,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* padding: 0 0 2.5rem; */
+  padding: 0 0 2.5rem;
+}
+
+.thanks-gif{
+  filter: saturate(0);
 }
 
 .thanks-text-subtext{
@@ -118,23 +122,20 @@
 
 .schedule-btn {
   z-index: 1;
-  padding: 1rem 2rem;
+  padding: 1rem;
   width: max-content;
   font-size: 1rem;
-  background-color: #4b5933;
-  color: #fff2d9e6;
+  color: brown;
   font-family: "Varela Round", sans-serif;
   border-radius: 2px;
   border: none;
+  border-bottom: .5px solid black;
   font-weight: 100;
   letter-spacing: 1.5px;
-  text-transform: uppercase;
   margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
-.schedule-btn:hover {
-  opacity: .75;
-}
 
 /* Modal overlay */
 .modal-overlay {
@@ -201,9 +202,7 @@
 /* @media (min-width: 330px) {} */
 
 /* xs */
-@media (min-width: 475px) {
-
-}
+/* @media (min-width: 475px) {} */
 
 /* sm */
 /* @media (min-width: 640px) {} */
@@ -222,25 +221,21 @@
 }
 
 .thank-you-gif-container{
-  padding: 0;
+  flex-direction: row;
 }
 
 .thanks-gif{
-  display: none;
+  padding:  2.5rem 5rem  ;
 }
 
 
 }
 
 /* Lg */
-@media (min-width: 1024px) {
-
-}
+/* @media (min-width: 1024px) {} */
 
 /* xL */
-@media (min-width: 1288px) {
-  
-}
+/* @media (min-width: 1288px) {} */
 
 /* 2xL */
 /* @media (min-width: 1536px) {}   */

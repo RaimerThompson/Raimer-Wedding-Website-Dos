@@ -125,8 +125,7 @@ object-fit: contain;
 
 .popup-image span:hover{
   cursor: pointer;
-  /* color: red; */
-  opacity: .5;
+  /* opacity: .85; */
 }
 
 .popup-image img {
@@ -365,7 +364,7 @@ input[type=checkbox]:checked ~ label > img {
 
 .port__mini-group{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .ph1{

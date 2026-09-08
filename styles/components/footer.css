@@ -39,7 +39,7 @@
     letter-spacing: .75px;
     text-align: center;
     font-size: 13px;
-    max-width: 75rem;
+    max-width: 55rem;
     margin: 0 auto;
     padding: 1rem;
     line-height: 1.75rem;
@@ -71,6 +71,10 @@
   margin: 0 2rem;
   position: relative;
   top: 3rem;
+}
+
+.footer__link:hover{
+  color: brown;
 }
 
 .footer__link-div{
@@ -138,11 +142,12 @@
 
   .footer__link-div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
     position: relative;
     top: 3.25rem;
+    gap: 5rem;
   }
 
   .ct-foot{

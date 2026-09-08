@@ -25,57 +25,11 @@
   fill: black;
 }
 
-.contact-banner-img{
-  color: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  font-family: Custom;
-  font-size: 6.5rem;
-  font-weight: 100;
-  letter-spacing: 1px;
-  position: relative;
-  bottom: -2rem;
-  background: url(/img/Weddings/Cartagena-wedding-vintage-car.jpg);
-  background-position:center bottom 55%;
-  background-size: cover;
-  /* background-attachment: fixed; */
-  max-width: 2624px;
-  height: 75vh;
-  top: 0;
-  opacity: 1;
-  /* filter: grayscale(100%); */
-  z-index: 1;
-}
-
-.contact-banner-subtext{
-  position: absolute;
-  font-size: 10px;
-  color: white;
-  letter-spacing: 3px;
-  font-family: "Varela Round", sans-serif;
-  min-width: 260px ;
-  text-align: center;
-  text-transform: uppercase;
-  /* transform: rotate(-90deg); */
-  bottom: .5rem;
-  left: .5rem;
-}
-
-.contact-banner-text{
-  position: absolute;
-  font-size: 3rem;
-  bottom: -3rem;
-  right: 8px;
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  /* width: 235px; */
-  z-index: 15;
-}
 
 .contact-text{
   z-index: 15;
   position: relative;
-  padding: 4rem 1rem 3rem;
+  padding: 1.5rem 1rem 3rem;
   margin: 3rem auto 0 ;
   max-width: 1250px;
 }
@@ -85,10 +39,9 @@
   font-style: normal;
   font-weight: 300;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   letter-spacing: 2px;
   text-align: center;
-  color: #4b5933;
 }
 
 .contact-text-subtext{
@@ -100,18 +53,19 @@
   letter-spacing: .25px;
   line-height: 2rem;
   text-align: center;
+  padding: 0 1rem;
 }
 
 .contact-container{
   position: relative;
   z-index: 15;
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
 }
-
-/* .contact-container p{
-  background-color: white;
-  padding: 2rem;
-} */
 
 
 .contact__mail{
@@ -119,18 +73,18 @@
   max-width: 100%;
   margin: 0 auto 7rem;
   flex: 1;
-  /* border: 3px dotted orange; */
   width: 92%;
 }
 
 .contact__form,
 .contact__group{
   display: grid;
-  row-gap: 2.5rem;
+  row-gap: 2rem;
 }
 
 .contact__group{
   display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 
@@ -139,10 +93,14 @@
 }
 
 .contact__box{
-  position: relative;
   width: 100%;
-  height: 58px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
 }
+
 
 .contact__input,
 .contact__button{
@@ -151,85 +109,70 @@
 }
 
 .contact__input{
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 70%;
-  /* border-bottom: 1.25px solid rgb(210, 150, 150, .4); */
-  color: rgb(0, 0, 0);
-  padding: 1rem .5rem;
-  border: 1px solid rgba(85, 85, 85, 0.5);
-  transition: border .2s, background-color .2s;
+  color: black;
+  border: none;
+  border-bottom: .5px solid black;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  box-sizing: border-box;
+  display: block;
+  min-height: 50px;
 }
 
-/* .contact__input:hover{
-  border-bottom: 1px solid rgb(210, 200, 200);
-} */
-
-/* .contact__input::placeholder{
-  transition: opacity 1s; 
-} */
-
-.contact__input:focus{
-  /* border-bottom: 1px solid rgb(210, 200, 200); */
-  transition: 10ms ;
-}
-
-.contact__input:-webkit-autofill{
-  transition: background-color 6000s, color 6000s;
-}
 
 .contact__label{
-  position: absolute;
-  top: -26px;
-  left: 0;
-  /* color: rgb(99, 99, 99); */
-  color: rgb(0, 0, 0);
+  position: relative;
+  top: auto;
+  left: auto;
+  color: black;
   pointer-events: none;
-  transition: top .4s, opacity .4s, background-color .4s;
-  opacity: 1;
-  /* width: 200px; */
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 14px;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+  line-height: 1.5;
 }
 
-.contact__form .contact__area{
-  height: 8rem;
+
+.contact__area{
+  height: auto !important;
+  width: 100%;
 }
 
 .contact__area textarea{
-  resize: none;
-  padding-top: 1rem;
+  width: 100%;
+  resize: vertical;
   font-family: Arial, Helvetica, sans-serif;
-
+  line-height: 1.5;
+  box-sizing: border-box;
 }
 
 .contact-button{
-  padding: 1rem 2rem;
+  padding: .5rem;
   font-size: 1rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -2rem;
-  /* background-color: rgba(25, 25, 25, 0.9);
-  color: white; */
-  background-color: #4b5933;
-  color: #fff2d9e6;
+  bottom: -8rem;
+  color: brown;
   font-family: "Varela Round", sans-serif;
   border-radius: 2px;
   border: none;
+  border-bottom: .5px solid black;
   font-weight: 100;
   letter-spacing: 1.5px;
-  transition: color 250ms ease, background-color 250ms ease-in-out;
+  transition: color 500ms ease-in-out;
 
 }
 
 .contact-button:hover{
-  background-color: rgb(110, 110, 110);
-  color: white;
+  color: brown;
   border: none;
+  border-bottom: .5px solid brown;
 }
 
 
@@ -240,13 +183,6 @@
 /* Hide placeholder */
 .contact__input:focus::placeholder{
   opacity: 0;
-}
-
-/* Move Label after typing*/
-.contact__input:focus + .contact__label,
-.contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label{
-  opacity: 1;
-  top: -22.5px
 }
 
 .contact__message{
@@ -260,26 +196,25 @@
   transform: translateX(-50%);
   font-family: "Playfair Display", serif;
   font-style: normal;
+  letter-spacing: 1px;
 }
 
 .contact__image{
-  padding: 0 2rem;
-}
-
-.contact__image::after{
-  content: "";
-  width: 30px;
-  background-color: wheat;
+  display: block;
+  position: relative;
+  max-width: 35rem;
+  flex: 1.25;
+  padding: 2rem;
+  top: 2.5rem;
+  left: -1rem;
 }
 
 .asterisk{
-  color: green;
+  color: brown;
+  position: relative;
+  bottom: 2px;
 }
 
-/* .ct{
-  background-color: black;
-  color: white;
-} */
 
 
 /* Mobile */
@@ -290,7 +225,7 @@
   .contact-container{
     position: relative;
     z-index: 15;
-    padding: 4rem;
+    padding: 2rem;
   }
 }
 
@@ -300,6 +235,15 @@
 /* md */
 @media (min-width: 768px) {
 
+.contact__form,
+.contact__group{
+  display: grid;
+  row-gap: 3.5rem;
+}
+
+.contact-text{
+  padding: 4rem 2rem 3rem;
+}
   
 .contact-text-title{
   font-size: 3.5rem;
@@ -309,6 +253,7 @@
 .contact-text-subtext{
   text-align: left;
   font-size: 1.15rem;
+  padding: 0;
 }
   
   .contact-banner-text{
@@ -323,13 +268,13 @@
   } */
 
   .contact-container{
-    background-color: rgba(247, 247, 247, .85);
     position: relative;
     z-index: 15;
-    padding: 4rem 6rem;
+    padding: 4rem 2.5rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: row;
     gap: 2rem;
   }
 
@@ -340,19 +285,26 @@
     top: 2rem;
   }
 
+  .contact__group{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .contact__label{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
   .contact__image{
-    display: block;
-    position: relative;
-    width: 35%;
-    flex: 1.25;
+    max-width: 31rem;
     padding: 0;
+    top: 2.5rem;
+    left: inherit;
+
    }
 
-  /* .contact__image img{
-    border: 10px solid white;
-    border-bottom: 3rem solid white;
-   }
-   */
+
    .contact-subtext{
     font-family: Marker;
     font-size: .75rem;
@@ -374,11 +326,7 @@
   .contact__mail{
     top: 0rem;
     flex: 1.5;
-  }
-
-  /* .contact__image{
-    bottom: 3rem;
-   } */
+  }  
 
 }
 
@@ -387,7 +335,7 @@
   
   .contact-container {
     padding: 4rem 12rem;
-    gap: 10rem;
+    gap: 6rem;
     margin: 0 auto;
     max-width: 1600px;
   }

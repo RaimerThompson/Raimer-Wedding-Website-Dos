@@ -87,7 +87,6 @@
   letter-spacing: 2px;
   position: relative;
   text-transform: uppercase;
-  color: #4b5933;
 }
 
 .info-approach-text{
@@ -111,7 +110,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  margin: 4rem auto;
+  margin: 6rem auto;
   position: relative;
   max-width: 1400px;
 }
@@ -148,15 +147,14 @@
 }
 
 .info-faq-title{
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-size: 2.15rem;
-  position: relative;
+   font-family: Title;
+  font-style: normal;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
   font-weight: 100;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-align: center;
-  top: .25rem;
-  max-width: 32rem;
+  text-transform: uppercase;
 }
 
 .info-faq-title-and{
@@ -198,12 +196,13 @@
 .info-faq-img{
   flex: 1;
   position: relative;
+  padding: 1rem 3rem;
 }
 
 .info-faq-img-top{
   position: relative;
   z-index: 2;
-  max-width: 240px;
+  /* max-width: 240px; */
   bottom: 2rem;
 }
 
@@ -217,7 +216,6 @@
 
 .info-tabs{
   padding: 3rem 2rem;
-  background-color: rgba(247, 247, 247, .5);
   display: flex;
   justify-content: center;
 }
@@ -235,7 +233,6 @@
 
 .info-guide-div{
   padding: 3rem 2rem;
-  background-color: rgba(247, 247, 247, .5);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -374,7 +371,6 @@
   align-items: top;
   padding-bottom: 8rem;
   position: relative;
-  background-color: rgba(247, 247, 247, .5);
 }
 
 .info-price-bot{
@@ -459,7 +455,6 @@
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
-  color: #4b5933;
 }
 
 
@@ -496,9 +491,7 @@
 
 .price-bottom{
   font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-size: 1.15rem;
-
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 2px;
   position: relative;
@@ -528,8 +521,6 @@
   font-size: 1rem;
   /* background-color: rgba(25, 25, 25, 0.9);
   color: white; */
-  background-color: #4b5933;
-  color: #fff2d9e6;
   font-family: "Varela Round", sans-serif;
   border-radius: 2px;
   font-weight: 100;
@@ -538,7 +529,6 @@
 }
 
 .price-button:hover{
-  background-color: rgb(110, 110, 110);
   color: white;
   border: none;
 }
@@ -572,7 +562,6 @@
   padding: 0 1rem;
   top: 5rem;
   z-index: 2;
-  color: #4b5933;
 }
 
 .info-small-title{
@@ -607,8 +596,6 @@
 
 .info-steps{
   position: relative;
-  /* background-color: #faa05f26; */
-  background-color: #f5deb3e6;
   padding: 4rem 1rem;
   display: flex;
   justify-content: center;
@@ -626,8 +613,6 @@
 .info-steps-left{
   padding: 5rem 2rem 6rem;
   max-width: 800px;
-  /* color: #2f3720; */
-  color: #475926;
 }
 
 .info-steps-right{
@@ -683,10 +668,6 @@
   text-align: center;
 }
 
-.green{
-  color: #4b5933;
-}
-
 .info-steps-text{
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
@@ -726,7 +707,6 @@
   /* margin-top: 2rem; */
   padding: 1.5rem;
   margin-bottom: 6px;
-  background-color: rgba(247, 247, 247, .5);
   /* border-bottom: 2px solid black; */
   /* cursor: pointer; */
 }
@@ -806,7 +786,6 @@ svg{
 
 
 .info-contact-banner{
-  background-color: rgba(247, 247, 247, .45);
   padding: 2rem 3rem 3rem 3rem;
   position: relative;
 }
@@ -819,14 +798,16 @@ svg{
   position: relative;
   border: none;
   letter-spacing: 3px;
-  background-color: #4b5933;
-  color: #fff2d9e6;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .info-contact-button:hover{
   opacity: .85;
+}
+
+.highlight{
+  color: brown;
 }
 
 
@@ -935,8 +916,8 @@ svg{
 
 .info-faq-title{
   text-align: left;
-  font-size: 3rem;
-  max-width: 40rem;
+  font-size: 3.5rem;
+  max-width: 41rem;
 }
 
 .info-faq-title-and{
@@ -951,6 +932,7 @@ svg{
 
 .info-faq-img{
   max-width: 14rem;
+  padding: 0;
 }
 
 .info-faq-img-top{
@@ -983,9 +965,9 @@ svg{
   max-width: 1500px;
 }
 
-.info-switch{
+/* .info-switch{
   flex-direction: row-reverse;
-}
+} */
 
 .info-small-text{
   font-size: 4rem;
