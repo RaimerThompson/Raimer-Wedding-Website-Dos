@@ -29,7 +29,7 @@ ul li a{
 } */
 
 .header__logo{
-  color: black;
+  color: white;
 }
 
 .header__logo:hover{
@@ -39,7 +39,7 @@ ul li a{
 .hamburger__btn{
   /* width: 30px; */
   fill: white;
-  color: black;
+  color: white;
   border-radius: 2px;
   border: none;
   position: relative;
