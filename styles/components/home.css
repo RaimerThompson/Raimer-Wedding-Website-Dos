@@ -29,7 +29,7 @@ ul li a{
 } */
 
 .header__logo{
-  color: white;
+  color: black;
 }
 
 .header__logo:hover{
@@ -39,7 +39,7 @@ ul li a{
 .hamburger__btn{
   /* width: 30px; */
   fill: white;
-  color: white;
+  color: black;
   border-radius: 2px;
   border: none;
   position: relative;
@@ -537,7 +537,7 @@ ul li a{
 
 .between-text{
   font-family: "Varela Round", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 4px;
   text-transform: uppercase;
   display: flex;
