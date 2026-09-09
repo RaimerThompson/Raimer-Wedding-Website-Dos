@@ -166,7 +166,7 @@ ul li{
   font-family: "Varela Round", sans-serif;
   top: -2px;
   right: 0;
-  left: -12px;
+  left: 0;
   bottom: 0; 
   cursor: pointer;
   text-transform: uppercase;
@@ -181,7 +181,7 @@ ul li{
 
 .hamburger__btn.close{
   top: -2px;
-  left: -12px;
+  left: 0;
   color: black;
   transition: color 300ms ease-in-out;
   /* opacity: .5; */
