@@ -33,7 +33,7 @@ ul li a{
 }
 
 .header__logo:hover{
-  color: black;
+  color: inherit;
 }
 
 .hamburger__btn{
@@ -494,7 +494,7 @@ ul li a{
 .image-3 {
     grid-column: 2 / 12 ;
     position: relative;
-    padding: 0rem 2rem;
+    /* padding: 0rem 2rem; */
 }
 
 .image-4 {
@@ -531,20 +531,22 @@ ul li a{
 }
 
 .image-10 {
-    grid-column: 3 / 11;
+    grid-column: 2 / 12;
+    padding: 0rem .75rem;
     position: relative;
 }
 
 .between-text{
   font-family: "Varela Round", sans-serif;
   font-size: 10px;
-  letter-spacing: 4px;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   text-align: center;
   position: relative;
-  top: 1rem;
+  top: .75rem;
+  padding: 0rem .5rem;
   color: brown;
 }
 
@@ -2061,6 +2063,7 @@ right: 5%;
 }
 .image-10 {
     grid-column: 3 / 11;
+    padding: 0;
     bottom: 20rem;
 }
 

@@ -429,7 +429,7 @@
 
 .price-div{
   padding: 0 2rem;
-  text-align: left;
+  text-align: center;
   flex: 1;
   padding-top: 2rem;
   position: relative;
@@ -999,7 +999,7 @@ svg{
 
 .price-div{
   padding: 2rem 0 2rem;
-  text-align: left;
+  text-align: center;
   flex: 1;
   position: relative;
   height: 575px;

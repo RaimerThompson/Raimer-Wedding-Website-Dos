@@ -51,7 +51,7 @@
 .post-gallery{
   position: relative;
   padding: 1rem 2rem 0rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .post-gallery-img{
@@ -267,6 +267,7 @@ img{
     display: flex;
     padding: 0 7rem;
     justify-content: center;
+    margin-top: 5rem;
   }
 
   .post-gallery-div{
