@@ -137,6 +137,13 @@
   line-height: 1.5;
 }
 
+.contact__select{
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+
 
 .contact__area{
   height: auto !important;
